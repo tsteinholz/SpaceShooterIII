@@ -1,0 +1,7 @@
+[package]
+name = "space_shooter_iii"
+version = "0.0.1"
+authors = ["tsteinholz <tsteinholz@yahoo.com>"]
+
+[dependencies]
+sfml = "0.9.3"
