@@ -1,7 +1,5 @@
 # SpaceShooter III
 
-This is just a [Galaga](https://en.wikipedia.org/wiki/Galaga) 
-
 ## For Players
 
 To do...
