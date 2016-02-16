@@ -26,16 +26,15 @@
 #define SPACESHOOTERIII_MENU_H
 
 #include "scene/scene.h"
+#include "space.h"
 
 class Menu : public Scene {
 public:
     Menu();
-
+    
     ~Menu();
 
-    virtual void Render() override;
-
-    virtual void Update(sf::Event &event) override;
+    virtual void Update(sf::Event& ev, float dt = 0) override;
 
 private:
 

@@ -8,10 +8,6 @@ Space::~Space() {
 
 }
 
-void Space::Render() {
-
-}
-
-void Space::Update(sf::Event &event) {
+void Space::Update(sf::Event& ev, float dt) {
 
 }

@@ -117,11 +117,13 @@
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\scene\menu.cpp" />
     <ClCompile Include="src\scene\space.cpp" />
+    <ClCompile Include="src\util\assetmanager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="inc\scene\menu.h" />
     <ClInclude Include="inc\scene\scene.h" />
     <ClInclude Include="inc\scene\space.h" />
+    <ClInclude Include="inc\util\assetmanager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

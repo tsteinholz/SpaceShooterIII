@@ -19,6 +19,12 @@
     <Filter Include="Header Files\scene">
       <UniqueIdentifier>{ea9cb8fa-7b8d-4d2a-af41-aa04410cf795}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\util">
+      <UniqueIdentifier>{c02ebf48-f1ea-4538-badb-6af73a3d6b8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\util">
+      <UniqueIdentifier>{9b6f60e8-bf8f-4d74-b9de-f82788ad518e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -33,6 +39,9 @@
     <ClCompile Include="src\scene\space.cpp">
       <Filter>Source Files\scene</Filter>
     </ClCompile>
+    <ClCompile Include="src\util\assetmanager.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="inc\scene\menu.h">
@@ -43,6 +52,9 @@
     </ClInclude>
     <ClInclude Include="inc\scene\space.h">
       <Filter>Header Files\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\util\assetmanager.h">
+      <Filter>Header Files\util</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
