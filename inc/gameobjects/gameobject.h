@@ -22,21 +22,30 @@
 // SOFTWARE.
 //-----------------------------------------------------------------------------
 
-#ifndef SPACESHOOTERIII_SPACE_H
-#define SPACESHOOTERIII_SPACE_H
+#ifndef HANGMAN_GAMEOBJECT_H
+#define HANGMAN_GAMEOBJECT_H
 
-#include "scene/scene.h"
+#include "../util/assetmanager.h"
 
-class Space : public Scene {
+//-----------------------------------------------------------------------------
+// Purpose: Represents a basic object in the game that can be rendered and
+//          requires systematic event based updating
+//-----------------------------------------------------------------------------
+class GameObject {
 public:
-    Space();
 
-    ~Space();
+    //-----------------------------------------------------------------------------
+    // Purpose: Render the scene
+    //-----------------------------------------------------------------------------
+    virtual void Render() = 0;
 
-    virtual void Update(sf::Event& ev, float dt = 0) override;
+    //-----------------------------------------------------------------------------
+    // Purpose: Update the scene
+    //-----------------------------------------------------------------------------
+    virtual void Update(ALLEGRO_EVENT *event) = 0;
 
-private:
+protected:
 
 };
 
-#endif //SPACESHOOTERIII_SPACE_H
+#endif //HANGMAN_GAMEOBJECT_H

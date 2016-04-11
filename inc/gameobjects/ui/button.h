@@ -22,22 +22,46 @@
 // SOFTWARE.
 //-----------------------------------------------------------------------------
 
-#ifndef SPACESHOOTERIII_MENU_H
-#define SPACESHOOTERIII_MENU_H
+#ifndef HANGMAN_BUTTON_H
+#define HANGMAN_BUTTON_H
 
-#include "scene/scene.h"
-#include "space.h"
+#include "../gameobject.h"
 
-class Menu : public Scene {
+//-----------------------------------------------------------------------------
+// Purpose: Represents a button for the user interface
+//-----------------------------------------------------------------------------
+class Button : public GameObject {
+
 public:
-    Menu();
-    
-    ~Menu();
 
-    virtual void Update(sf::Event& ev, float dt = 0) override;
+    Button(std::string text, ALLEGRO_FONT *font, float x, float y, const std::function <void()> f);
 
-private:
+    virtual ~Button();
 
+    bool Pressed, Hover, Enabled;
+
+    virtual void Render();
+
+    virtual void Update(ALLEGRO_EVENT *event);
+
+    void SetHandler(const std::function <void()> f);
+
+    std::string GetText();
+
+    //-----------------------------------------------------------------------------
+    // Purpose: Default Color Theme for Buttons
+    //-----------------------------------------------------------------------------
+    ALLEGRO_COLOR ENABLED_COLOR = al_map_rgb(255, 255, 255);
+    ALLEGRO_COLOR DISABLED_COLOR = al_map_rgb(100, 100, 100);
+    ALLEGRO_COLOR HOVER_COLOR = al_map_rgb(119, 144, 232);
+    ALLEGRO_COLOR CLICKED_COLOR = al_map_rgb(0, 0, 255); // TODO
+    ALLEGRO_COLOR DEBUG_COLOR = al_map_rgb(255, 0, 255);
+
+protected:
+    std::string _Text;
+    ALLEGRO_FONT *_Font;
+    float _X, _Y;
+    std::function <void()>_HandleFunction;
 };
 
-#endif //SPACESHOOTERIII_MENU_H
+#endif //HANGMAN_BUTTON_H

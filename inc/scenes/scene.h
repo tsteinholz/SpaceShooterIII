@@ -22,48 +22,74 @@
 // SOFTWARE.
 //-----------------------------------------------------------------------------
 
-#ifndef SPACESHOOTERIII_SCENE_H
-#define SPACESHOOTERIII_SCENE_H
+#ifndef HANGMAN_SCENE_H
+#define HANGMAN_SCENE_H
 
-#include <SFML/Audio.hpp>
-#include <SFML/Graphics.hpp>
+#include "../util/assetmanager.h"
+#include "../gameobjects/ui/button.h"
 
-#include <memory>
-
-using namespace std;
-
+//-----------------------------------------------------------------------------
+// Purpose: Represents and area in the game such as the main game, the menu or
+//          just simply the credits. Works as a way to organize all of the
+//          different types of screens you need in a game.
+//-----------------------------------------------------------------------------
 class Scene {
+
 public:
 
-    //-----------------------------------------------------------------------------
-    // Purpose: TODO
-    //-----------------------------------------------------------------------------
-    virtual void Update(sf::Event& ev, float dt = 0) = 0;
+    virtual ~Scene() { }
 
     //-----------------------------------------------------------------------------
-    // Purpose: TODO
+    // Purpose: What-ever scene is in this variable will get handled
     //-----------------------------------------------------------------------------
-    static shared_ptr<Scene> Current;
+    static Scene *Current;
 
     //-----------------------------------------------------------------------------
-    // Purpose: TODO
+    // Purpose: The best way to change scene giving the scene parent class the
+    //          over-watch
     //-----------------------------------------------------------------------------
-    static inline void SetScene(shared_ptr<Scene> scene) {
+    static inline void SetScene(Scene *scene) {
+//        ASSET_MANAGER.DiscardAll(); // TODO : Fix asset manager
+        ASSET_MANAGER.PrintCurrentData();
+        delete Current;
         Current = scene;
     }
 
     //-----------------------------------------------------------------------------
-    // Purpose: TODO
+    // Purpose: Returns the value of the executing variable since it can't be
+    //          read outside of this class since it is static
     //-----------------------------------------------------------------------------
-    static bool Executing;
+    static inline bool GetExe() {
+        return Executing;
+    }
 
     //-----------------------------------------------------------------------------
-    // Purpose: TODO
+    // Purpose: Sets the value of the executing variable since outside classes cant
+    //          access this variable directly
     //-----------------------------------------------------------------------------
-//    static sf::RenderWindow Window;
+    static inline void SetExe(bool x) {
+        Executing = x;
+    }
+
+    //-----------------------------------------------------------------------------
+    // Purpose: Render the scene
+    //-----------------------------------------------------------------------------
+    virtual void Render() = 0;
+
+    //-----------------------------------------------------------------------------
+    // Purpose: Update the scene
+    //-----------------------------------------------------------------------------
+    virtual void Update(ALLEGRO_EVENT *event) = 0;
 
 protected:
 
+    // TODO: Fix
+    //virtual ~Scene() { printf("Destroyed Scene"); }
+
+    //-----------------------------------------------------------------------------
+    // Purpose: If the game is executing or not
+    //-----------------------------------------------------------------------------
+    static bool Executing;
 };
 
-#endif //SPACESHOOTERIII_SCENE_H
+#endif //HANGMAN_SCENE_H

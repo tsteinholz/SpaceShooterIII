@@ -39,10 +39,13 @@ void shutdown();
 int main(void) {
     initialize();
 
-    ALLEGRO_DISPLAY *display = al_create_display(800, 600);
+    ALLEGRO_DISPLAY *display = al_create_display(1920, 1080);
     ALLEGRO_EVENT_QUEUE *evqueue = al_create_event_queue();
     ALLEGRO_TIMER *fps_timer = al_create_timer(1.0 / 60.0);
     bool render = true, executing = true;
+
+    al_set_display_flag(display, ALLEGRO_FULLSCREEN_WINDOW, true);
+
 
     if (!display) {
         printf("Failed to create display!\n");
