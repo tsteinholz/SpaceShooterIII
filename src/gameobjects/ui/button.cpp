@@ -1,4 +1,4 @@
-#include "button.h"
+#include <gameobjects/ui/button.h>
 
 Button::Button(std::string text, ALLEGRO_FONT *font, float x, float y, const std::function <void()> f) :
         Pressed(false),

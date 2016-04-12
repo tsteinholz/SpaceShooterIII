@@ -22,11 +22,10 @@
 // SOFTWARE.
 //-----------------------------------------------------------------------------
 
-#ifndef HANGMAN_SCENE_H
-#define HANGMAN_SCENE_H
+#ifndef SPACESHOOTERIII_SCENE_H
+#define SPACESHOOTERIII_SCENE_H
 
-#include "../util/assetmanager.h"
-#include "../gameobjects/ui/button.h"
+#include <allegro5/allegro.h>
 
 //-----------------------------------------------------------------------------
 // Purpose: Represents and area in the game such as the main game, the menu or
@@ -50,7 +49,6 @@ public:
     //-----------------------------------------------------------------------------
     static inline void SetScene(Scene *scene) {
 //        ASSET_MANAGER.DiscardAll(); // TODO : Fix asset manager
-        ASSET_MANAGER.PrintCurrentData();
         delete Current;
         Current = scene;
     }
@@ -92,4 +90,4 @@ protected:
     static bool Executing;
 };
 
-#endif //HANGMAN_SCENE_H
+#endif //SPACESHOOTERIII_SCENE_H

@@ -1,4 +1,4 @@
-#include "sprite.h"
+#include <gameobjects/graphics/sprite.h>
 
 Sprite::Sprite(ALLEGRO_BITMAP *image, unsigned int columns, unsigned int rows)
         : _Image(image), _Columns(columns), _Rows(rows), _Playing(false) { }

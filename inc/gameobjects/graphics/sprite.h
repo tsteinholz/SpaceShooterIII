@@ -22,10 +22,12 @@
 // SOFTWARE.
 //-----------------------------------------------------------------------------
 
-#ifndef HANGMAN_SPRITE_H
-#define HANGMAN_SPRITE_H
+#ifndef SPACESHOOTERIII_SPRITE_H
+#define SPACESHOOTERIII_SPRITE_H
 
-#include "../gameobject.h"
+#include <allegro5/allegro.h>
+
+#include <gameobjects/gameobject.h>
 
 //-----------------------------------------------------------------------------
 // Purpose: Displays a sprite animation
@@ -69,4 +71,4 @@ protected:
 private:
 };
 
-#endif // HANGMAN_SPRITE_H
+#endif // SPACESHOOTERIII_SPRITE_H

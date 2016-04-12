@@ -22,10 +22,10 @@
 // SOFTWARE.
 //-----------------------------------------------------------------------------
 
-#ifndef HANGMAN_GAMEOBJECT_H
-#define HANGMAN_GAMEOBJECT_H
+#ifndef SPACESHOOTERIII_GAMEOBJECT_H
+#define SPACESHOOTERIII_GAMEOBJECT_H
 
-#include "../util/assetmanager.h"
+#include <allegro5/allegro.h>
 
 //-----------------------------------------------------------------------------
 // Purpose: Represents a basic object in the game that can be rendered and
@@ -48,4 +48,4 @@ protected:
 
 };
 
-#endif //HANGMAN_GAMEOBJECT_H
+#endif //SPACESHOOTERIII_GAMEOBJECT_H

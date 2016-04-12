@@ -22,10 +22,17 @@
 // SOFTWARE.
 //-----------------------------------------------------------------------------
 
-#ifndef HANGMAN_BUTTON_H
-#define HANGMAN_BUTTON_H
+#ifndef SPACESHOOTERIII_BUTTON_H
+#define SPACESHOOTERIII_BUTTON_H
 
-#include "../gameobject.h"
+#include <gameobjects/gameobject.h>
+
+#include <allegro5/allegro.h>
+#include <allegro5/allegro_color.h>
+#include <allegro5/allegro_font.h>
+
+#include <functional>
+#include <string>
 
 //-----------------------------------------------------------------------------
 // Purpose: Represents a button for the user interface
@@ -64,4 +71,4 @@ protected:
     std::function <void()>_HandleFunction;
 };
 
-#endif //HANGMAN_BUTTON_H
+#endif //SPACESHOOTERIII_BUTTON_H
