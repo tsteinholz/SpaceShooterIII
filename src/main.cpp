@@ -33,6 +33,8 @@
 #include <cstdio>
 #include <memory>
 
+#define DEBUG
+
 void initialize();
 void shutdown();
 
@@ -58,6 +60,19 @@ int main(void) {
     al_register_event_source(evqueue, al_get_timer_event_source(fps_timer));
 
     al_start_timer(fps_timer);
+
+/** Shader Test
+
+    ALLEGRO_SHADER *shader = al_create_shader(ALLEGRO_SHADER_AUTO);
+    if !(al_attach_shader_source_file(shader, ALLEGRO_SHADER_AUTO, "res/gfx/Shaders/space.glsl")) {
+        printf("Shader Load Error:\n");
+    }
+    if (!al_build_shader(shader)) {
+        printf("Shader Build Error:\n");
+    }
+
+
+/**/////////////
 
     while (executing) {
         ALLEGRO_EVENT event;
@@ -96,6 +111,13 @@ int main(void) {
 
 void initialize() {
     srand((unsigned int) time(NULL));
+
+#ifdef DEBUG
+    printf("Allegro v%i.%i.%i",
+        al_get_allegro_version() >> 24,
+        (al_get_allegro_version() >> 16) & 255,
+        (al_get_allegro_version() >> 8) & 255);
+#endif //DEBUG
 
     if (!al_init()) {
         printf("Failed to initialize allegro!\n");
