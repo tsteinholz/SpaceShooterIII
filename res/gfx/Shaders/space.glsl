@@ -13,8 +13,16 @@
 #define distfading 0.730
 #define saturation 0.850
 
+uniform vec3      iResolution;           // viewport resolution (in pixels)
+uniform float     iGlobalTime;           // shader playback time (in seconds)
+uniform vec4      iMouse;                // mouse pixel coords. xy: current (if MLB down), zw: click
 
-void mainImage( out vec4 fragColor, in vec2 fragCoord )
+//main param| (out vec4 fragColor, in vec2 fragCoord)
+
+vec4 fragColor;
+vec2 fragCoord;
+
+void main()
 {
 	//get coords and direction
 	vec2 uv=fragCoord.xy/iResolution.xy-.5;

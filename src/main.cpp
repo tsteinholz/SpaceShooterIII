@@ -47,7 +47,7 @@ int main(void) {
     bool render = true, executing = true;
 
     al_set_display_flag(display, ALLEGRO_FULLSCREEN_WINDOW, true);
-
+    al_set_display_flag(display, ALLEGRO_PROGRAMMABLE_PIPELINE, true);
 
     if (!display) {
         printf("Failed to create display!\n");
@@ -61,24 +61,36 @@ int main(void) {
 
     al_start_timer(fps_timer);
 
-/** Shader Test
+//Shader Test
+
+//printf("def vert shader code :\n%s\n", al_get_default_shader_source(ALLEGRO_SHADER_AUTO, ALLEGRO_VERTEX_SHADER));
+//printf("def pixl shader code :\n%s\n", al_get_default_shader_source(ALLEGRO_SHADER_AUTO, ALLEGRO_PIXEL_SHADER));
 
     ALLEGRO_SHADER *shader = al_create_shader(ALLEGRO_SHADER_AUTO);
-    if !(al_attach_shader_source_file(shader, ALLEGRO_SHADER_AUTO, "res/gfx/Shaders/space.glsl")) {
-        printf("Shader Load Error:\n");
-    }
-    if (!al_build_shader(shader)) {
-        printf("Shader Build Error:\n");
-    }
+    if (!shader) printf("%s\n", al_get_shader_log(shader));
+    if (!al_attach_shader_source_file(shader, ALLEGRO_PIXEL_SHADER, "res/gfx/Shaders/space.glsl"))
+        printf("%s\n", al_get_shader_log(shader));
 
+    if (!al_build_shader(shader))
+        printf("%s\n", al_get_shader_log(shader));
 
-/**/////////////
+//////////////
 
     while (executing) {
         ALLEGRO_EVENT event;
         al_wait_for_event(evqueue, &event);
 
+        al_set_shader_float("iGlobalTime", al_get_timer_count(fps_timer));
+        ALLEGRO_MOUSE_STATE ret_state;
+        al_get_mouse_state(&ret_state);
+        float mouse_info[4] = {ret_state.x, ret_state.y, 0, 0};
+        al_set_shader_float_vector("iMouse", 1, mouse_info, 4);
+
+
         switch (event.type) {
+            case ALLEGRO_EVENT_TIMER:
+                render = true;
+                break;
             case ALLEGRO_EVENT_DISPLAY_CLOSE:
                 executing = false;
                 break;
@@ -87,10 +99,12 @@ int main(void) {
                 break;
         }
 
-        if (render) {
+        if (render && al_is_event_queue_empty(evqueue)) {
+            render = false;
             al_clear_to_color(al_map_rgb(0, 0, 0));
             al_set_target_bitmap(al_get_backbuffer(display));
-
+            //al_use_shader(shader);
+            al_draw_filled_rectangle(0, 0, 1920, 1080, al_map_rgb(100, 100, 100));
             al_flip_display();
         }
         render = false;
@@ -101,6 +115,7 @@ int main(void) {
     al_unregister_event_source(evqueue, al_get_display_event_source(display));
     al_unregister_event_source(evqueue, al_get_timer_event_source(fps_timer));
 
+    al_destroy_shader(shader);
     al_destroy_display(display);
     al_destroy_event_queue(evqueue);
     al_destroy_timer(fps_timer);
@@ -113,7 +128,7 @@ void initialize() {
     srand((unsigned int) time(NULL));
 
 #ifdef DEBUG
-    printf("Allegro v%i.%i.%i",
+    printf("Allegro v%i.%i.%i\n",
         al_get_allegro_version() >> 24,
         (al_get_allegro_version() >> 16) & 255,
         (al_get_allegro_version() >> 8) & 255);
