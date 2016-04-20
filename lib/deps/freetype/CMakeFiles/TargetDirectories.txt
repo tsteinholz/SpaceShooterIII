@@ -1,6 +1,0 @@
-H:/C++/SpaceShooterIII/lib/deps/freetype/CMakeFiles/PACKAGE.dir
-H:/C++/SpaceShooterIII/lib/deps/freetype/CMakeFiles/freetype.dir
-H:/C++/SpaceShooterIII/lib/deps/freetype/CMakeFiles/dist.dir
-H:/C++/SpaceShooterIII/lib/deps/freetype/CMakeFiles/INSTALL.dir
-H:/C++/SpaceShooterIII/lib/deps/freetype/CMakeFiles/ALL_BUILD.dir
-H:/C++/SpaceShooterIII/lib/deps/freetype/CMakeFiles/ZERO_CHECK.dir

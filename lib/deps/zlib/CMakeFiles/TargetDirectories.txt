@@ -1,8 +1,0 @@
-H:/C++/SpaceShooterIII/lib/deps/zlib/CMakeFiles/zlib.dir
-H:/C++/SpaceShooterIII/lib/deps/zlib/CMakeFiles/zlibstatic.dir
-H:/C++/SpaceShooterIII/lib/deps/zlib/CMakeFiles/example.dir
-H:/C++/SpaceShooterIII/lib/deps/zlib/CMakeFiles/minigzip.dir
-H:/C++/SpaceShooterIII/lib/deps/zlib/CMakeFiles/RUN_TESTS.dir
-H:/C++/SpaceShooterIII/lib/deps/zlib/CMakeFiles/INSTALL.dir
-H:/C++/SpaceShooterIII/lib/deps/zlib/CMakeFiles/ALL_BUILD.dir
-H:/C++/SpaceShooterIII/lib/deps/zlib/CMakeFiles/ZERO_CHECK.dir
