@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{4C960C82-AA4E-3BD7-899B-D91C461A72C4}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>cosmic_protector</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\cosmic_protector\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">cosmic_protector.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">cosmic_protector</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>H:\C++\SpaceShooterIII\lib\allegro5\include;H:\C++\SpaceShooterIII\lib\deps\allegro5\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Include;H:\C++\SpaceShooterIII\lib\allegro5\demos\cosmic_protector\include;H:\C++\SpaceShooterIII\lib\allegro5\addons\main;H:\C++\SpaceShooterIII\lib\allegro5\addons\image;H:\C++\SpaceShooterIII\lib\allegro5\addons\font;H:\C++\SpaceShooterIII\lib\allegro5\addons\audio;H:\C++\SpaceShooterIII\lib\allegro5\addons\acodec;H:\C++\SpaceShooterIII\lib\allegro5\addons\primitives;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>H:\C++\SpaceShooterIII\lib\allegro5\include;H:\C++\SpaceShooterIII\lib\deps\allegro5\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Include;H:\C++\SpaceShooterIII\lib\allegro5\demos\cosmic_protector\include;H:\C++\SpaceShooterIII\lib\allegro5\addons\main;H:\C++\SpaceShooterIII\lib\allegro5\addons\image;H:\C++\SpaceShooterIII\lib\allegro5\addons\font;H:\C++\SpaceShooterIII\lib\allegro5\addons\audio;H:\C++\SpaceShooterIII\lib\allegro5\addons\acodec;H:\C++\SpaceShooterIII\lib\allegro5\addons\primitives;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>H:\C++\SpaceShooterIII\lib\allegro5\include;H:\C++\SpaceShooterIII\lib\deps\allegro5\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Include;H:\C++\SpaceShooterIII\lib\allegro5\demos\cosmic_protector\include;H:\C++\SpaceShooterIII\lib\allegro5\addons\main;H:\C++\SpaceShooterIII\lib\allegro5\addons\image;H:\C++\SpaceShooterIII\lib\allegro5\addons\font;H:\C++\SpaceShooterIII\lib\allegro5\addons\audio;H:\C++\SpaceShooterIII\lib\allegro5\addons\acodec;H:\C++\SpaceShooterIII\lib\allegro5\addons\primitives;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\RelWithDebInfo\allegro_main.lib;..\..\lib\RelWithDebInfo\allegro_font.lib;..\..\lib\RelWithDebInfo\allegro_image.lib;..\..\lib\RelWithDebInfo\allegro_acodec.lib;..\..\lib\RelWithDebInfo\allegro_primitives.lib;..\..\lib\RelWithDebInfo\allegro_audio.lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Lib\dsound.lib;..\..\lib\RelWithDebInfo\allegro.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;ole32.lib;winmm.lib;psapi.lib;shlwapi.lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Lib\dinput8.lib;glu32.lib;opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/cosmic_protector/RelWithDebInfo/cosmic_protector.lib</ImportLibrary>
+      <ProgramDataBaseFile>H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/cosmic_protector/RelWithDebInfo/cosmic_protector.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\..\allegro5\demos\cosmic_protector\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule H:/C++/SpaceShooterIII/lib/allegro5/demos/cosmic_protector/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -HH:/C++/SpaceShooterIII/lib/allegro5 -BH:/C++/SpaceShooterIII/lib/deps/allegro5 --check-stamp-file H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\cosmic_protector\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/allegro5/demos/cosmic_protector/CMakeLists.txt;H:\C++\SpaceShooterIII\lib\allegro5\demos\cosmic_protector\CMakeLists.txt;H:\C++\SpaceShooterIII\lib\allegro5\demos\cosmic_protector\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\cosmic_protector\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\Asteroid.cpp"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\BitmapResource.cpp"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\Bullet.cpp"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\ButtonWidget.cpp"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\Debug.cpp"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\DisplayResource.cpp"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\Entity.cpp"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\Explosion.cpp"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\FontResource.cpp"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\Game.cpp"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\GUI.cpp"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\Input.cpp"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\LargeAsteroid.cpp"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\LargeBullet.cpp"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\LargeSlowBullet.cpp"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\MediumAsteroid.cpp"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\Player.cpp"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\PowerUp.cpp"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\Resource.cpp"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\ResourceManager.cpp"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\SampleResource.cpp"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\StreamResource.cpp"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\SmallAsteroid.cpp"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\SmallBullet.cpp"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\UFO.cpp"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\cosmic_protector.cpp"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\collision.cpp"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\joypad_dummy.cpp"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\logic.cpp"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\render.cpp"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\sound.cpp"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\wave.cpp"  />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\icon48.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\large_asteroid.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\large_bullet.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\large_explosion_0.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\large_explosion_1.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\large_explosion_2.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\large_explosion_3.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\large_explosion_4.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\large_font.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\life_powerup.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\logo.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\medium_asteroid.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\ship.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\ship_trans.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\small_asteroid.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\small_bullet.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\small_explosion_0.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\small_explosion_1.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\small_explosion_2.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\small_explosion_3.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\small_explosion_4.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\small_font.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\trail.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\ufo0.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\ufo1.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\ufo2.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\weapon_powerup.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\background.jpg" />
+    <None Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\ship_icon.tga" />
+    <None Include="..\..\..\..\allegro5\demos\cosmic_protector\data\sfx\big_explosion.ogg" />
+    <None Include="..\..\..\..\allegro5\demos\cosmic_protector\data\sfx\collision.ogg" />
+    <None Include="..\..\..\..\allegro5\demos\cosmic_protector\data\sfx\fire_large.ogg" />
+    <None Include="..\..\..\..\allegro5\demos\cosmic_protector\data\sfx\fire_small.ogg" />
+    <None Include="..\..\..\..\allegro5\demos\cosmic_protector\data\sfx\game_music.ogg" />
+    <None Include="..\..\..\..\allegro5\demos\cosmic_protector\data\sfx\powerup.ogg" />
+    <None Include="..\..\..\..\allegro5\demos\cosmic_protector\data\sfx\small_explosion.ogg" />
+    <None Include="..\..\..\..\allegro5\demos\cosmic_protector\data\sfx\title_music.ogg" />
+    <None Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\Icon.icns" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="H:/C++/SpaceShooterIII/lib/deps/allegro5/ZERO_CHECK.vcxproj">
+      <Project>80EC59D3-55E3-30A2-8114-2D071F73F7B3</Project>
+    </ProjectReference>
+    <ProjectReference Include="H:/C++/SpaceShooterIII/lib/deps/allegro5/allegro.vcxproj">
+      <Project>603B7304-4AFB-304B-85F0-63E4D7BBE37F</Project>
+    </ProjectReference>
+    <ProjectReference Include="H:/C++/SpaceShooterIII/lib/deps/allegro5/addons/acodec/allegro_acodec.vcxproj">
+      <Project>C1E1F065-0693-30EE-9F14-CC9F9663D214</Project>
+    </ProjectReference>
+    <ProjectReference Include="H:/C++/SpaceShooterIII/lib/deps/allegro5/addons/audio/allegro_audio.vcxproj">
+      <Project>57E34B93-32FB-3506-AA91-34DD988FD211</Project>
+    </ProjectReference>
+    <ProjectReference Include="H:/C++/SpaceShooterIII/lib/deps/allegro5/addons/font/allegro_font.vcxproj">
+      <Project>4D2C3C41-29EE-3D85-B5E0-6A66AA7C6BF2</Project>
+    </ProjectReference>
+    <ProjectReference Include="H:/C++/SpaceShooterIII/lib/deps/allegro5/addons/image/allegro_image.vcxproj">
+      <Project>4D42B3ED-CE18-38A2-AAD3-251E6812AC2B</Project>
+    </ProjectReference>
+    <ProjectReference Include="H:/C++/SpaceShooterIII/lib/deps/allegro5/addons/main/allegro_main.vcxproj">
+      <Project>264D9907-8578-3BE1-A096-6C64EFEB47A5</Project>
+    </ProjectReference>
+    <ProjectReference Include="H:/C++/SpaceShooterIII/lib/deps/allegro5/addons/primitives/allegro_primitives.vcxproj">
+      <Project>95913F45-C40F-3CFD-AB42-650880FCE323</Project>
+    </ProjectReference>
+    <ProjectReference Include="H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/cosmic_protector/copy_demo_data.vcxproj">
+      <Project>86203DF3-FB68-3573-BA4E-45564204C649</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

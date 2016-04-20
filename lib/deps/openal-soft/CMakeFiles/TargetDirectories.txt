@@ -1,0 +1,12 @@
+H:/C++/SpaceShooterIII/lib/deps/openal-soft/CMakeFiles/common.dir
+H:/C++/SpaceShooterIII/lib/deps/openal-soft/CMakeFiles/OpenAL32.dir
+H:/C++/SpaceShooterIII/lib/deps/openal-soft/CMakeFiles/makehrtf.dir
+H:/C++/SpaceShooterIII/lib/deps/openal-soft/CMakeFiles/openal-info.dir
+H:/C++/SpaceShooterIII/lib/deps/openal-soft/CMakeFiles/INSTALL.dir
+H:/C++/SpaceShooterIII/lib/deps/openal-soft/CMakeFiles/bsincgen.dir
+H:/C++/SpaceShooterIII/lib/deps/openal-soft/CMakeFiles/test-common.dir
+H:/C++/SpaceShooterIII/lib/deps/openal-soft/CMakeFiles/altonegen.dir
+H:/C++/SpaceShooterIII/lib/deps/openal-soft/CMakeFiles/ALL_BUILD.dir
+H:/C++/SpaceShooterIII/lib/deps/openal-soft/CMakeFiles/ZERO_CHECK.dir
+H:/C++/SpaceShooterIII/lib/deps/openal-soft/utils/alsoft-config/CMakeFiles/INSTALL.dir
+H:/C++/SpaceShooterIII/lib/deps/openal-soft/utils/alsoft-config/CMakeFiles/ALL_BUILD.dir

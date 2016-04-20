@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{1988389B-DA1D-3518-A572-A46C7CF22D79}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>skater</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">skater.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">skater</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>H:\C++\SpaceShooterIII\lib\allegro5\include;H:\C++\SpaceShooterIII\lib\deps\allegro5\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Include;H:\C++\SpaceShooterIII\lib\allegro5\addons\acodec;H:\C++\SpaceShooterIII\lib\allegro5\addons\audio;H:\C++\SpaceShooterIII\lib\allegro5\addons\font;H:\C++\SpaceShooterIII\lib\allegro5\addons\image;H:\C++\SpaceShooterIII\lib\allegro5\addons\main;H:\C++\SpaceShooterIII\lib\allegro5\addons\primitives;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>H:\C++\SpaceShooterIII\lib\allegro5\include;H:\C++\SpaceShooterIII\lib\deps\allegro5\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Include;H:\C++\SpaceShooterIII\lib\allegro5\addons\acodec;H:\C++\SpaceShooterIII\lib\allegro5\addons\audio;H:\C++\SpaceShooterIII\lib\allegro5\addons\font;H:\C++\SpaceShooterIII\lib\allegro5\addons\image;H:\C++\SpaceShooterIII\lib\allegro5\addons\main;H:\C++\SpaceShooterIII\lib\allegro5\addons\primitives;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>H:\C++\SpaceShooterIII\lib\allegro5\include;H:\C++\SpaceShooterIII\lib\deps\allegro5\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Include;H:\C++\SpaceShooterIII\lib\allegro5\addons\acodec;H:\C++\SpaceShooterIII\lib\allegro5\addons\audio;H:\C++\SpaceShooterIII\lib\allegro5\addons\font;H:\C++\SpaceShooterIII\lib\allegro5\addons\image;H:\C++\SpaceShooterIII\lib\allegro5\addons\main;H:\C++\SpaceShooterIII\lib\allegro5\addons\primitives;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\RelWithDebInfo\allegro_acodec.lib;..\..\lib\RelWithDebInfo\allegro_audio.lib;..\..\lib\RelWithDebInfo\allegro_font.lib;..\..\lib\RelWithDebInfo\allegro_image.lib;..\..\lib\RelWithDebInfo\allegro_main.lib;..\..\lib\RelWithDebInfo\allegro_primitives.lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Lib\dsound.lib;..\..\lib\RelWithDebInfo\allegro.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;ole32.lib;winmm.lib;psapi.lib;shlwapi.lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Lib\dinput8.lib;glu32.lib;opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/RelWithDebInfo/skater.lib</ImportLibrary>
+      <ProgramDataBaseFile>H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/RelWithDebInfo/skater.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\..\allegro5\demos\skater\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -HH:/C++/SpaceShooterIII/lib/allegro5 -BH:/C++/SpaceShooterIII/lib/deps/allegro5 --check-stamp-file H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/CMakeLists.txt;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\CMakeLists.txt;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\allegro5\demos\skater\src\anim.c"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\skater\src\background_scroller.c"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\skater\src\credits.c"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\skater\src\fps.c"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\skater\src\framework.c"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\skater\src\game.c"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\skater\src\gamepad.c"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\skater\src\global.c"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\skater\src\intro.c"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\skater\src\keyboard.c"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\skater\src\level_alloc.c"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\skater\src\level.c"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\skater\src\level_file.c"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\skater\src\level_state.c"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\skater\src\menu_about.c"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\skater\src\menu.c"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\skater\src\menu_controls.c"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\skater\src\menu_graphics.c"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\skater\src\menu_main.c"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\skater\src\menu_misc.c"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\skater\src\menu_options.c"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\skater\src\menu_sound.c"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\skater\src\menu_success.c"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\skater\src\mouse.c"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\skater\src\music.c"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\skater\src\physics.c"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\skater\src\quadtree.c"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\skater\src\screenshot.c"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\skater\src\skater.c"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\skater\src\token.c"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\skater\src\transition.c"  />
+    <ClCompile Include="..\..\..\..\allegro5\demos\skater\src\vcontroller.c"  />
+    <Image Include="..\..\..\..\allegro5\demos\skater\data\graphics\bananas.png" />
+    <Image Include="..\..\..\..\allegro5\demos\skater\data\graphics\cherries.png" />
+    <Image Include="..\..\..\..\allegro5\demos\skater\data\graphics\cloud.png" />
+    <Image Include="..\..\..\..\allegro5\demos\skater\data\graphics\dooropen.png" />
+    <Image Include="..\..\..\..\allegro5\demos\skater\data\graphics\doorshut.png" />
+    <Image Include="..\..\..\..\allegro5\demos\skater\data\graphics\exitsign.png" />
+    <Image Include="..\..\..\..\allegro5\demos\skater\data\graphics\grass.png" />
+    <Image Include="..\..\..\..\allegro5\demos\skater\data\graphics\ice.png" />
+    <Image Include="..\..\..\..\allegro5\demos\skater\data\graphics\icecream.png" />
+    <Image Include="..\..\..\..\allegro5\demos\skater\data\graphics\icetip.png" />
+    <Image Include="..\..\..\..\allegro5\demos\skater\data\graphics\orange.png" />
+    <Image Include="..\..\..\..\allegro5\demos\skater\data\graphics\skatefast.png" />
+    <Image Include="..\..\..\..\allegro5\demos\skater\data\graphics\skatemed.png" />
+    <Image Include="..\..\..\..\allegro5\demos\skater\data\graphics\skater1.png" />
+    <Image Include="..\..\..\..\allegro5\demos\skater\data\graphics\skater2.png" />
+    <Image Include="..\..\..\..\allegro5\demos\skater\data\graphics\skater3.png" />
+    <Image Include="..\..\..\..\allegro5\demos\skater\data\graphics\skater4.png" />
+    <Image Include="..\..\..\..\allegro5\demos\skater\data\graphics\skateslow.png" />
+    <Image Include="..\..\..\..\allegro5\demos\skater\data\graphics\soil.png" />
+    <Image Include="..\..\..\..\allegro5\demos\skater\data\graphics\sweet.png" />
+    <Image Include="..\..\..\..\allegro5\demos\skater\data\graphics\water.png" />
+    <None Include="..\..\..\..\allegro5\demos\skater\data\audio\ding.ogg" />
+    <None Include="..\..\..\..\allegro5\demos\skater\data\audio\dooropen.ogg" />
+    <None Include="..\..\..\..\allegro5\demos\skater\data\audio\pop.ogg" />
+    <None Include="..\..\..\..\allegro5\demos\skater\data\audio\skating.ogg" />
+    <None Include="..\..\..\..\allegro5\demos\skater\data\audio\wave.ogg" />
+    <Image Include="..\..\..\..\allegro5\demos\skater\data\menu\back.png" />
+    <None Include="..\..\..\..\allegro5\demos\skater\data\menu\button.ogg" />
+    <Image Include="..\..\..\..\allegro5\demos\skater\data\menu\cancunsmall.png" />
+    <None Include="..\..\..\..\allegro5\demos\skater\data\menu\endoflevel.ogg" />
+    <None Include="..\..\..\..\allegro5\demos\skater\data\menu\intro_music.ogg" />
+    <Image Include="..\..\..\..\allegro5\demos\skater\data\menu\logofont.png" />
+    <None Include="..\..\..\..\allegro5\demos\skater\data\menu\menu_music.ogg" />
+    <None Include="..\..\..\..\allegro5\demos\skater\data\menu\skate2.ogg" />
+    <None Include="..\..\..\..\allegro5\demos\skater\data\menu\welcome.ogg" />
+    <None Include="..\..\..\..\allegro5\demos\skater\data\level.txt" />
+    <None Include="..\..\..\..\allegro5\demos\skater\data\readme.txt" />
+    <None Include="..\..\..\..\allegro5\demos\skater\data\thanks.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="H:/C++/SpaceShooterIII/lib/deps/allegro5/ZERO_CHECK.vcxproj">
+      <Project>80EC59D3-55E3-30A2-8114-2D071F73F7B3</Project>
+    </ProjectReference>
+    <ProjectReference Include="H:/C++/SpaceShooterIII/lib/deps/allegro5/allegro.vcxproj">
+      <Project>603B7304-4AFB-304B-85F0-63E4D7BBE37F</Project>
+    </ProjectReference>
+    <ProjectReference Include="H:/C++/SpaceShooterIII/lib/deps/allegro5/addons/acodec/allegro_acodec.vcxproj">
+      <Project>C1E1F065-0693-30EE-9F14-CC9F9663D214</Project>
+    </ProjectReference>
+    <ProjectReference Include="H:/C++/SpaceShooterIII/lib/deps/allegro5/addons/audio/allegro_audio.vcxproj">
+      <Project>57E34B93-32FB-3506-AA91-34DD988FD211</Project>
+    </ProjectReference>
+    <ProjectReference Include="H:/C++/SpaceShooterIII/lib/deps/allegro5/addons/font/allegro_font.vcxproj">
+      <Project>4D2C3C41-29EE-3D85-B5E0-6A66AA7C6BF2</Project>
+    </ProjectReference>
+    <ProjectReference Include="H:/C++/SpaceShooterIII/lib/deps/allegro5/addons/image/allegro_image.vcxproj">
+      <Project>4D42B3ED-CE18-38A2-AAD3-251E6812AC2B</Project>
+    </ProjectReference>
+    <ProjectReference Include="H:/C++/SpaceShooterIII/lib/deps/allegro5/addons/main/allegro_main.vcxproj">
+      <Project>264D9907-8578-3BE1-A096-6C64EFEB47A5</Project>
+    </ProjectReference>
+    <ProjectReference Include="H:/C++/SpaceShooterIII/lib/deps/allegro5/addons/primitives/allegro_primitives.vcxproj">
+      <Project>95913F45-C40F-3CFD-AB42-650880FCE323</Project>
+    </ProjectReference>
+    <ProjectReference Include="H:/C++/SpaceShooterIII/lib/deps/allegro5/examples/copy_example_data.vcxproj">
+      <Project>F5362BB4-69F4-3D19-BCD5-B9790EC9525D</Project>
+    </ProjectReference>
+    <ProjectReference Include="H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/copy_skater_data.vcxproj">
+      <Project>81146B27-B3BC-3C7D-AD26-724E0A76903C</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

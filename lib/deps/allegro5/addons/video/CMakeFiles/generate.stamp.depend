@@ -1,0 +1,12 @@
+# CMake generation dependency list for this directory.
+H:/C++/SpaceShooterIII/lib/allegro5/addons/video/CMakeLists.txt
+H:/C++/SpaceShooterIII/lib/allegro5/cmake/FindTheora.cmake
+H:/C++/SpaceShooterIII/lib/allegro5/cmake/FindOgg.cmake
+H:/cmake-3.5.1-win32-x86/share/cmake-3.5/Modules/FindPackageHandleStandardArgs.cmake
+H:/cmake-3.5.1-win32-x86/share/cmake-3.5/Modules/FindPackageMessage.cmake
+H:/cmake-3.5.1-win32-x86/share/cmake-3.5/Modules/CMakeParseArguments.cmake
+H:/C++/SpaceShooterIII/lib/allegro5/cmake/FindVorbis.cmake
+H:/C++/SpaceShooterIII/lib/allegro5/cmake/FindOgg.cmake
+H:/cmake-3.5.1-win32-x86/share/cmake-3.5/Modules/FindPackageHandleStandardArgs.cmake
+H:/cmake-3.5.1-win32-x86/share/cmake-3.5/Modules/FindPackageMessage.cmake
+H:/cmake-3.5.1-win32-x86/share/cmake-3.5/Modules/CMakeParseArguments.cmake

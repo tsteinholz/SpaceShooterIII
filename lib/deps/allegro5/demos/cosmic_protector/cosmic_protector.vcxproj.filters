@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\Asteroid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\BitmapResource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\Bullet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\ButtonWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\DisplayResource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\Entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\Explosion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\FontResource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\GUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\Input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\LargeAsteroid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\LargeBullet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\LargeSlowBullet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\MediumAsteroid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\PowerUp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\Resource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\ResourceManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\SampleResource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\StreamResource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\SmallAsteroid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\SmallBullet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\UFO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\cosmic_protector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\collision.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\joypad_dummy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\logic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\render.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\sound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\allegro5\demos\cosmic_protector\src\wave.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\..\allegro5\demos\cosmic_protector\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\icon48.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\large_asteroid.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\large_bullet.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\large_explosion_0.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\large_explosion_1.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\large_explosion_2.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\large_explosion_3.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\large_explosion_4.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\large_font.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\life_powerup.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\logo.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\medium_asteroid.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\ship.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\ship_trans.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\small_asteroid.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\small_bullet.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\small_explosion_0.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\small_explosion_1.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\small_explosion_2.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\small_explosion_3.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\small_explosion_4.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\small_font.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\trail.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\ufo0.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\ufo1.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\ufo2.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\weapon_powerup.png" />
+    <Image Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\ship_icon.tga" />
+    <None Include="..\..\..\..\allegro5\demos\cosmic_protector\data\sfx\big_explosion.ogg" />
+    <None Include="..\..\..\..\allegro5\demos\cosmic_protector\data\sfx\collision.ogg" />
+    <None Include="..\..\..\..\allegro5\demos\cosmic_protector\data\sfx\fire_large.ogg" />
+    <None Include="..\..\..\..\allegro5\demos\cosmic_protector\data\sfx\fire_small.ogg" />
+    <None Include="..\..\..\..\allegro5\demos\cosmic_protector\data\sfx\game_music.ogg" />
+    <None Include="..\..\..\..\allegro5\demos\cosmic_protector\data\sfx\powerup.ogg" />
+    <None Include="..\..\..\..\allegro5\demos\cosmic_protector\data\sfx\small_explosion.ogg" />
+    <None Include="..\..\..\..\allegro5\demos\cosmic_protector\data\sfx\title_music.ogg" />
+    <None Include="..\..\..\..\allegro5\demos\cosmic_protector\data\gfx\Icon.icns" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F5077EFD-DC7F-37CA-9C76-F065DEC93263}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

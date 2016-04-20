@@ -1,0 +1,6 @@
+H:/C++/SpaceShooterIII/lib/deps/physfs/CMakeFiles/physfs-static.dir
+H:/C++/SpaceShooterIII/lib/deps/physfs/CMakeFiles/physfs.dir
+H:/C++/SpaceShooterIII/lib/deps/physfs/CMakeFiles/test_physfs.dir
+H:/C++/SpaceShooterIII/lib/deps/physfs/CMakeFiles/INSTALL.dir
+H:/C++/SpaceShooterIII/lib/deps/physfs/CMakeFiles/ALL_BUILD.dir
+H:/C++/SpaceShooterIII/lib/deps/physfs/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{960D855B-9C1D-3FD6-B70C-B22FF81F91DA}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ex_icon2</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\examples\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ex_icon2.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ex_icon2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>H:\C++\SpaceShooterIII\lib\allegro5\include;H:\C++\SpaceShooterIII\lib\deps\allegro5\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Include;H:\C++\SpaceShooterIII\lib\allegro5\examples\..\addons\acodec;H:\C++\SpaceShooterIII\lib\allegro5\examples\..\addons\audio;H:\C++\SpaceShooterIII\lib\allegro5\examples\..\addons\color;H:\C++\SpaceShooterIII\lib\allegro5\examples\..\addons\font;H:\C++\SpaceShooterIII\lib\allegro5\examples\..\addons\image;H:\C++\SpaceShooterIII\lib\allegro5\examples\..\addons\main;H:\C++\SpaceShooterIII\lib\allegro5\examples\..\addons\memfile;H:\C++\SpaceShooterIII\lib\allegro5\examples\..\addons\native_dialog;H:\C++\SpaceShooterIII\lib\allegro5\examples\..\addons\physfs;H:\C++\SpaceShooterIII\lib\allegro5\examples\..\addons\primitives;H:\C++\SpaceShooterIII\lib\allegro5\examples\..\addons\shader;H:\C++\SpaceShooterIII\lib\allegro5\examples\..\addons\ttf;H:\C++\SpaceShooterIII\lib\allegro5\examples\..\addons\video;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;NDEBUG;ALLEGRO_POPUP_EXAMPLES;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;NDEBUG;ALLEGRO_POPUP_EXAMPLES;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>H:\C++\SpaceShooterIII\lib\allegro5\include;H:\C++\SpaceShooterIII\lib\deps\allegro5\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Include;H:\C++\SpaceShooterIII\lib\allegro5\examples\..\addons\acodec;H:\C++\SpaceShooterIII\lib\allegro5\examples\..\addons\audio;H:\C++\SpaceShooterIII\lib\allegro5\examples\..\addons\color;H:\C++\SpaceShooterIII\lib\allegro5\examples\..\addons\font;H:\C++\SpaceShooterIII\lib\allegro5\examples\..\addons\image;H:\C++\SpaceShooterIII\lib\allegro5\examples\..\addons\main;H:\C++\SpaceShooterIII\lib\allegro5\examples\..\addons\memfile;H:\C++\SpaceShooterIII\lib\allegro5\examples\..\addons\native_dialog;H:\C++\SpaceShooterIII\lib\allegro5\examples\..\addons\physfs;H:\C++\SpaceShooterIII\lib\allegro5\examples\..\addons\primitives;H:\C++\SpaceShooterIII\lib\allegro5\examples\..\addons\shader;H:\C++\SpaceShooterIII\lib\allegro5\examples\..\addons\ttf;H:\C++\SpaceShooterIII\lib\allegro5\examples\..\addons\video;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>H:\C++\SpaceShooterIII\lib\allegro5\include;H:\C++\SpaceShooterIII\lib\deps\allegro5\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Include;H:\C++\SpaceShooterIII\lib\allegro5\examples\..\addons\acodec;H:\C++\SpaceShooterIII\lib\allegro5\examples\..\addons\audio;H:\C++\SpaceShooterIII\lib\allegro5\examples\..\addons\color;H:\C++\SpaceShooterIII\lib\allegro5\examples\..\addons\font;H:\C++\SpaceShooterIII\lib\allegro5\examples\..\addons\image;H:\C++\SpaceShooterIII\lib\allegro5\examples\..\addons\main;H:\C++\SpaceShooterIII\lib\allegro5\examples\..\addons\memfile;H:\C++\SpaceShooterIII\lib\allegro5\examples\..\addons\native_dialog;H:\C++\SpaceShooterIII\lib\allegro5\examples\..\addons\physfs;H:\C++\SpaceShooterIII\lib\allegro5\examples\..\addons\primitives;H:\C++\SpaceShooterIII\lib\allegro5\examples\..\addons\shader;H:\C++\SpaceShooterIII\lib\allegro5\examples\..\addons\ttf;H:\C++\SpaceShooterIII\lib\allegro5\examples\..\addons\video;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\lib\RelWithDebInfo\allegro_main.lib;..\lib\RelWithDebInfo\allegro_image.lib;..\lib\RelWithDebInfo\allegro_dialog.lib;..\lib\RelWithDebInfo\allegro.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;ole32.lib;winmm.lib;psapi.lib;shlwapi.lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Lib\dinput8.lib;glu32.lib;opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>H:/C++/SpaceShooterIII/lib/deps/allegro5/examples/RelWithDebInfo/ex_icon2.lib</ImportLibrary>
+      <ProgramDataBaseFile>H:/C++/SpaceShooterIII/lib/deps/allegro5/examples/RelWithDebInfo/ex_icon2.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\allegro5\examples\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule H:/C++/SpaceShooterIII/lib/allegro5/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -HH:/C++/SpaceShooterIII/lib/allegro5 -BH:/C++/SpaceShooterIII/lib/deps/allegro5 --check-stamp-file H:\C++\SpaceShooterIII\lib\deps\allegro5\examples\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/allegro5/examples/CMakeLists.txt;H:\C++\SpaceShooterIII\lib\allegro5\examples\CMakeLists.txt;H:\C++\SpaceShooterIII\lib\allegro5\examples\Helper.cmake;H:\C++\SpaceShooterIII\lib\allegro5\examples\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\examples\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\allegro5\examples\ex_icon2.c"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="H:/C++/SpaceShooterIII/lib/deps/allegro5/ZERO_CHECK.vcxproj">
+      <Project>80EC59D3-55E3-30A2-8114-2D071F73F7B3</Project>
+    </ProjectReference>
+    <ProjectReference Include="H:/C++/SpaceShooterIII/lib/deps/allegro5/allegro.vcxproj">
+      <Project>603B7304-4AFB-304B-85F0-63E4D7BBE37F</Project>
+    </ProjectReference>
+    <ProjectReference Include="H:/C++/SpaceShooterIII/lib/deps/allegro5/addons/native_dialog/allegro_dialog.vcxproj">
+      <Project>224BE085-18B0-3B99-A5D6-A3163F9E0F1D</Project>
+    </ProjectReference>
+    <ProjectReference Include="H:/C++/SpaceShooterIII/lib/deps/allegro5/addons/image/allegro_image.vcxproj">
+      <Project>4D42B3ED-CE18-38A2-AAD3-251E6812AC2B</Project>
+    </ProjectReference>
+    <ProjectReference Include="H:/C++/SpaceShooterIII/lib/deps/allegro5/addons/main/allegro_main.vcxproj">
+      <Project>264D9907-8578-3BE1-A096-6C64EFEB47A5</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

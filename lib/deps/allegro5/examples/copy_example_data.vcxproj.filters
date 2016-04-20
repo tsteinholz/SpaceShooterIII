@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\allegro5\examples\CMakeLists.txt" />
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\a4_font.tga.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\alexlogo.bmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\alexlogo.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\allegro.pcx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\bkg.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\blue_box.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\bmpfont.tga.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\cursor.tga.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\DejaVuSans.LICENSE.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\DejaVuSans.ttf.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\exconfig.ini.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\ex_physfs.zip.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\ex_prim_shader_pixel.glsl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\ex_prim_shader_pixel.hlsl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\ex_prim_shader_vertex.glsl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\ex_prim_shader_vertex.hlsl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\ex_shader_multitex_pixel.glsl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\ex_shader_multitex_pixel.hlsl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\ex_shader_pixel.glsl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\ex_shader_pixel.hlsl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\ex_shader_vertex.glsl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\ex_shader_vertex.hlsl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\ex_ttf.ini.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\fakeamp.bmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\fixed_font.tga.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\font.tga.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\green.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\air_0.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\air_1.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\air_2.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\air_3.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\air_4.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\air_5.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\air_6.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\air_7.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\air_effect.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\black_bead_opaque_A.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\dropshadow.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\earth4.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\earth_0.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\earth_1.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\earth_2.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\earth_3.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\earth_4.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\earth_5.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\earth_6.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\earth_7.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\fire.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\fire_0.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\fire_1.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\fire_2.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\fire_3.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\fire_4.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\fire_5.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\fire_6.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\fire_7.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\flame2.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\healthy_glow.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\main_flame2.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\overlay_pretty.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\select.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\water.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\water_0.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\water_1.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\water_2.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\water_3.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\water_4.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\water_5.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\water_6.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\water_7.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\water_droplets.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\8558bf27e90c254a13679b0c5b05c054\wind3.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\icon.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\icon.tga.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\mask.pcx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\mysha.pcx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\mysha.tga.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\mysha256x256.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\mysha_dxt1.dds.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\mysha_dxt3.dds.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\mysha_dxt5.dds.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\mysha_pal.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\obp.jpg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\planet.pcx.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\sample.cfg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\texture.tga.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\welcome.voc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\5a38254cd188f83fc90696964868310d\welcome.wav.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\CMakeFiles\6d52d3d58b1268e17df4302dcb4baed0\copy_example_data.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CMakeFiles\copy_example_data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{26D6AF0E-A2BC-39C1-978E-9C1A9895FBCA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

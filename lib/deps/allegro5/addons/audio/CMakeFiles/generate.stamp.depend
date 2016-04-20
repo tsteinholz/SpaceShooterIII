@@ -1,0 +1,27 @@
+# CMake generation dependency list for this directory.
+H:/C++/SpaceShooterIII/lib/allegro5/addons/audio/CMakeLists.txt
+H:/C++/SpaceShooterIII/lib/allegro5/cmake/FindDirectX.cmake
+H:/cmake-3.5.1-win32-x86/share/cmake-3.5/Modules/FindPackageHandleStandardArgs.cmake
+H:/cmake-3.5.1-win32-x86/share/cmake-3.5/Modules/FindPackageMessage.cmake
+H:/cmake-3.5.1-win32-x86/share/cmake-3.5/Modules/CMakeParseArguments.cmake
+H:/cmake-3.5.1-win32-x86/share/cmake-3.5/Modules/FindPackageHandleStandardArgs.cmake
+H:/cmake-3.5.1-win32-x86/share/cmake-3.5/Modules/FindPackageMessage.cmake
+H:/cmake-3.5.1-win32-x86/share/cmake-3.5/Modules/CMakeParseArguments.cmake
+H:/cmake-3.5.1-win32-x86/share/cmake-3.5/Modules/FindPackageHandleStandardArgs.cmake
+H:/cmake-3.5.1-win32-x86/share/cmake-3.5/Modules/FindPackageMessage.cmake
+H:/cmake-3.5.1-win32-x86/share/cmake-3.5/Modules/CMakeParseArguments.cmake
+H:/cmake-3.5.1-win32-x86/share/cmake-3.5/Modules/FindPackageHandleStandardArgs.cmake
+H:/cmake-3.5.1-win32-x86/share/cmake-3.5/Modules/FindPackageMessage.cmake
+H:/cmake-3.5.1-win32-x86/share/cmake-3.5/Modules/CMakeParseArguments.cmake
+H:/cmake-3.5.1-win32-x86/share/cmake-3.5/Modules/FindPackageHandleStandardArgs.cmake
+H:/cmake-3.5.1-win32-x86/share/cmake-3.5/Modules/FindPackageMessage.cmake
+H:/cmake-3.5.1-win32-x86/share/cmake-3.5/Modules/CMakeParseArguments.cmake
+H:/cmake-3.5.1-win32-x86/share/cmake-3.5/Modules/FindOpenAL.cmake
+H:/cmake-3.5.1-win32-x86/share/cmake-3.5/Modules/FindPackageHandleStandardArgs.cmake
+H:/cmake-3.5.1-win32-x86/share/cmake-3.5/Modules/FindPackageMessage.cmake
+H:/cmake-3.5.1-win32-x86/share/cmake-3.5/Modules/CMakeParseArguments.cmake
+H:/C++/SpaceShooterIII/lib/allegro5/cmake/FindOpenSL.cmake
+H:/cmake-3.5.1-win32-x86/share/cmake-3.5/Modules/FindPackageHandleStandardArgs.cmake
+H:/cmake-3.5.1-win32-x86/share/cmake-3.5/Modules/FindPackageMessage.cmake
+H:/cmake-3.5.1-win32-x86/share/cmake-3.5/Modules/CMakeParseArguments.cmake
+H:/C++/SpaceShooterIII/lib/allegro5/addons/audio/allegro5/internal/aintern_audio_cfg.h.cmake

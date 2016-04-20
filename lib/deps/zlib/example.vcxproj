@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{610C0D39-62E1-34EA-886F-3B43D689AEE2}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>example</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:\C++\SpaceShooterIII\lib\deps\zlib\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">example.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">example</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:\C++\SpaceShooterIII\lib\deps\zlib\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">example.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">example</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">H:\C++\SpaceShooterIII\lib\deps\zlib\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">example.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">example</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\zlib\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">example.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">example</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>H:\C++\SpaceShooterIII\lib\zlib;H:\C++\SpaceShooterIII\lib\deps\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;NO_FSEEKO;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;NO_FSEEKO;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>H:\C++\SpaceShooterIII\lib\zlib;H:\C++\SpaceShooterIII\lib\deps\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>H:\C++\SpaceShooterIII\lib\zlib;H:\C++\SpaceShooterIII\lib\deps\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Debug\zlibd.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>H:/C++/SpaceShooterIII/lib/deps/zlib/Debug/example.lib</ImportLibrary>
+      <ProgramDataBaseFile>H:/C++/SpaceShooterIII/lib/deps/zlib/Debug/example.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>H:\C++\SpaceShooterIII\lib\zlib;H:\C++\SpaceShooterIII\lib\deps\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NO_FSEEKO;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NO_FSEEKO;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>H:\C++\SpaceShooterIII\lib\zlib;H:\C++\SpaceShooterIII\lib\deps\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>H:\C++\SpaceShooterIII\lib\zlib;H:\C++\SpaceShooterIII\lib\deps\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Release\zlib.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>H:/C++/SpaceShooterIII/lib/deps/zlib/Release/example.lib</ImportLibrary>
+      <ProgramDataBaseFile>H:/C++/SpaceShooterIII/lib/deps/zlib/Release/example.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>H:\C++\SpaceShooterIII\lib\zlib;H:\C++\SpaceShooterIII\lib\deps\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NO_FSEEKO;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NO_FSEEKO;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>H:\C++\SpaceShooterIII\lib\zlib;H:\C++\SpaceShooterIII\lib\deps\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>H:\C++\SpaceShooterIII\lib\zlib;H:\C++\SpaceShooterIII\lib\deps\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;MinSizeRel\zlib.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>H:/C++/SpaceShooterIII/lib/deps/zlib/MinSizeRel/example.lib</ImportLibrary>
+      <ProgramDataBaseFile>H:/C++/SpaceShooterIII/lib/deps/zlib/MinSizeRel/example.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>H:\C++\SpaceShooterIII\lib\zlib;H:\C++\SpaceShooterIII\lib\deps\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NO_FSEEKO;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NO_FSEEKO;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>H:\C++\SpaceShooterIII\lib\zlib;H:\C++\SpaceShooterIII\lib\deps\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>H:\C++\SpaceShooterIII\lib\zlib;H:\C++\SpaceShooterIII\lib\deps\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;RelWithDebInfo\zlib.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>H:/C++/SpaceShooterIII/lib/deps/zlib/RelWithDebInfo/example.lib</ImportLibrary>
+      <ProgramDataBaseFile>H:/C++/SpaceShooterIII/lib/deps/zlib/RelWithDebInfo/example.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\zlib\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule H:/C++/SpaceShooterIII/lib/zlib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -HH:/C++/SpaceShooterIII/lib/zlib -BH:/C++/SpaceShooterIII/lib/deps/zlib --check-stamp-file H:\C++\SpaceShooterIII\lib\deps\zlib\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:/C++/SpaceShooterIII/lib/zlib/CMakeLists.txt;H:\C++\SpaceShooterIII\lib\zlib\CMakeLists.txt;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeDetermineSystem.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeSystem.cmake.in;H:\C++\SpaceShooterIII\lib\deps\zlib\CMakeFiles\3.5.1\CMakeSystem.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompilerId.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeCompilerIdDetection.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeParseArguments.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\ADSP-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\AppleClang-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\ARMCC-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\Borland-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\Cray-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\GHS-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\GNU-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\HP-C-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\IAR-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\Intel-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\MSVC-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\PathScale-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\PGI-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\SCO-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\TI-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\Watcom-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\XL-C-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\zOS-C-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CompilerId\VS-10.vcxproj.in;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeFindBinUtils.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeCCompiler.cmake.in;H:\C++\SpaceShooterIII\lib\deps\zlib\CMakeFiles\3.5.1\CMakeCCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Platform\Windows.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeCInformation.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeDetermineRCCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeRCCompiler.cmake.in;H:\C++\SpaceShooterIII\lib\deps\zlib\CMakeFiles\3.5.1\CMakeRCCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeRCInformation.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeTestRCCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeTestCCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeTestCompilerCommon.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompilerABI.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeParseImplicitLinkInfo.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeCCompilerABI.c;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompileFeatures.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeCCompiler.cmake.in;H:\C++\SpaceShooterIII\lib\deps\zlib\CMakeFiles\3.5.1\CMakeCCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckTypeSize.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckIncludeFile.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckIncludeFileCXX.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckFunctionExists.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckIncludeFile.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckCSourceCompiles.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckIncludeFile.c.in;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckIncludeFile.c.in;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckIncludeFile.c.in;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckTypeSize.c.in;H:\C++\SpaceShooterIII\lib\deps\zlib\CMakeFiles\CheckTypeSize\OFF64_T.c;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckFunctionExists.c;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckIncludeFile.c.in;H:\C++\SpaceShooterIII\lib\zlib\zlib.pc.cmakein;H:\C++\SpaceShooterIII\lib\zlib\zconf.h.cmakein;H:\C++\SpaceShooterIII\lib\zlib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">H:\C++\SpaceShooterIII\lib\deps\zlib\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule H:/C++/SpaceShooterIII/lib/zlib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -HH:/C++/SpaceShooterIII/lib/zlib -BH:/C++/SpaceShooterIII/lib/deps/zlib --check-stamp-file H:\C++\SpaceShooterIII\lib\deps\zlib\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:/C++/SpaceShooterIII/lib/zlib/CMakeLists.txt;H:\C++\SpaceShooterIII\lib\zlib\CMakeLists.txt;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeDetermineSystem.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeSystem.cmake.in;H:\C++\SpaceShooterIII\lib\deps\zlib\CMakeFiles\3.5.1\CMakeSystem.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompilerId.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeCompilerIdDetection.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeParseArguments.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\ADSP-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\AppleClang-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\ARMCC-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\Borland-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\Cray-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\GHS-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\GNU-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\HP-C-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\IAR-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\Intel-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\MSVC-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\PathScale-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\PGI-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\SCO-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\TI-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\Watcom-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\XL-C-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\zOS-C-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CompilerId\VS-10.vcxproj.in;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeFindBinUtils.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeCCompiler.cmake.in;H:\C++\SpaceShooterIII\lib\deps\zlib\CMakeFiles\3.5.1\CMakeCCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Platform\Windows.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeCInformation.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeDetermineRCCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeRCCompiler.cmake.in;H:\C++\SpaceShooterIII\lib\deps\zlib\CMakeFiles\3.5.1\CMakeRCCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeRCInformation.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeTestRCCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeTestCCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeTestCompilerCommon.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompilerABI.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeParseImplicitLinkInfo.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeCCompilerABI.c;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompileFeatures.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeCCompiler.cmake.in;H:\C++\SpaceShooterIII\lib\deps\zlib\CMakeFiles\3.5.1\CMakeCCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckTypeSize.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckIncludeFile.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckIncludeFileCXX.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckFunctionExists.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckIncludeFile.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckCSourceCompiles.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckIncludeFile.c.in;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckIncludeFile.c.in;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckIncludeFile.c.in;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckTypeSize.c.in;H:\C++\SpaceShooterIII\lib\deps\zlib\CMakeFiles\CheckTypeSize\OFF64_T.c;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckFunctionExists.c;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckIncludeFile.c.in;H:\C++\SpaceShooterIII\lib\zlib\zlib.pc.cmakein;H:\C++\SpaceShooterIII\lib\zlib\zconf.h.cmakein;H:\C++\SpaceShooterIII\lib\zlib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">H:\C++\SpaceShooterIII\lib\deps\zlib\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule H:/C++/SpaceShooterIII/lib/zlib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -HH:/C++/SpaceShooterIII/lib/zlib -BH:/C++/SpaceShooterIII/lib/deps/zlib --check-stamp-file H:\C++\SpaceShooterIII\lib\deps\zlib\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">H:/C++/SpaceShooterIII/lib/zlib/CMakeLists.txt;H:\C++\SpaceShooterIII\lib\zlib\CMakeLists.txt;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeDetermineSystem.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeSystem.cmake.in;H:\C++\SpaceShooterIII\lib\deps\zlib\CMakeFiles\3.5.1\CMakeSystem.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompilerId.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeCompilerIdDetection.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeParseArguments.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\ADSP-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\AppleClang-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\ARMCC-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\Borland-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\Cray-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\GHS-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\GNU-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\HP-C-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\IAR-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\Intel-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\MSVC-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\PathScale-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\PGI-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\SCO-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\TI-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\Watcom-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\XL-C-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\zOS-C-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CompilerId\VS-10.vcxproj.in;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeFindBinUtils.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeCCompiler.cmake.in;H:\C++\SpaceShooterIII\lib\deps\zlib\CMakeFiles\3.5.1\CMakeCCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Platform\Windows.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeCInformation.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeDetermineRCCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeRCCompiler.cmake.in;H:\C++\SpaceShooterIII\lib\deps\zlib\CMakeFiles\3.5.1\CMakeRCCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeRCInformation.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeTestRCCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeTestCCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeTestCompilerCommon.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompilerABI.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeParseImplicitLinkInfo.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeCCompilerABI.c;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompileFeatures.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeCCompiler.cmake.in;H:\C++\SpaceShooterIII\lib\deps\zlib\CMakeFiles\3.5.1\CMakeCCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckTypeSize.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckIncludeFile.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckIncludeFileCXX.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckFunctionExists.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckIncludeFile.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckCSourceCompiles.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckIncludeFile.c.in;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckIncludeFile.c.in;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckIncludeFile.c.in;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckTypeSize.c.in;H:\C++\SpaceShooterIII\lib\deps\zlib\CMakeFiles\CheckTypeSize\OFF64_T.c;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckFunctionExists.c;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckIncludeFile.c.in;H:\C++\SpaceShooterIII\lib\zlib\zlib.pc.cmakein;H:\C++\SpaceShooterIII\lib\zlib\zconf.h.cmakein;H:\C++\SpaceShooterIII\lib\zlib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">H:\C++\SpaceShooterIII\lib\deps\zlib\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule H:/C++/SpaceShooterIII/lib/zlib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -HH:/C++/SpaceShooterIII/lib/zlib -BH:/C++/SpaceShooterIII/lib/deps/zlib --check-stamp-file H:\C++\SpaceShooterIII\lib\deps\zlib\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/zlib/CMakeLists.txt;H:\C++\SpaceShooterIII\lib\zlib\CMakeLists.txt;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeDetermineSystem.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeSystem.cmake.in;H:\C++\SpaceShooterIII\lib\deps\zlib\CMakeFiles\3.5.1\CMakeSystem.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeSystemSpecificInitialize.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompilerId.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeCompilerIdDetection.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeParseArguments.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\ADSP-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\AppleClang-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\ARMCC-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\Borland-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\Cray-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\GHS-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\GNU-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\HP-C-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\IAR-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\Intel-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\MSVC-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\PathScale-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\PGI-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\SCO-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\TI-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\Watcom-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\XL-C-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\zOS-C-DetermineCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CompilerId\VS-10.vcxproj.in;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeFindBinUtils.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeCCompiler.cmake.in;H:\C++\SpaceShooterIII\lib\deps\zlib\CMakeFiles\3.5.1\CMakeCCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeSystemSpecificInformation.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeGenericSystem.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Platform\Windows.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Platform\WindowsPaths.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeCInformation.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeLanguageInformation.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Platform\Windows-MSVC-C.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\Platform\Windows-MSVC.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeDetermineRCCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeRCCompiler.cmake.in;H:\C++\SpaceShooterIII\lib\deps\zlib\CMakeFiles\3.5.1\CMakeRCCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeRCInformation.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeTestRCCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeCommonLanguageInclude.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeTestCCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeTestCompilerCommon.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompilerABI.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeParseImplicitLinkInfo.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeCCompilerABI.c;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeDetermineCompileFeatures.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CMakeCCompiler.cmake.in;H:\C++\SpaceShooterIII\lib\deps\zlib\CMakeFiles\3.5.1\CMakeCCompiler.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckTypeSize.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckIncludeFile.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckIncludeFileCXX.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckFunctionExists.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckIncludeFile.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckCSourceCompiles.cmake;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckIncludeFile.c.in;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckIncludeFile.c.in;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckIncludeFile.c.in;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckTypeSize.c.in;H:\C++\SpaceShooterIII\lib\deps\zlib\CMakeFiles\CheckTypeSize\OFF64_T.c;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckFunctionExists.c;H:\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckIncludeFile.c.in;H:\C++\SpaceShooterIII\lib\zlib\zlib.pc.cmakein;H:\C++\SpaceShooterIII\lib\zlib\zconf.h.cmakein;H:\C++\SpaceShooterIII\lib\zlib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\zlib\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\zlib\test\example.c"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="H:/C++/SpaceShooterIII/lib/deps/zlib/ZERO_CHECK.vcxproj">
+      <Project>0C0A3C70-F0DF-3651-9261-2C4A6E99E276</Project>
+    </ProjectReference>
+    <ProjectReference Include="H:/C++/SpaceShooterIII/lib/deps/zlib/zlib.vcxproj">
+      <Project>04BE4DAA-E73A-308B-BA31-CE58709886D4</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

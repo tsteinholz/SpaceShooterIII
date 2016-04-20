@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\..\allegro5\demos\cosmic_protector\CMakeLists.txt" />
+    <CustomBuild Include="..\..\CMakeFiles\96bc0a8a424a93e798e389bd31ba5b43\background.jpg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\96bc0a8a424a93e798e389bd31ba5b43\Icon.icns.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\96bc0a8a424a93e798e389bd31ba5b43\icon48.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\96bc0a8a424a93e798e389bd31ba5b43\large_asteroid.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\96bc0a8a424a93e798e389bd31ba5b43\large_bullet.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\96bc0a8a424a93e798e389bd31ba5b43\large_explosion_0.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\96bc0a8a424a93e798e389bd31ba5b43\large_explosion_1.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\96bc0a8a424a93e798e389bd31ba5b43\large_explosion_2.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\96bc0a8a424a93e798e389bd31ba5b43\large_explosion_3.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\96bc0a8a424a93e798e389bd31ba5b43\large_explosion_4.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\96bc0a8a424a93e798e389bd31ba5b43\large_font.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\96bc0a8a424a93e798e389bd31ba5b43\life_powerup.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\96bc0a8a424a93e798e389bd31ba5b43\logo.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\96bc0a8a424a93e798e389bd31ba5b43\medium_asteroid.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\96bc0a8a424a93e798e389bd31ba5b43\ship.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\96bc0a8a424a93e798e389bd31ba5b43\ship_icon.tga.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\96bc0a8a424a93e798e389bd31ba5b43\ship_trans.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\96bc0a8a424a93e798e389bd31ba5b43\small_asteroid.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\96bc0a8a424a93e798e389bd31ba5b43\small_bullet.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\96bc0a8a424a93e798e389bd31ba5b43\small_explosion_0.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\96bc0a8a424a93e798e389bd31ba5b43\small_explosion_1.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\96bc0a8a424a93e798e389bd31ba5b43\small_explosion_2.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\96bc0a8a424a93e798e389bd31ba5b43\small_explosion_3.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\96bc0a8a424a93e798e389bd31ba5b43\small_explosion_4.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\96bc0a8a424a93e798e389bd31ba5b43\small_font.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\96bc0a8a424a93e798e389bd31ba5b43\trail.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\96bc0a8a424a93e798e389bd31ba5b43\ufo0.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\96bc0a8a424a93e798e389bd31ba5b43\ufo1.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\96bc0a8a424a93e798e389bd31ba5b43\ufo2.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\96bc0a8a424a93e798e389bd31ba5b43\weapon_powerup.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\fcc916cbcd00c32f911da6ac18d28faf\big_explosion.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\fcc916cbcd00c32f911da6ac18d28faf\collision.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\fcc916cbcd00c32f911da6ac18d28faf\fire_large.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\fcc916cbcd00c32f911da6ac18d28faf\fire_small.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\fcc916cbcd00c32f911da6ac18d28faf\game_music.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\fcc916cbcd00c32f911da6ac18d28faf\powerup.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\fcc916cbcd00c32f911da6ac18d28faf\small_explosion.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\fcc916cbcd00c32f911da6ac18d28faf\title_music.ogg.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\CMakeFiles\9c789ab64db8372a2034658bdd6f8482\copy_demo_data.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CMakeFiles\copy_demo_data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{26D6AF0E-A2BC-39C1-978E-9C1A9895FBCA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

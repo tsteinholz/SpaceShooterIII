@@ -1,0 +1,691 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{81146B27-B3BC-3C7D-AD26-724E0A76903C}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>copy_skater_data</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>H:\C++\SpaceShooterIII\lib\allegro5\include;H:\C++\SpaceShooterIII\lib\deps\allegro5\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Include;H:\C++\SpaceShooterIII\lib\allegro5\addons\acodec;H:\C++\SpaceShooterIII\lib\allegro5\addons\audio;H:\C++\SpaceShooterIII\lib\allegro5\addons\font;H:\C++\SpaceShooterIII\lib\allegro5\addons\image;H:\C++\SpaceShooterIII\lib\allegro5\addons\main;H:\C++\SpaceShooterIII\lib\allegro5\addons\primitives;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\..\allegro5\demos\skater\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -HH:/C++/SpaceShooterIII/lib/allegro5 -BH:/C++/SpaceShooterIII/lib/deps/allegro5 --check-stamp-file H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/CMakeLists.txt;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\CMakeLists.txt;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\d5cbfd751af4439ea5f078cfa84397fb\ding.ogg.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating data/audio/ding.ogg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -E copy H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/data/audio/ding.ogg H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/data/audio/ding.ogg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/d5cbfd751af4439ea5f078cfa84397fb/ding.ogg.rule;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\data\audio\ding.ogg;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\audio\ding.ogg</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\d5cbfd751af4439ea5f078cfa84397fb\dooropen.ogg.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating data/audio/dooropen.ogg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -E copy H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/data/audio/dooropen.ogg H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/data/audio/dooropen.ogg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/d5cbfd751af4439ea5f078cfa84397fb/dooropen.ogg.rule;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\data\audio\dooropen.ogg;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\audio\dooropen.ogg</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\d5cbfd751af4439ea5f078cfa84397fb\pop.ogg.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating data/audio/pop.ogg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -E copy H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/data/audio/pop.ogg H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/data/audio/pop.ogg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/d5cbfd751af4439ea5f078cfa84397fb/pop.ogg.rule;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\data\audio\pop.ogg;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\audio\pop.ogg</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\d5cbfd751af4439ea5f078cfa84397fb\skating.ogg.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating data/audio/skating.ogg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -E copy H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/data/audio/skating.ogg H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/data/audio/skating.ogg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/d5cbfd751af4439ea5f078cfa84397fb/skating.ogg.rule;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\data\audio\skating.ogg;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\audio\skating.ogg</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\d5cbfd751af4439ea5f078cfa84397fb\wave.ogg.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating data/audio/wave.ogg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -E copy H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/data/audio/wave.ogg H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/data/audio/wave.ogg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/d5cbfd751af4439ea5f078cfa84397fb/wave.ogg.rule;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\data\audio\wave.ogg;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\audio\wave.ogg</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\4b977b8c585fc7bee2ec2e2b4318ec08\bananas.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating data/graphics/bananas.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -E copy H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/data/graphics/bananas.png H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/data/graphics/bananas.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/4b977b8c585fc7bee2ec2e2b4318ec08/bananas.png.rule;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\data\graphics\bananas.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\bananas.png</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\4b977b8c585fc7bee2ec2e2b4318ec08\cherries.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating data/graphics/cherries.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -E copy H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/data/graphics/cherries.png H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/data/graphics/cherries.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/4b977b8c585fc7bee2ec2e2b4318ec08/cherries.png.rule;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\data\graphics\cherries.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\cherries.png</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\4b977b8c585fc7bee2ec2e2b4318ec08\cloud.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating data/graphics/cloud.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -E copy H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/data/graphics/cloud.png H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/data/graphics/cloud.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/4b977b8c585fc7bee2ec2e2b4318ec08/cloud.png.rule;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\data\graphics\cloud.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\cloud.png</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\4b977b8c585fc7bee2ec2e2b4318ec08\dooropen.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating data/graphics/dooropen.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -E copy H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/data/graphics/dooropen.png H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/data/graphics/dooropen.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/4b977b8c585fc7bee2ec2e2b4318ec08/dooropen.png.rule;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\data\graphics\dooropen.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\dooropen.png</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\4b977b8c585fc7bee2ec2e2b4318ec08\doorshut.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating data/graphics/doorshut.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -E copy H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/data/graphics/doorshut.png H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/data/graphics/doorshut.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/4b977b8c585fc7bee2ec2e2b4318ec08/doorshut.png.rule;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\data\graphics\doorshut.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\doorshut.png</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\4b977b8c585fc7bee2ec2e2b4318ec08\exitsign.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating data/graphics/exitsign.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -E copy H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/data/graphics/exitsign.png H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/data/graphics/exitsign.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/4b977b8c585fc7bee2ec2e2b4318ec08/exitsign.png.rule;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\data\graphics\exitsign.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\exitsign.png</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\4b977b8c585fc7bee2ec2e2b4318ec08\grass.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating data/graphics/grass.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -E copy H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/data/graphics/grass.png H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/data/graphics/grass.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/4b977b8c585fc7bee2ec2e2b4318ec08/grass.png.rule;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\data\graphics\grass.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\grass.png</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\4b977b8c585fc7bee2ec2e2b4318ec08\ice.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating data/graphics/ice.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -E copy H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/data/graphics/ice.png H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/data/graphics/ice.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/4b977b8c585fc7bee2ec2e2b4318ec08/ice.png.rule;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\data\graphics\ice.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\ice.png</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\4b977b8c585fc7bee2ec2e2b4318ec08\icecream.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating data/graphics/icecream.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -E copy H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/data/graphics/icecream.png H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/data/graphics/icecream.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/4b977b8c585fc7bee2ec2e2b4318ec08/icecream.png.rule;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\data\graphics\icecream.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\icecream.png</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\4b977b8c585fc7bee2ec2e2b4318ec08\icetip.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating data/graphics/icetip.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -E copy H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/data/graphics/icetip.png H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/data/graphics/icetip.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/4b977b8c585fc7bee2ec2e2b4318ec08/icetip.png.rule;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\data\graphics\icetip.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\icetip.png</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\4b977b8c585fc7bee2ec2e2b4318ec08\orange.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating data/graphics/orange.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -E copy H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/data/graphics/orange.png H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/data/graphics/orange.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/4b977b8c585fc7bee2ec2e2b4318ec08/orange.png.rule;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\data\graphics\orange.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\orange.png</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\4b977b8c585fc7bee2ec2e2b4318ec08\skatefast.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating data/graphics/skatefast.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -E copy H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/data/graphics/skatefast.png H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/data/graphics/skatefast.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/4b977b8c585fc7bee2ec2e2b4318ec08/skatefast.png.rule;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\data\graphics\skatefast.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\skatefast.png</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\4b977b8c585fc7bee2ec2e2b4318ec08\skatemed.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating data/graphics/skatemed.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -E copy H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/data/graphics/skatemed.png H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/data/graphics/skatemed.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/4b977b8c585fc7bee2ec2e2b4318ec08/skatemed.png.rule;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\data\graphics\skatemed.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\skatemed.png</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\4b977b8c585fc7bee2ec2e2b4318ec08\skater1.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating data/graphics/skater1.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -E copy H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/data/graphics/skater1.png H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/data/graphics/skater1.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/4b977b8c585fc7bee2ec2e2b4318ec08/skater1.png.rule;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\data\graphics\skater1.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\skater1.png</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\4b977b8c585fc7bee2ec2e2b4318ec08\skater2.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating data/graphics/skater2.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -E copy H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/data/graphics/skater2.png H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/data/graphics/skater2.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/4b977b8c585fc7bee2ec2e2b4318ec08/skater2.png.rule;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\data\graphics\skater2.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\skater2.png</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\4b977b8c585fc7bee2ec2e2b4318ec08\skater3.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating data/graphics/skater3.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -E copy H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/data/graphics/skater3.png H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/data/graphics/skater3.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/4b977b8c585fc7bee2ec2e2b4318ec08/skater3.png.rule;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\data\graphics\skater3.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\skater3.png</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\4b977b8c585fc7bee2ec2e2b4318ec08\skater4.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating data/graphics/skater4.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -E copy H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/data/graphics/skater4.png H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/data/graphics/skater4.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/4b977b8c585fc7bee2ec2e2b4318ec08/skater4.png.rule;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\data\graphics\skater4.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\skater4.png</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\4b977b8c585fc7bee2ec2e2b4318ec08\skateslow.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating data/graphics/skateslow.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -E copy H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/data/graphics/skateslow.png H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/data/graphics/skateslow.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/4b977b8c585fc7bee2ec2e2b4318ec08/skateslow.png.rule;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\data\graphics\skateslow.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\skateslow.png</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\4b977b8c585fc7bee2ec2e2b4318ec08\soil.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating data/graphics/soil.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -E copy H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/data/graphics/soil.png H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/data/graphics/soil.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/4b977b8c585fc7bee2ec2e2b4318ec08/soil.png.rule;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\data\graphics\soil.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\soil.png</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\4b977b8c585fc7bee2ec2e2b4318ec08\sweet.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating data/graphics/sweet.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -E copy H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/data/graphics/sweet.png H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/data/graphics/sweet.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/4b977b8c585fc7bee2ec2e2b4318ec08/sweet.png.rule;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\data\graphics\sweet.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\sweet.png</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\4b977b8c585fc7bee2ec2e2b4318ec08\water.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating data/graphics/water.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -E copy H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/data/graphics/water.png H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/data/graphics/water.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/4b977b8c585fc7bee2ec2e2b4318ec08/water.png.rule;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\data\graphics\water.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\water.png</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\ef3806ebc8c1eb669b6fd5762c1a975e\level.txt.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating data/level.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -E copy H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/data/level.txt H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/data/level.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/ef3806ebc8c1eb669b6fd5762c1a975e/level.txt.rule;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\data\level.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\level.txt</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\e6f932cb84fccd547bfdffcda5a8f359\back.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating data/menu/back.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -E copy H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/data/menu/back.png H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/data/menu/back.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/e6f932cb84fccd547bfdffcda5a8f359/back.png.rule;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\data\menu\back.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\menu\back.png</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\e6f932cb84fccd547bfdffcda5a8f359\button.ogg.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating data/menu/button.ogg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -E copy H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/data/menu/button.ogg H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/data/menu/button.ogg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/e6f932cb84fccd547bfdffcda5a8f359/button.ogg.rule;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\data\menu\button.ogg;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\menu\button.ogg</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\e6f932cb84fccd547bfdffcda5a8f359\cancunsmall.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating data/menu/cancunsmall.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -E copy H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/data/menu/cancunsmall.png H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/data/menu/cancunsmall.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/e6f932cb84fccd547bfdffcda5a8f359/cancunsmall.png.rule;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\data\menu\cancunsmall.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\menu\cancunsmall.png</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\e6f932cb84fccd547bfdffcda5a8f359\endoflevel.ogg.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating data/menu/endoflevel.ogg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -E copy H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/data/menu/endoflevel.ogg H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/data/menu/endoflevel.ogg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/e6f932cb84fccd547bfdffcda5a8f359/endoflevel.ogg.rule;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\data\menu\endoflevel.ogg;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\menu\endoflevel.ogg</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\e6f932cb84fccd547bfdffcda5a8f359\intro_music.ogg.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating data/menu/intro_music.ogg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -E copy H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/data/menu/intro_music.ogg H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/data/menu/intro_music.ogg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/e6f932cb84fccd547bfdffcda5a8f359/intro_music.ogg.rule;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\data\menu\intro_music.ogg;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\menu\intro_music.ogg</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\e6f932cb84fccd547bfdffcda5a8f359\logofont.png.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating data/menu/logofont.png</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -E copy H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/data/menu/logofont.png H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/data/menu/logofont.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/e6f932cb84fccd547bfdffcda5a8f359/logofont.png.rule;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\data\menu\logofont.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\menu\logofont.png</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\e6f932cb84fccd547bfdffcda5a8f359\menu_music.ogg.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating data/menu/menu_music.ogg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -E copy H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/data/menu/menu_music.ogg H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/data/menu/menu_music.ogg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/e6f932cb84fccd547bfdffcda5a8f359/menu_music.ogg.rule;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\data\menu\menu_music.ogg;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\menu\menu_music.ogg</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\e6f932cb84fccd547bfdffcda5a8f359\skate2.ogg.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating data/menu/skate2.ogg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -E copy H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/data/menu/skate2.ogg H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/data/menu/skate2.ogg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/e6f932cb84fccd547bfdffcda5a8f359/skate2.ogg.rule;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\data\menu\skate2.ogg;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\menu\skate2.ogg</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\e6f932cb84fccd547bfdffcda5a8f359\welcome.ogg.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating data/menu/welcome.ogg</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -E copy H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/data/menu/welcome.ogg H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/data/menu/welcome.ogg
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/e6f932cb84fccd547bfdffcda5a8f359/welcome.ogg.rule;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\data\menu\welcome.ogg;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\menu\welcome.ogg</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\ef3806ebc8c1eb669b6fd5762c1a975e\readme.txt.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating data/readme.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -E copy H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/data/readme.txt H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/data/readme.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/ef3806ebc8c1eb669b6fd5762c1a975e/readme.txt.rule;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\data\readme.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\readme.txt</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\ef3806ebc8c1eb669b6fd5762c1a975e\thanks.txt.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating data/thanks.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+H:\cmake-3.5.1-win32-x86\bin\cmake.exe -E copy H:/C++/SpaceShooterIII/lib/allegro5/demos/skater/data/thanks.txt H:/C++/SpaceShooterIII/lib/deps/allegro5/demos/skater/data/thanks.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/ef3806ebc8c1eb669b6fd5762c1a975e/thanks.txt.rule;H:\C++\SpaceShooterIII\lib\allegro5\demos\skater\data\thanks.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\thanks.txt</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\887b1fa6cb5e0f9cf4b0ace1765fda91\copy_skater_data.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/887b1fa6cb5e0f9cf4b0ace1765fda91/copy_skater_data.rule;H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\audio\ding.ogg;H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\audio\dooropen.ogg;H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\audio\pop.ogg;H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\audio\skating.ogg;H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\audio\wave.ogg;H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\bananas.png;H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\cherries.png;H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\cloud.png;H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\dooropen.png;H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\doorshut.png;H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\exitsign.png;H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\grass.png;H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\ice.png;H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\icecream.png;H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\icetip.png;H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\orange.png;H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\skatefast.png;H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\skatemed.png;H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\skater1.png;H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\skater2.png;H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\skater3.png;H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\skater4.png;H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\skateslow.png;H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\soil.png;H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\sweet.png;H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\graphics\water.png;H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\level.txt;H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\menu\back.png;H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\menu\button.ogg;H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\menu\cancunsmall.png;H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\menu\endoflevel.ogg;H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\menu\intro_music.ogg;H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\menu\logofont.png;H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\menu\menu_music.ogg;H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\menu\skate2.ogg;H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\menu\welcome.ogg;H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\readme.txt;H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\data\thanks.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">H:\C++\SpaceShooterIII\lib\deps\allegro5\demos\skater\CMakeFiles\copy_skater_data</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CMakeFiles\copy_skater_data" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="H:/C++/SpaceShooterIII/lib/deps/allegro5/ZERO_CHECK.vcxproj">
+      <Project>80EC59D3-55E3-30A2-8114-2D071F73F7B3</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
