@@ -47,7 +47,7 @@ int main(void) {
     bool render = true, executing = true;
 
     al_set_display_flag(display, ALLEGRO_FULLSCREEN_WINDOW, true);
-    al_set_display_flag(display, ALLEGRO_PROGRAMMABLE_PIPELINE, true);
+    //al_set_display_flag(display, ALLEGRO_PROGRAMMABLE_PIPELINE, true);
 
     if (!display) {
         printf("Failed to create display!\n");
