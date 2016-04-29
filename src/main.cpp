@@ -66,13 +66,13 @@ int main(void) {
 //printf("def vert shader code :\n%s\n", al_get_default_shader_source(ALLEGRO_SHADER_AUTO, ALLEGRO_VERTEX_SHADER));
 //printf("def pixl shader code :\n%s\n", al_get_default_shader_source(ALLEGRO_SHADER_AUTO, ALLEGRO_PIXEL_SHADER));
 
-    ALLEGRO_SHADER *shader = al_create_shader(ALLEGRO_SHADER_AUTO);
-    if (!shader) printf("%s\n", al_get_shader_log(shader));
-    if (!al_attach_shader_source_file(shader, ALLEGRO_PIXEL_SHADER, "res/gfx/Shaders/space.glsl"))
-        printf("%s\n", al_get_shader_log(shader));
+//    ALLEGRO_SHADER *shader = al_create_shader(ALLEGRO_SHADER_AUTO);
+//    if (!shader) printf("%s\n", al_get_shader_log(shader));
+//    if (!al_attach_shader_source_file(shader, ALLEGRO_PIXEL_SHADER, "res/gfx/Shaders/space.glsl"))
+//        printf("%s\n", al_get_shader_log(shader));
 
-    if (!al_build_shader(shader))
-        printf("%s\n", al_get_shader_log(shader));
+//    if (!al_build_shader(shader))
+//        printf("%s\n", al_get_shader_log(shader));
 
 //////////////
 
@@ -80,11 +80,11 @@ int main(void) {
         ALLEGRO_EVENT event;
         al_wait_for_event(evqueue, &event);
 
-        al_set_shader_float("iGlobalTime", al_get_timer_count(fps_timer));
-        ALLEGRO_MOUSE_STATE ret_state;
-        al_get_mouse_state(&ret_state);
-        float mouse_info[4] = {ret_state.x, ret_state.y, 0, 0};
-        al_set_shader_float_vector("iMouse", 1, mouse_info, 4);
+//        al_set_shader_float("iGlobalTime", al_get_timer_count(fps_timer));
+//        ALLEGRO_MOUSE_STATE ret_state;
+//        al_get_mouse_state(&ret_state);
+//        float mouse_info[4] = {ret_state.x, ret_state.y, 0, 0};
+//        al_set_shader_float_vector("iMouse", 1, mouse_info, 4);
 
 
         switch (event.type) {
@@ -115,7 +115,7 @@ int main(void) {
     al_unregister_event_source(evqueue, al_get_display_event_source(display));
     al_unregister_event_source(evqueue, al_get_timer_event_source(fps_timer));
 
-    al_destroy_shader(shader);
+    //al_destroy_shader(shader);
     al_destroy_display(display);
     al_destroy_event_queue(evqueue);
     al_destroy_timer(fps_timer);

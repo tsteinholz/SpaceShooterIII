@@ -1,0 +1,126 @@
+﻿Build started 4/14/2016 8:37:29 AM.
+     1>Project "H:\C++\SpaceShooterIII\lib\deps\openal-soft\OpenAL32.vcxproj" on node 5 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "OpenAL32.dir\Release\OpenAL32.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule H:/C++/SpaceShooterIII/lib/openal-soft/CMakeLists.txt
+         CMake does not need to re-run because H:\C++\SpaceShooterIII\lib\deps\openal-soft\CMakeFiles\generate.stamp is up-to-date.
+       MakeDirsForCl:
+         Creating directory "H:\C++\SpaceShooterIII\lib\deps\openal-soft\OpenAL32.dir\Release\Alc\effects".
+         Creating directory "H:\C++\SpaceShooterIII\lib\deps\openal-soft\OpenAL32.dir\Release\Alc\backends".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"H:\C++\SpaceShooterIII\lib\openal-soft\include" /I"H:\C++\SpaceShooterIII\lib\deps\openal-soft" /I"H:\C++\SpaceShooterIII\lib\openal-soft\OpenAL32\Include" /I"H:\C++\SpaceShooterIII\lib\openal-soft\Alc" /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32 /D _WIN32_WINNT=0x0502 /D AL_BUILD_LIBRARY /D AL_ALEXT_PROTOTYPES /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D inline=__inline /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_DEPRECATE /D strcasecmp=_stricmp /D strncasecmp=_strnicmp /D snprintf=_snprintf /D isfinite=_finite /D isnan=_isnan /D "CMAKE_INTDIR=\"Release\"" /D OpenAL32_EXPORTS /D _WINDLL /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"OpenAL32.dir\Release\\" /Fd"OpenAL32.dir\Release\vc100.pdb" /Gd /TC /wd4098 /analyze- /errorReport:prompt "..\..\openal-soft\OpenAL32\alAuxEffectSlot.c" "..\..\openal-soft\OpenAL32\alBuffer.c" "..\..\openal-soft\OpenAL32\alEffect.c" "..\..\openal-soft\OpenAL32\alError.c" "..\..\openal-soft\OpenAL32\alExtension.c" "..\..\openal-soft\OpenAL32\alFilter.c" "..\..\openal-soft\OpenAL32\alListener.c" "..\..\openal-soft\OpenAL32\alSource.c" "..\..\openal-soft\OpenAL32\alState.c" "..\..\openal-soft\OpenAL32\alThunk.c" "..\..\openal-soft\OpenAL32\sample_cvt.c" "..\..\openal-soft\Alc\ALc.c" "..\..\openal-soft\Alc\ALu.c" "..\..\openal-soft\Alc\alcConfig.c" "..\..\openal-soft\Alc\alcRing.c" "..\..\openal-soft\Alc\bs2b.c" "..\..\openal-soft\Alc\effects\autowah.c" "..\..\openal-soft\Alc\effects\chorus.c" "..\..\openal-soft\Alc\effects\compressor.c" "..\..\openal-soft\Alc\effects\dedicated.c" "..\..\openal-soft\Alc\effects\distortion.c" "..\..\openal-soft\Alc\effects\echo.c" "..\..\openal-soft\Alc\effects\equalizer.c" "..\..\openal-soft\Alc\effects\flanger.c" "..\..\openal-soft\Alc\effects\modulator.c" "..\..\openal-soft\Alc\effects\reverb.c" "..\..\openal-soft\Alc\helpers.c" "..\..\openal-soft\Alc\bsinc.c" "..\..\openal-soft\Alc\hrtf.c" "..\..\openal-soft\Alc\uhjfilter.c" "..\..\openal-soft\Alc\ambdec.c" "..\..\openal-soft\Alc\bformatdec.c" "..\..\openal-soft\Alc\panning.c" "..\..\openal-soft\Alc\mixer.c" "..\..\openal-soft\Alc\mixer_c.c" "..\..\openal-soft\Alc\mixer_sse.c" "..\..\openal-soft\Alc\mixer_sse2.c" "..\..\openal-soft\Alc\mixer_sse3.c" "..\..\openal-soft\Alc\mixer_sse41.c" "..\..\openal-soft\Alc\backends\base.c" "..\..\openal-soft\Alc\backends\loopback.c" "..\..\openal-soft\Alc\backends\winmm.c" "..\..\openal-soft\Alc\backends\mmdevapi.c" "..\..\openal-soft\Alc\backends\wave.c"
+         alAuxEffectSlot.c
+         alBuffer.c
+         alEffect.c
+         alError.c
+         alExtension.c
+         alFilter.c
+         alListener.c
+         alSource.c
+         alState.c
+         alThunk.c
+         sample_cvt.c
+         ALc.c
+         ALu.c
+         alcConfig.c
+         alcRing.c
+         bs2b.c
+         autowah.c
+         chorus.c
+         compressor.c
+         dedicated.c
+         Generating Code...
+         Compiling...
+         distortion.c
+         echo.c
+         equalizer.c
+         flanger.c
+         modulator.c
+         reverb.c
+     1>..\..\openal-soft\Alc\effects\reverb.c(255): warning C4005: 'modff' : macro redefinition
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h(316) : see previous definition of 'modff'
+         helpers.c
+         bsinc.c
+         hrtf.c
+         uhjfilter.c
+         ambdec.c
+         bformatdec.c
+         panning.c
+         mixer.c
+         mixer_c.c
+         mixer_sse.c
+         mixer_sse2.c
+         mixer_sse3.c
+         mixer_sse41.c
+         base.c
+         Generating Code...
+         Compiling...
+         loopback.c
+         winmm.c
+         mmdevapi.c
+         wave.c
+         Generating Code...
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"H:\C++\SpaceShooterIII\lib\openal-soft\include" /I"H:\C++\SpaceShooterIII\lib\deps\openal-soft" /I"H:\C++\SpaceShooterIII\lib\openal-soft\OpenAL32\Include" /I"H:\C++\SpaceShooterIII\lib\openal-soft\Alc" /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32 /D _WIN32_WINNT=0x0502 /D AL_BUILD_LIBRARY /D AL_ALEXT_PROTOTYPES /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D inline=__inline /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_DEPRECATE /D strcasecmp=_stricmp /D strncasecmp=_strnicmp /D snprintf=_snprintf /D isfinite=_finite /D isnan=_isnan /D "CMAKE_INTDIR=\"Release\"" /D OpenAL32_EXPORTS /D _WINDLL /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"OpenAL32.dir\Release\/Alc/effects/null.c.obj" /Fd"OpenAL32.dir\Release\vc100.pdb" /Gd /TC /wd4098 /analyze- /errorReport:prompt "..\..\openal-soft\Alc\effects\null.c"
+         null.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"H:\C++\SpaceShooterIII\lib\openal-soft\include" /I"H:\C++\SpaceShooterIII\lib\deps\openal-soft" /I"H:\C++\SpaceShooterIII\lib\openal-soft\OpenAL32\Include" /I"H:\C++\SpaceShooterIII\lib\openal-soft\Alc" /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32 /D _WIN32_WINNT=0x0502 /D AL_BUILD_LIBRARY /D AL_ALEXT_PROTOTYPES /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D inline=__inline /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_DEPRECATE /D strcasecmp=_stricmp /D strncasecmp=_strnicmp /D snprintf=_snprintf /D isfinite=_finite /D isnan=_isnan /D "CMAKE_INTDIR=\"Release\"" /D OpenAL32_EXPORTS /D _WINDLL /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"OpenAL32.dir\Release\/Alc/backends/null.c.obj" /Fd"OpenAL32.dir\Release\vc100.pdb" /Gd /TC /wd4098 /analyze- /errorReport:prompt "..\..\openal-soft\Alc\backends\null.c"
+         null.c
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\C++\SpaceShooterIII\lib\deps\openal-soft\Release\OpenAL32.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib Release\common.lib winmm.lib /MANIFEST /ManifestFile:"OpenAL32.dir\Release\OpenAL32.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"H:/C++/SpaceShooterIII/lib/deps/openal-soft/Release/OpenAL32.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:/C++/SpaceShooterIII/lib/deps/openal-soft/Release/OpenAL32.lib" /MACHINE:X86 /DLL OpenAL32.dir\Release\alAuxEffectSlot.obj
+         OpenAL32.dir\Release\alBuffer.obj
+         OpenAL32.dir\Release\alEffect.obj
+         OpenAL32.dir\Release\alError.obj
+         OpenAL32.dir\Release\alExtension.obj
+         OpenAL32.dir\Release\alFilter.obj
+         OpenAL32.dir\Release\alListener.obj
+         OpenAL32.dir\Release\alSource.obj
+         OpenAL32.dir\Release\alState.obj
+         OpenAL32.dir\Release\alThunk.obj
+         OpenAL32.dir\Release\sample_cvt.obj
+         OpenAL32.dir\Release\ALc.obj
+         OpenAL32.dir\Release\ALu.obj
+         OpenAL32.dir\Release\alcConfig.obj
+         OpenAL32.dir\Release\alcRing.obj
+         OpenAL32.dir\Release\bs2b.obj
+         OpenAL32.dir\Release\autowah.obj
+         OpenAL32.dir\Release\chorus.obj
+         OpenAL32.dir\Release\compressor.obj
+         OpenAL32.dir\Release\dedicated.obj
+         OpenAL32.dir\Release\distortion.obj
+         OpenAL32.dir\Release\echo.obj
+         OpenAL32.dir\Release\equalizer.obj
+         OpenAL32.dir\Release\flanger.obj
+         OpenAL32.dir\Release\modulator.obj
+         OpenAL32.dir\Release\reverb.obj
+         OpenAL32.dir\Release\helpers.obj
+         OpenAL32.dir\Release\bsinc.obj
+         OpenAL32.dir\Release\hrtf.obj
+         OpenAL32.dir\Release\uhjfilter.obj
+         OpenAL32.dir\Release\ambdec.obj
+         OpenAL32.dir\Release\bformatdec.obj
+         OpenAL32.dir\Release\panning.obj
+         OpenAL32.dir\Release\mixer.obj
+         OpenAL32.dir\Release\mixer_c.obj
+         OpenAL32.dir\Release\mixer_sse.obj
+         OpenAL32.dir\Release\mixer_sse2.obj
+         OpenAL32.dir\Release\mixer_sse3.obj
+         OpenAL32.dir\Release\mixer_sse41.obj
+         OpenAL32.dir\Release\base.obj
+         OpenAL32.dir\Release\loopback.obj
+         OpenAL32.dir\Release\winmm.obj
+         OpenAL32.dir\Release\mmdevapi.obj
+         OpenAL32.dir\Release\wave.obj
+         OpenAL32.dir\Release\/Alc/effects/null.c.obj
+         OpenAL32.dir\Release\/Alc/backends/null.c.obj  /machine:X86 
+            Creating library H:/C++/SpaceShooterIII/lib/deps/openal-soft/Release/OpenAL32.lib and object H:/C++/SpaceShooterIII/lib/deps/openal-soft/Release/OpenAL32.exp
+         OpenAL32.vcxproj -> H:\C++\SpaceShooterIII\lib\deps\openal-soft\Release\OpenAL32.dll
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"H:\C++\SpaceShooterIII\lib\deps\openal-soft\Release\OpenAL32.dll;#2" /manifest OpenAL32.dir\Release\OpenAL32.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "OpenAL32.dir\Release\OpenAL32.unsuccessfulbuild".
+         Touching "OpenAL32.dir\Release\OpenAL32.lastbuildstate".
+     1>Done Building Project "H:\C++\SpaceShooterIII\lib\deps\openal-soft\OpenAL32.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:29.98

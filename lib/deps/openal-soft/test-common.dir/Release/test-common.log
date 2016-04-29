@@ -1,0 +1,21 @@
+﻿Build started 4/14/2016 8:37:26 AM.
+     1>Project "H:\C++\SpaceShooterIII\lib\deps\openal-soft\test-common.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "test-common.dir\Release\test-common.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule H:/C++/SpaceShooterIII/lib/openal-soft/CMakeLists.txt
+         CMake does not need to re-run because H:\C++\SpaceShooterIII\lib\deps\openal-soft\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"H:\C++\SpaceShooterIII\lib\openal-soft\include" /I"H:\C++\SpaceShooterIII\lib\deps\openal-soft" /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32 /D _WIN32_WINNT=0x0502 /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D inline=__inline /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_DEPRECATE /D strcasecmp=_stricmp /D strncasecmp=_strnicmp /D snprintf=_snprintf /D isfinite=_finite /D isnan=_isnan /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"test-common.dir\Release\\" /Fd"test-common.dir\Release\vc100.pdb" /Gd /TC /wd4098 /analyze- /errorReport:prompt "..\..\openal-soft\examples\common\alhelpers.c"
+         alhelpers.c
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"H:\C++\SpaceShooterIII\lib\deps\openal-soft\Release\test-common.lib" /NOLOGO "test-common.dir\Release\alhelpers.obj"  /machine:X86 
+         test-common.vcxproj -> H:\C++\SpaceShooterIII\lib\deps\openal-soft\Release\test-common.lib
+       FinalizeBuildStatus:
+         Deleting file "test-common.dir\Release\test-common.unsuccessfulbuild".
+         Touching "test-common.dir\Release\test-common.lastbuildstate".
+     1>Done Building Project "H:\C++\SpaceShooterIII\lib\deps\openal-soft\test-common.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.12

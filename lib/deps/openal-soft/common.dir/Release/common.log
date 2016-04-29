@@ -1,0 +1,31 @@
+﻿Build started 4/14/2016 8:37:25 AM.
+     1>Project "H:\C++\SpaceShooterIII\lib\deps\openal-soft\common.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "common.dir\Release\common.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule H:/C++/SpaceShooterIII/lib/openal-soft/CMakeLists.txt
+         CMake does not need to re-run because H:\C++\SpaceShooterIII\lib\deps\openal-soft\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"H:\C++\SpaceShooterIII\lib\openal-soft\include" /I"H:\C++\SpaceShooterIII\lib\deps\openal-soft" /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32 /D _WIN32_WINNT=0x0502 /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D inline=__inline /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_DEPRECATE /D strcasecmp=_stricmp /D strncasecmp=_strnicmp /D snprintf=_snprintf /D isfinite=_finite /D isnan=_isnan /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"common.dir\Release\\" /Fd"common.dir\Release\vc100.pdb" /Gd /TC /wd4098 /analyze- /errorReport:prompt "..\..\openal-soft\common\almalloc.c" "..\..\openal-soft\common\atomic.c" "..\..\openal-soft\common\rwlock.c" "..\..\openal-soft\common\threads.c" "..\..\openal-soft\common\uintmap.c"
+         almalloc.c
+         atomic.c
+         rwlock.c
+         threads.c
+     1>..\..\openal-soft\common\threads.c(383): warning C4244: '+=' : conversion from 'time_t' to 'DWORD', possible loss of data
+         uintmap.c
+         Generating Code...
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"H:\C++\SpaceShooterIII\lib\deps\openal-soft\Release\common.lib" /NOLOGO common.dir\Release\almalloc.obj
+         common.dir\Release\atomic.obj
+         common.dir\Release\rwlock.obj
+         common.dir\Release\threads.obj
+         common.dir\Release\uintmap.obj  /machine:X86 
+         common.vcxproj -> H:\C++\SpaceShooterIII\lib\deps\openal-soft\Release\common.lib
+       FinalizeBuildStatus:
+         Deleting file "common.dir\Release\common.unsuccessfulbuild".
+         Touching "common.dir\Release\common.lastbuildstate".
+     1>Done Building Project "H:\C++\SpaceShooterIII\lib\deps\openal-soft\common.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.94

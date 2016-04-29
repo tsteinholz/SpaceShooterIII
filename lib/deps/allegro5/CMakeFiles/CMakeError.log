@@ -1,0 +1,1290 @@
+Determining if the system is big endian passed with the following output:
+Change Dir: H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_d3329.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1055.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 4/20/2016 7:21:01 AM.
+Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_d3329.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_d3329.dir\Debug\".
+  Creating directory "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_d3329.dir\Debug\cmTC_d3329.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_d3329.dir\Debug\\" /Fd"cmTC_d3329.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue TestEndianess.c
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_d3329.dir\Debug\\" /Fd"cmTC_d3329.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue TestEndianess.c
+  
+  TestEndianess.c
+ManifestResourceCompile:
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_d3329.dir\Debug\cmTC_d3329.exe.embed.manifest.res" cmTC_d3329.dir\Debug\cmTC_d3329_manifest.rc 
+Link:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\cmTC_d3329.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_d3329.dir\Debug\cmTC_d3329.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp/Debug/cmTC_d3329.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp/Debug/cmTC_d3329.lib" /MACHINE:X86 cmTC_d3329.dir\Debug\cmTC_d3329.exe.embed.manifest.res
+  cmTC_d3329.dir\Debug\TestEndianess.obj  /machine:X86 
+Manifest:
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTC_d3329.dir\Debug\cmTC_d3329.exe.embed.manifest" /manifest cmTC_d3329.dir\Debug\cmTC_d3329.exe.intermediate.manifest
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_d3329.dir\Debug\cmTC_d3329.exe.embed.manifest.res" cmTC_d3329.dir\Debug\cmTC_d3329_manifest.rc 
+LinkEmbedManifest:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\cmTC_d3329.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_d3329.dir\Debug\cmTC_d3329.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp/Debug/cmTC_d3329.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp/Debug/cmTC_d3329.lib" /MACHINE:X86 cmTC_d3329.dir\Debug\cmTC_d3329.exe.embed.manifest.res
+  cmTC_d3329.dir\Debug\TestEndianess.obj  /machine:X86 
+  cmTC_d3329.vcxproj -> H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\cmTC_d3329.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_d3329.dir\Debug\cmTC_d3329.unsuccessfulbuild".
+  Touching "cmTC_d3329.dir\Debug\cmTC_d3329.lastbuildstate".
+Done Building Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_d3329.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.82
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if files dirent.h exist failed with the following output:
+Change Dir: H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_e8adc.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1055.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 4/20/2016 7:21:06 AM.
+Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_e8adc.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_e8adc.dir\Debug\".
+  Creating directory "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_e8adc.dir\Debug\cmTC_e8adc.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_e8adc.dir\Debug\\" /Fd"cmTC_e8adc.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_e8adc.dir\Debug\\" /Fd"cmTC_e8adc.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'dirent.h': No such file or directory [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_e8adc.vcxproj]
+Done Building Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_e8adc.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_e8adc.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'dirent.h': No such file or directory [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_e8adc.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.40
+
+Source:
+/* */
+#include <dirent.h>
+
+
+int main(void){return 0;}
+
+Determining if files inttypes.h exist failed with the following output:
+Change Dir: H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_b8d56.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1055.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 4/20/2016 7:21:08 AM.
+Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_b8d56.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_b8d56.dir\Debug\".
+  Creating directory "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_b8d56.dir\Debug\cmTC_b8d56.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_b8d56.dir\Debug\\" /Fd"cmTC_b8d56.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_b8d56.dir\Debug\\" /Fd"cmTC_b8d56.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'inttypes.h': No such file or directory [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_b8d56.vcxproj]
+Done Building Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_b8d56.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_b8d56.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'inttypes.h': No such file or directory [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_b8d56.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.34
+
+Source:
+/* */
+#include <inttypes.h>
+
+
+int main(void){return 0;}
+
+Determining if files linux/input.h exist failed with the following output:
+Change Dir: H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_44e26.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1055.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 4/20/2016 7:21:10 AM.
+Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_44e26.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_44e26.dir\Debug\".
+  Creating directory "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_44e26.dir\Debug\cmTC_44e26.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_44e26.dir\Debug\\" /Fd"cmTC_44e26.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_44e26.dir\Debug\\" /Fd"cmTC_44e26.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'linux/input.h': No such file or directory [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_44e26.vcxproj]
+Done Building Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_44e26.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_44e26.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'linux/input.h': No such file or directory [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_44e26.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.34
+
+Source:
+/* */
+#include <linux/input.h>
+
+
+int main(void){return 0;}
+
+Determining if files stdbool.h exist failed with the following output:
+Change Dir: H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_d391a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1055.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 4/20/2016 7:21:12 AM.
+Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_d391a.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_d391a.dir\Debug\".
+  Creating directory "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_d391a.dir\Debug\cmTC_d391a.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_d391a.dir\Debug\\" /Fd"cmTC_d391a.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_d391a.dir\Debug\\" /Fd"cmTC_d391a.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'stdbool.h': No such file or directory [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_d391a.vcxproj]
+Done Building Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_d391a.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_d391a.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'stdbool.h': No such file or directory [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_d391a.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.31
+
+Source:
+/* */
+#include <stdbool.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/io.h exist failed with the following output:
+Change Dir: H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_0a698.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1055.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 4/20/2016 7:21:18 AM.
+Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_0a698.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_0a698.dir\Debug\".
+  Creating directory "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_0a698.dir\Debug\cmTC_0a698.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_0a698.dir\Debug\\" /Fd"cmTC_0a698.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_0a698.dir\Debug\\" /Fd"cmTC_0a698.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'sys/io.h': No such file or directory [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_0a698.vcxproj]
+Done Building Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_0a698.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_0a698.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'sys/io.h': No such file or directory [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_0a698.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.32
+
+Source:
+/* */
+#include <sys/io.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/time.h exist failed with the following output:
+Change Dir: H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_a2a8e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1055.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 4/20/2016 7:21:24 AM.
+Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_a2a8e.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_a2a8e.dir\Debug\".
+  Creating directory "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_a2a8e.dir\Debug\cmTC_a2a8e.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_a2a8e.dir\Debug\\" /Fd"cmTC_a2a8e.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_a2a8e.dir\Debug\\" /Fd"cmTC_a2a8e.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_a2a8e.vcxproj]
+Done Building Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_a2a8e.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_a2a8e.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_a2a8e.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.30
+
+Source:
+/* */
+#include <sys/time.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/utsname.h exist failed with the following output:
+Change Dir: H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_dff4a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1055.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 4/20/2016 7:21:31 AM.
+Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_dff4a.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_dff4a.dir\Debug\".
+  Creating directory "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_dff4a.dir\Debug\cmTC_dff4a.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_dff4a.dir\Debug\\" /Fd"cmTC_dff4a.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_dff4a.dir\Debug\\" /Fd"cmTC_dff4a.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'sys/utsname.h': No such file or directory [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_dff4a.vcxproj]
+Done Building Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_dff4a.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_dff4a.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'sys/utsname.h': No such file or directory [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_dff4a.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.41
+
+Source:
+/* */
+#include <sys/utsname.h>
+
+
+int main(void){return 0;}
+
+Determining if files soundcard.h exist failed with the following output:
+Change Dir: H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_b8f94.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1055.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 4/20/2016 7:21:37 AM.
+Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_b8f94.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_b8f94.dir\Debug\".
+  Creating directory "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_b8f94.dir\Debug\cmTC_b8f94.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_b8f94.dir\Debug\\" /Fd"cmTC_b8f94.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_b8f94.dir\Debug\\" /Fd"cmTC_b8f94.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'soundcard.h': No such file or directory [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_b8f94.vcxproj]
+Done Building Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_b8f94.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_b8f94.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'soundcard.h': No such file or directory [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_b8f94.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.30
+
+Source:
+/* */
+#include <soundcard.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/soundcard.h exist failed with the following output:
+Change Dir: H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_396f0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1055.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 4/20/2016 7:21:39 AM.
+Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_396f0.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_396f0.dir\Debug\".
+  Creating directory "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_396f0.dir\Debug\cmTC_396f0.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_396f0.dir\Debug\\" /Fd"cmTC_396f0.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_396f0.dir\Debug\\" /Fd"cmTC_396f0.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'sys/soundcard.h': No such file or directory [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_396f0.vcxproj]
+Done Building Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_396f0.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_396f0.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'sys/soundcard.h': No such file or directory [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_396f0.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.47
+
+Source:
+/* */
+#include <sys/soundcard.h>
+
+
+int main(void){return 0;}
+
+Determining if files machine/soundcard.h exist failed with the following output:
+Change Dir: H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_7e17f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1055.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 4/20/2016 7:21:41 AM.
+Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_7e17f.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_7e17f.dir\Debug\".
+  Creating directory "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_7e17f.dir\Debug\cmTC_7e17f.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_7e17f.dir\Debug\\" /Fd"cmTC_7e17f.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_7e17f.dir\Debug\\" /Fd"cmTC_7e17f.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'machine/soundcard.h': No such file or directory [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_7e17f.vcxproj]
+Done Building Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_7e17f.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_7e17f.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'machine/soundcard.h': No such file or directory [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_7e17f.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.37
+
+Source:
+/* */
+#include <machine/soundcard.h>
+
+
+int main(void){return 0;}
+
+Determining if files linux/soundcard.h exist failed with the following output:
+Change Dir: H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_e3155.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1055.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 4/20/2016 7:21:43 AM.
+Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_e3155.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_e3155.dir\Debug\".
+  Creating directory "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_e3155.dir\Debug\cmTC_e3155.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_e3155.dir\Debug\\" /Fd"cmTC_e3155.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_e3155.dir\Debug\\" /Fd"cmTC_e3155.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'linux/soundcard.h': No such file or directory [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_e3155.vcxproj]
+Done Building Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_e3155.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_e3155.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'linux/soundcard.h': No such file or directory [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_e3155.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.31
+
+Source:
+/* */
+#include <linux/soundcard.h>
+
+
+int main(void){return 0;}
+
+Determining if files libkern/OSAtomic.h exist failed with the following output:
+Change Dir: H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_df1e4.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1055.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 4/20/2016 7:21:44 AM.
+Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_df1e4.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_df1e4.dir\Debug\".
+  Creating directory "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_df1e4.dir\Debug\cmTC_df1e4.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_df1e4.dir\Debug\\" /Fd"cmTC_df1e4.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_df1e4.dir\Debug\\" /Fd"cmTC_df1e4.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'libkern/OSAtomic.h': No such file or directory [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_df1e4.vcxproj]
+Done Building Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_df1e4.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_df1e4.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'libkern/OSAtomic.h': No such file or directory [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_df1e4.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.30
+
+Source:
+/* */
+#include <libkern/OSAtomic.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/inotify.h exist failed with the following output:
+Change Dir: H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_ba3b6.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1055.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 4/20/2016 7:21:46 AM.
+Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_ba3b6.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_ba3b6.dir\Debug\".
+  Creating directory "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_ba3b6.dir\Debug\cmTC_ba3b6.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_ba3b6.dir\Debug\\" /Fd"cmTC_ba3b6.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_ba3b6.dir\Debug\\" /Fd"cmTC_ba3b6.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'sys/inotify.h': No such file or directory [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_ba3b6.vcxproj]
+Done Building Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_ba3b6.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_ba3b6.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'sys/inotify.h': No such file or directory [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_ba3b6.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.34
+
+Source:
+/* */
+#include <sys/inotify.h>
+
+
+int main(void){return 0;}
+
+Determining if the function getexecname exists failed with the following output:
+Change Dir: H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_f616c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1055.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 4/20/2016 7:21:53 AM.
+Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_f616c.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_f616c.dir\Debug\".
+  Creating directory "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_f616c.dir\Debug\cmTC_f616c.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D CHECK_FUNCTION_EXISTS=getexecname /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_f616c.dir\Debug\\" /Fd"cmTC_f616c.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue "..\..\..\..\..\..\..\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckFunctionExists.c"
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D CHECK_FUNCTION_EXISTS=getexecname /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_f616c.dir\Debug\\" /Fd"cmTC_f616c.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue "..\..\..\..\..\..\..\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+ManifestResourceCompile:
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_f616c.dir\Debug\cmTC_f616c.exe.embed.manifest.res" cmTC_f616c.dir\Debug\cmTC_f616c_manifest.rc 
+Link:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\cmTC_f616c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_f616c.dir\Debug\cmTC_f616c.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp/Debug/cmTC_f616c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp/Debug/cmTC_f616c.lib" /MACHINE:X86 cmTC_f616c.dir\Debug\cmTC_f616c.exe.embed.manifest.res
+  cmTC_f616c.dir\Debug\CheckFunctionExists.obj  /machine:X86 
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _getexecname referenced in function _main [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_f616c.vcxproj]
+H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\cmTC_f616c.exe : fatal error LNK1120: 1 unresolved externals [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_f616c.vcxproj]
+Done Building Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_f616c.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_f616c.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _getexecname referenced in function _main [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_f616c.vcxproj]
+  H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\cmTC_f616c.exe : fatal error LNK1120: 1 unresolved externals [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_f616c.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.30
+
+
+Determining if the function mkstemp exists failed with the following output:
+Change Dir: H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_1dd1c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1055.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 4/20/2016 7:21:56 AM.
+Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_1dd1c.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_1dd1c.dir\Debug\".
+  Creating directory "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_1dd1c.dir\Debug\cmTC_1dd1c.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D CHECK_FUNCTION_EXISTS=mkstemp /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_1dd1c.dir\Debug\\" /Fd"cmTC_1dd1c.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue "..\..\..\..\..\..\..\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckFunctionExists.c"
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D CHECK_FUNCTION_EXISTS=mkstemp /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_1dd1c.dir\Debug\\" /Fd"cmTC_1dd1c.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue "..\..\..\..\..\..\..\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+ManifestResourceCompile:
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_1dd1c.dir\Debug\cmTC_1dd1c.exe.embed.manifest.res" cmTC_1dd1c.dir\Debug\cmTC_1dd1c_manifest.rc 
+Link:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\cmTC_1dd1c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_1dd1c.dir\Debug\cmTC_1dd1c.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp/Debug/cmTC_1dd1c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp/Debug/cmTC_1dd1c.lib" /MACHINE:X86 cmTC_1dd1c.dir\Debug\cmTC_1dd1c.exe.embed.manifest.res
+  cmTC_1dd1c.dir\Debug\CheckFunctionExists.obj  /machine:X86 
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _mkstemp referenced in function _main [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_1dd1c.vcxproj]
+H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\cmTC_1dd1c.exe : fatal error LNK1120: 1 unresolved externals [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_1dd1c.vcxproj]
+Done Building Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_1dd1c.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_1dd1c.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _mkstemp referenced in function _main [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_1dd1c.vcxproj]
+  H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\cmTC_1dd1c.exe : fatal error LNK1120: 1 unresolved externals [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_1dd1c.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.19
+
+
+Determining if the function mmap exists failed with the following output:
+Change Dir: H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_80418.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1055.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 4/20/2016 7:21:59 AM.
+Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_80418.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_80418.dir\Debug\".
+  Creating directory "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_80418.dir\Debug\cmTC_80418.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D CHECK_FUNCTION_EXISTS=mmap /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_80418.dir\Debug\\" /Fd"cmTC_80418.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue "..\..\..\..\..\..\..\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckFunctionExists.c"
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D CHECK_FUNCTION_EXISTS=mmap /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_80418.dir\Debug\\" /Fd"cmTC_80418.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue "..\..\..\..\..\..\..\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+ManifestResourceCompile:
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_80418.dir\Debug\cmTC_80418.exe.embed.manifest.res" cmTC_80418.dir\Debug\cmTC_80418_manifest.rc 
+Link:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\cmTC_80418.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_80418.dir\Debug\cmTC_80418.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp/Debug/cmTC_80418.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp/Debug/cmTC_80418.lib" /MACHINE:X86 cmTC_80418.dir\Debug\cmTC_80418.exe.embed.manifest.res
+  cmTC_80418.dir\Debug\CheckFunctionExists.obj  /machine:X86 
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _mmap referenced in function _main [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_80418.vcxproj]
+H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\cmTC_80418.exe : fatal error LNK1120: 1 unresolved externals [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_80418.vcxproj]
+Done Building Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_80418.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_80418.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _mmap referenced in function _main [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_80418.vcxproj]
+  H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\cmTC_80418.exe : fatal error LNK1120: 1 unresolved externals [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_80418.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.17
+
+
+Determining if the function mprotect exists failed with the following output:
+Change Dir: H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_73a9b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1055.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 4/20/2016 7:22:02 AM.
+Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_73a9b.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_73a9b.dir\Debug\".
+  Creating directory "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_73a9b.dir\Debug\cmTC_73a9b.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D CHECK_FUNCTION_EXISTS=mprotect /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_73a9b.dir\Debug\\" /Fd"cmTC_73a9b.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue "..\..\..\..\..\..\..\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckFunctionExists.c"
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D CHECK_FUNCTION_EXISTS=mprotect /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_73a9b.dir\Debug\\" /Fd"cmTC_73a9b.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue "..\..\..\..\..\..\..\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+ManifestResourceCompile:
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_73a9b.dir\Debug\cmTC_73a9b.exe.embed.manifest.res" cmTC_73a9b.dir\Debug\cmTC_73a9b_manifest.rc 
+Link:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\cmTC_73a9b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_73a9b.dir\Debug\cmTC_73a9b.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp/Debug/cmTC_73a9b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp/Debug/cmTC_73a9b.lib" /MACHINE:X86 cmTC_73a9b.dir\Debug\cmTC_73a9b.exe.embed.manifest.res
+  cmTC_73a9b.dir\Debug\CheckFunctionExists.obj  /machine:X86 
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _mprotect referenced in function _main [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_73a9b.vcxproj]
+H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\cmTC_73a9b.exe : fatal error LNK1120: 1 unresolved externals [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_73a9b.vcxproj]
+Done Building Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_73a9b.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_73a9b.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _mprotect referenced in function _main [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_73a9b.vcxproj]
+  H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\cmTC_73a9b.exe : fatal error LNK1120: 1 unresolved externals [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_73a9b.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.12
+
+
+Determining if the function sched_yield exists failed with the following output:
+Change Dir: H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_387ed.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1055.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 4/20/2016 7:22:05 AM.
+Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_387ed.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_387ed.dir\Debug\".
+  Creating directory "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_387ed.dir\Debug\cmTC_387ed.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D CHECK_FUNCTION_EXISTS=sched_yield /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_387ed.dir\Debug\\" /Fd"cmTC_387ed.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue "..\..\..\..\..\..\..\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckFunctionExists.c"
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D CHECK_FUNCTION_EXISTS=sched_yield /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_387ed.dir\Debug\\" /Fd"cmTC_387ed.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue "..\..\..\..\..\..\..\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+ManifestResourceCompile:
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_387ed.dir\Debug\cmTC_387ed.exe.embed.manifest.res" cmTC_387ed.dir\Debug\cmTC_387ed_manifest.rc 
+Link:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\cmTC_387ed.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_387ed.dir\Debug\cmTC_387ed.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp/Debug/cmTC_387ed.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp/Debug/cmTC_387ed.lib" /MACHINE:X86 cmTC_387ed.dir\Debug\cmTC_387ed.exe.embed.manifest.res
+  cmTC_387ed.dir\Debug\CheckFunctionExists.obj  /machine:X86 
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _sched_yield referenced in function _main [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_387ed.vcxproj]
+H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\cmTC_387ed.exe : fatal error LNK1120: 1 unresolved externals [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_387ed.vcxproj]
+Done Building Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_387ed.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_387ed.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _sched_yield referenced in function _main [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_387ed.vcxproj]
+  H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\cmTC_387ed.exe : fatal error LNK1120: 1 unresolved externals [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_387ed.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.14
+
+
+Determining if the function sysconf exists failed with the following output:
+Change Dir: H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_4735c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1055.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 4/20/2016 7:22:08 AM.
+Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_4735c.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_4735c.dir\Debug\".
+  Creating directory "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_4735c.dir\Debug\cmTC_4735c.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D CHECK_FUNCTION_EXISTS=sysconf /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_4735c.dir\Debug\\" /Fd"cmTC_4735c.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue "..\..\..\..\..\..\..\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckFunctionExists.c"
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D CHECK_FUNCTION_EXISTS=sysconf /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_4735c.dir\Debug\\" /Fd"cmTC_4735c.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue "..\..\..\..\..\..\..\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+ManifestResourceCompile:
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_4735c.dir\Debug\cmTC_4735c.exe.embed.manifest.res" cmTC_4735c.dir\Debug\cmTC_4735c_manifest.rc 
+Link:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\cmTC_4735c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_4735c.dir\Debug\cmTC_4735c.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp/Debug/cmTC_4735c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp/Debug/cmTC_4735c.lib" /MACHINE:X86 cmTC_4735c.dir\Debug\cmTC_4735c.exe.embed.manifest.res
+  cmTC_4735c.dir\Debug\CheckFunctionExists.obj  /machine:X86 
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _sysconf referenced in function _main [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_4735c.vcxproj]
+H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\cmTC_4735c.exe : fatal error LNK1120: 1 unresolved externals [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_4735c.vcxproj]
+Done Building Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_4735c.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_4735c.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _sysconf referenced in function _main [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_4735c.vcxproj]
+  H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\cmTC_4735c.exe : fatal error LNK1120: 1 unresolved externals [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_4735c.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.08
+
+
+Determining if the function fseeko exists failed with the following output:
+Change Dir: H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_f91b8.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1055.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 4/20/2016 7:22:10 AM.
+Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_f91b8.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_f91b8.dir\Debug\".
+  Creating directory "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_f91b8.dir\Debug\cmTC_f91b8.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D CHECK_FUNCTION_EXISTS=fseeko /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_f91b8.dir\Debug\\" /Fd"cmTC_f91b8.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue "..\..\..\..\..\..\..\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckFunctionExists.c"
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D CHECK_FUNCTION_EXISTS=fseeko /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_f91b8.dir\Debug\\" /Fd"cmTC_f91b8.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue "..\..\..\..\..\..\..\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+ManifestResourceCompile:
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_f91b8.dir\Debug\cmTC_f91b8.exe.embed.manifest.res" cmTC_f91b8.dir\Debug\cmTC_f91b8_manifest.rc 
+Link:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\cmTC_f91b8.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_f91b8.dir\Debug\cmTC_f91b8.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp/Debug/cmTC_f91b8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp/Debug/cmTC_f91b8.lib" /MACHINE:X86 cmTC_f91b8.dir\Debug\cmTC_f91b8.exe.embed.manifest.res
+  cmTC_f91b8.dir\Debug\CheckFunctionExists.obj  /machine:X86 
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _fseeko referenced in function _main [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_f91b8.vcxproj]
+H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\cmTC_f91b8.exe : fatal error LNK1120: 1 unresolved externals [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_f91b8.vcxproj]
+Done Building Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_f91b8.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_f91b8.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _fseeko referenced in function _main [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_f91b8.vcxproj]
+  H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\cmTC_f91b8.exe : fatal error LNK1120: 1 unresolved externals [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_f91b8.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.23
+
+
+Determining if the function ftello exists failed with the following output:
+Change Dir: H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_f6670.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1055.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 4/20/2016 7:22:13 AM.
+Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_f6670.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_f6670.dir\Debug\".
+  Creating directory "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_f6670.dir\Debug\cmTC_f6670.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D CHECK_FUNCTION_EXISTS=ftello /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_f6670.dir\Debug\\" /Fd"cmTC_f6670.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue "..\..\..\..\..\..\..\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckFunctionExists.c"
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D CHECK_FUNCTION_EXISTS=ftello /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_f6670.dir\Debug\\" /Fd"cmTC_f6670.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue "..\..\..\..\..\..\..\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+ManifestResourceCompile:
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_f6670.dir\Debug\cmTC_f6670.exe.embed.manifest.res" cmTC_f6670.dir\Debug\cmTC_f6670_manifest.rc 
+Link:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\cmTC_f6670.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_f6670.dir\Debug\cmTC_f6670.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp/Debug/cmTC_f6670.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp/Debug/cmTC_f6670.lib" /MACHINE:X86 cmTC_f6670.dir\Debug\cmTC_f6670.exe.embed.manifest.res
+  cmTC_f6670.dir\Debug\CheckFunctionExists.obj  /machine:X86 
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _ftello referenced in function _main [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_f6670.vcxproj]
+H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\cmTC_f6670.exe : fatal error LNK1120: 1 unresolved externals [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_f6670.vcxproj]
+Done Building Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_f6670.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_f6670.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _ftello referenced in function _main [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_f6670.vcxproj]
+  H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\cmTC_f6670.exe : fatal error LNK1120: 1 unresolved externals [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_f6670.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.10
+
+
+Determining if the function strerror_r exists failed with the following output:
+Change Dir: H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_a57b9.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1055.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 4/20/2016 7:22:16 AM.
+Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_a57b9.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_a57b9.dir\Debug\".
+  Creating directory "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_a57b9.dir\Debug\cmTC_a57b9.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D CHECK_FUNCTION_EXISTS=strerror_r /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_a57b9.dir\Debug\\" /Fd"cmTC_a57b9.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue "..\..\..\..\..\..\..\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckFunctionExists.c"
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D CHECK_FUNCTION_EXISTS=strerror_r /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_a57b9.dir\Debug\\" /Fd"cmTC_a57b9.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue "..\..\..\..\..\..\..\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+ManifestResourceCompile:
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_a57b9.dir\Debug\cmTC_a57b9.exe.embed.manifest.res" cmTC_a57b9.dir\Debug\cmTC_a57b9_manifest.rc 
+Link:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\cmTC_a57b9.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_a57b9.dir\Debug\cmTC_a57b9.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp/Debug/cmTC_a57b9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp/Debug/cmTC_a57b9.lib" /MACHINE:X86 cmTC_a57b9.dir\Debug\cmTC_a57b9.exe.embed.manifest.res
+  cmTC_a57b9.dir\Debug\CheckFunctionExists.obj  /machine:X86 
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _strerror_r referenced in function _main [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_a57b9.vcxproj]
+H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\cmTC_a57b9.exe : fatal error LNK1120: 1 unresolved externals [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_a57b9.vcxproj]
+Done Building Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_a57b9.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_a57b9.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _strerror_r referenced in function _main [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_a57b9.vcxproj]
+  H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\cmTC_a57b9.exe : fatal error LNK1120: 1 unresolved externals [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_a57b9.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.16
+
+
+Determining size of _Bool failed with the following output:
+Change Dir: H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_076a0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1055.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 4/20/2016 7:22:24 AM.
+Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_076a0.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_076a0.dir\Debug\".
+  Creating directory "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_076a0.dir\Debug\cmTC_076a0.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_076a0.dir\Debug\\" /Fd"cmTC_076a0.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue ..\CheckTypeSize\ALLEGRO_HAVE__BOOL.c
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_076a0.dir\Debug\\" /Fd"cmTC_076a0.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue ..\CheckTypeSize\ALLEGRO_HAVE__BOOL.c
+  
+  ALLEGRO_HAVE__BOOL.c
+..\CheckTypeSize\ALLEGRO_HAVE__BOOL.c(19): error C2065: '_Bool' : undeclared identifier [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_076a0.vcxproj]
+..\CheckTypeSize\ALLEGRO_HAVE__BOOL.c(20): error C2065: '_Bool' : undeclared identifier [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_076a0.vcxproj]
+..\CheckTypeSize\ALLEGRO_HAVE__BOOL.c(21): error C2065: '_Bool' : undeclared identifier [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_076a0.vcxproj]
+..\CheckTypeSize\ALLEGRO_HAVE__BOOL.c(22): error C2065: '_Bool' : undeclared identifier [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_076a0.vcxproj]
+..\CheckTypeSize\ALLEGRO_HAVE__BOOL.c(23): error C2065: '_Bool' : undeclared identifier [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_076a0.vcxproj]
+Done Building Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_076a0.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_076a0.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  ..\CheckTypeSize\ALLEGRO_HAVE__BOOL.c(19): error C2065: '_Bool' : undeclared identifier [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_076a0.vcxproj]
+  ..\CheckTypeSize\ALLEGRO_HAVE__BOOL.c(20): error C2065: '_Bool' : undeclared identifier [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_076a0.vcxproj]
+  ..\CheckTypeSize\ALLEGRO_HAVE__BOOL.c(21): error C2065: '_Bool' : undeclared identifier [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_076a0.vcxproj]
+  ..\CheckTypeSize\ALLEGRO_HAVE__BOOL.c(22): error C2065: '_Bool' : undeclared identifier [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_076a0.vcxproj]
+  ..\CheckTypeSize\ALLEGRO_HAVE__BOOL.c(23): error C2065: '_Bool' : undeclared identifier [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_076a0.vcxproj]
+
+    0 Warning(s)
+    5 Error(s)
+
+Time Elapsed 00:00:00.34
+
+H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CheckTypeSize/ALLEGRO_HAVE__BOOL.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(_Bool))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing C SOURCE FILE Test ALLEGRO_HAVE_PROCFS_ARGCV failed with the following output:
+Change Dir: H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_9e211.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1055.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 4/20/2016 7:22:26 AM.
+Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_9e211.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_9e211.dir\Debug\".
+  Creating directory "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_9e211.dir\Debug\cmTC_9e211.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D ALLEGRO_HAVE_PROCFS_ARGCV /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_9e211.dir\Debug\\" /Fd"cmTC_9e211.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue src.c
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D ALLEGRO_HAVE_PROCFS_ARGCV /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_9e211.dir\Debug\\" /Fd"cmTC_9e211.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue src.c
+  
+  src.c
+src.c(2): fatal error C1083: Cannot open include file: 'sys/procfs.h': No such file or directory [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_9e211.vcxproj]
+Done Building Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_9e211.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_9e211.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  src.c(2): fatal error C1083: Cannot open include file: 'sys/procfs.h': No such file or directory [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_9e211.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.31
+
+Source file was:
+
+    #include <sys/procfs.h>
+    int main(void) {
+        struct prpsinfo psinfo;
+        psinfo.pr_argc = 0;
+        return 0;
+    }
+Performing C SOURCE FILE Test ALLEGRO_HAVE_SV_PROCFS_H failed with the following output:
+Change Dir: H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_d65c0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1055.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 4/20/2016 7:22:27 AM.
+Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_d65c0.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_d65c0.dir\Debug\".
+  Creating directory "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_d65c0.dir\Debug\cmTC_d65c0.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D ALLEGRO_HAVE_SV_PROCFS_H /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_d65c0.dir\Debug\\" /Fd"cmTC_d65c0.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue src.c
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D ALLEGRO_HAVE_SV_PROCFS_H /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_d65c0.dir\Debug\\" /Fd"cmTC_d65c0.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue src.c
+  
+  src.c
+src.c(2): fatal error C1083: Cannot open include file: 'sys/procfs.h': No such file or directory [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_d65c0.vcxproj]
+Done Building Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_d65c0.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_d65c0.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  src.c(2): fatal error C1083: Cannot open include file: 'sys/procfs.h': No such file or directory [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_d65c0.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.33
+
+Source file was:
+
+    #include <sys/procfs.h>
+    #include <sys/ioctl.h>
+    int main(void) {
+        struct prpsinfo psinfo;
+        ioctl(0, PIOCPSINFO, &psinfo);
+        return 0;
+    }
+Performing C SOURCE FILE Test ALLEGRO_HAVE_VA_COPY failed with the following output:
+Change Dir: H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_834d0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1055.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 4/20/2016 7:22:29 AM.
+Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_834d0.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_834d0.dir\Debug\".
+  Creating directory "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_834d0.dir\Debug\cmTC_834d0.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D ALLEGRO_HAVE_VA_COPY /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_834d0.dir\Debug\\" /Fd"cmTC_834d0.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue src.c
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D ALLEGRO_HAVE_VA_COPY /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_834d0.dir\Debug\\" /Fd"cmTC_834d0.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue src.c
+  
+  src.c
+src.c(5): warning C4013: 'va_copy' undefined; assuming extern returning int [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_834d0.vcxproj]
+h:\c++\spaceshooteriii\lib\deps\allegro5\cmakefiles\cmaketmp\src.c(5): warning C4700: uninitialized local variable 'b' used [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_834d0.vcxproj]
+h:\c++\spaceshooteriii\lib\deps\allegro5\cmakefiles\cmaketmp\src.c(5): warning C4700: uninitialized local variable 'a' used [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_834d0.vcxproj]
+ManifestResourceCompile:
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_834d0.dir\Debug\cmTC_834d0.exe.embed.manifest.res" cmTC_834d0.dir\Debug\cmTC_834d0_manifest.rc 
+Link:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\cmTC_834d0.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_834d0.dir\Debug\cmTC_834d0.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp/Debug/cmTC_834d0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:/C++/SpaceShooterIII/lib/deps/allegro5/CMakeFiles/CMakeTmp/Debug/cmTC_834d0.lib" /MACHINE:X86 cmTC_834d0.dir\Debug\cmTC_834d0.exe.embed.manifest.res
+  cmTC_834d0.dir\Debug\src.obj  /machine:X86 
+src.obj : error LNK2019: unresolved external symbol _va_copy referenced in function _main [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_834d0.vcxproj]
+H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\cmTC_834d0.exe : fatal error LNK1120: 1 unresolved externals [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_834d0.vcxproj]
+Done Building Project "H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_834d0.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_834d0.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  src.c(5): warning C4013: 'va_copy' undefined; assuming extern returning int [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_834d0.vcxproj]
+  h:\c++\spaceshooteriii\lib\deps\allegro5\cmakefiles\cmaketmp\src.c(5): warning C4700: uninitialized local variable 'b' used [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_834d0.vcxproj]
+  h:\c++\spaceshooteriii\lib\deps\allegro5\cmakefiles\cmaketmp\src.c(5): warning C4700: uninitialized local variable 'a' used [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_834d0.vcxproj]
+
+
+"H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_834d0.vcxproj" (default target) (1) ->
+(Link target) -> 
+  src.obj : error LNK2019: unresolved external symbol _va_copy referenced in function _main [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_834d0.vcxproj]
+  H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\Debug\cmTC_834d0.exe : fatal error LNK1120: 1 unresolved externals [H:\C++\SpaceShooterIII\lib\deps\allegro5\CMakeFiles\CMakeTmp\cmTC_834d0.vcxproj]
+
+    3 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:01.21
+
+Source file was:
+
+    #include <stdarg.h>
+    int main(void) {
+        va_list a, b;
+        va_copy(a, b);
+        return 0;
+    }

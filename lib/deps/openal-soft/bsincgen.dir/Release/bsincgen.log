@@ -1,0 +1,23 @@
+﻿Build started 4/14/2016 8:37:26 AM.
+     1>Project "H:\C++\SpaceShooterIII\lib\deps\openal-soft\bsincgen.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "bsincgen.dir\Release\bsincgen.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule H:/C++/SpaceShooterIII/lib/openal-soft/CMakeLists.txt
+         CMake does not need to re-run because H:\C++\SpaceShooterIII\lib\deps\openal-soft\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"H:\C++\SpaceShooterIII\lib\openal-soft\include" /I"H:\C++\SpaceShooterIII\lib\deps\openal-soft" /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32 /D _WIN32_WINNT=0x0502 /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D inline=__inline /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_DEPRECATE /D strcasecmp=_stricmp /D strncasecmp=_strnicmp /D snprintf=_snprintf /D isfinite=_finite /D isnan=_isnan /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"bsincgen.dir\Release\\" /Fd"bsincgen.dir\Release\vc100.pdb" /Gd /TC /wd4098 /analyze- /errorReport:prompt "..\..\openal-soft\utils\bsincgen.c"
+         bsincgen.c
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\C++\SpaceShooterIII\lib\deps\openal-soft\Release\bsincgen.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"bsincgen.dir\Release\bsincgen.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"H:/C++/SpaceShooterIII/lib/deps/openal-soft/Release/bsincgen.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:/C++/SpaceShooterIII/lib/deps/openal-soft/Release/bsincgen.lib" /MACHINE:X86 bsincgen.dir\Release\bsincgen.obj  /machine:X86 
+         bsincgen.vcxproj -> H:\C++\SpaceShooterIII\lib\deps\openal-soft\Release\bsincgen.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"H:\C++\SpaceShooterIII\lib\deps\openal-soft\Release\bsincgen.exe;#1" /manifest bsincgen.dir\Release\bsincgen.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "bsincgen.dir\Release\bsincgen.unsuccessfulbuild".
+         Touching "bsincgen.dir\Release\bsincgen.lastbuildstate".
+     1>Done Building Project "H:\C++\SpaceShooterIII\lib\deps\openal-soft\bsincgen.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.14

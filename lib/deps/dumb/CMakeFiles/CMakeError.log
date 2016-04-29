@@ -1,0 +1,36 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: H:/C++/SpaceShooterIII/lib/deps/dumb/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_b9a05.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft (R) Build Engine version 4.6.1055.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 4/14/2016 8:28:21 AM.
+Project "H:\C++\SpaceShooterIII\lib\deps\dumb\CMakeFiles\CMakeTmp\cmTC_b9a05.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_b9a05.dir\Debug\".
+  Creating directory "H:\C++\SpaceShooterIII\lib\deps\dumb\CMakeFiles\CMakeTmp\Debug\".
+InitializeBuildStatus:
+  Creating "cmTC_b9a05.dir\Debug\cmTC_b9a05.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /Wall /WX- /Od /Ob0 /Oy- /D DUMB_DECLARE_DEPRECATED /D _USE_SSE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_b9a05.dir\Debug\\" /Fd"cmTC_b9a05.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c  -msse -Wno-unused-variable -Wno-unused-but-set-variable 
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /Wall /WX- /Od /Ob0 /Oy- /D DUMB_DECLARE_DEPRECATED /D _USE_SSE /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_b9a05.dir\Debug\\" /Fd"cmTC_b9a05.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c  -msse -Wno-unused-variable -Wno-unused-but-set-variable 
+cl : Command line error D8021: invalid numeric argument '/Wno-unused-variable' [H:\C++\SpaceShooterIII\lib\deps\dumb\CMakeFiles\CMakeTmp\cmTC_b9a05.vcxproj]
+Done Building Project "H:\C++\SpaceShooterIII\lib\deps\dumb\CMakeFiles\CMakeTmp\cmTC_b9a05.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"H:\C++\SpaceShooterIII\lib\deps\dumb\CMakeFiles\CMakeTmp\cmTC_b9a05.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  cl : Command line error D8021: invalid numeric argument '/Wno-unused-variable' [H:\C++\SpaceShooterIII\lib\deps\dumb\CMakeFiles\CMakeTmp\cmTC_b9a05.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.28
+
+
