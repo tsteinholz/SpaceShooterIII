@@ -42,14 +42,12 @@ class Button : public GameObject {
 public:
 
     Button(std::string text, ALLEGRO_FONT *font, float x, float y, const std::function <void()> f);
+    Button(const Button& b);
+    ~Button();
 
-    virtual ~Button();
+    virtual void Render() override;
 
-    bool Pressed, Hover, Enabled;
-
-    virtual void Render();
-
-    virtual void Update(ALLEGRO_EVENT *event);
+    virtual void Update(ALLEGRO_EVENT *event) override;
 
     void SetHandler(const std::function <void()> f);
 
@@ -64,7 +62,10 @@ public:
     ALLEGRO_COLOR CLICKED_COLOR = al_map_rgb(0, 0, 255); // TODO
     ALLEGRO_COLOR DEBUG_COLOR = al_map_rgb(255, 0, 255);
 
+    Button& operator=(const Button &b);
+
 protected:
+    bool Pressed, Hover, Enabled;
     std::string _Text;
     ALLEGRO_FONT *_Font;
     float _X, _Y;
