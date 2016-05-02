@@ -30,6 +30,8 @@
 #include <allegro5/allegro_font.h>
 #include <allegro5/allegro_ttf.h>
 
+#include <scenes/scene.h>
+
 #include <cstdio>
 #include <memory>
 
@@ -60,6 +62,8 @@ int main(void) {
 
     al_start_timer(fps_timer);
 
+    //Scene scene();
+
     while (executing) {
         ALLEGRO_EVENT event;
         al_wait_for_event(evqueue, &event);
@@ -79,7 +83,7 @@ int main(void) {
             render = false;
             al_clear_to_color(al_map_rgb(0, 0, 0));
             al_set_target_bitmap(al_get_backbuffer(display));
-            al_draw_filled_rectangle(0, 0, 1920, 1080, al_map_rgb(100, 100, 100));
+            al_draw_filled_rectangle(0, 0, 1920, 1080, al_map_rgb(150, 150, 150));
             al_flip_display();
         }
         render = false;
