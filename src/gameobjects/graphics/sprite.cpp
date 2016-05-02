@@ -1,7 +1,15 @@
 #include <gameobjects/graphics/sprite.h>
 
-Sprite::Sprite(ALLEGRO_BITMAP *image, unsigned int columns, unsigned int rows)
-        : _Image(image), _Columns(columns), _Rows(rows), _Playing(false) { }
+Sprite::Sprite(ALLEGRO_BITMAP *image, unsigned int columns, unsigned int rows) :
+    _X(0),
+    _Y(0),
+    _Image(image),
+    _SpriteX(0),
+    _SpriteY(0),
+    _Columns(columns),
+    _Rows(rows),
+    _Loop(false),
+    _Playing(false) {}
 
 Sprite::~Sprite() { }
 

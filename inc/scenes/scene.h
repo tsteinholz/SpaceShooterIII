@@ -36,6 +36,8 @@ class Scene {
 
 public:
 
+    Scene(const Scene &scene);
+    Scene& operator=(const Scene &s);
     virtual ~Scene() { }
 
     //-----------------------------------------------------------------------------

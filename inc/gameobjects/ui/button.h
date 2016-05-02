@@ -43,7 +43,7 @@ public:
 
     Button(std::string text, ALLEGRO_FONT *font, float x, float y, const std::function <void()> f);
     Button(const Button& b);
-    ~Button();
+    virtual ~Button();
 
     virtual void Render() override;
 

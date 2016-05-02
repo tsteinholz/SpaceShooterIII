@@ -34,6 +34,8 @@
 class GameObject {
 public:
 
+    virtual ~GameObject() { }
+
     //-----------------------------------------------------------------------------
     // Purpose: Render the scene
     //-----------------------------------------------------------------------------
@@ -43,8 +45,6 @@ public:
     // Purpose: Update the scene
     //-----------------------------------------------------------------------------
     virtual void Update(ALLEGRO_EVENT *event) = 0;
-
-protected:
 
 };
 

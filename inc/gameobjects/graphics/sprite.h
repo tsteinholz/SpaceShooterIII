@@ -35,7 +35,8 @@
 class Sprite : public GameObject {
 public:
     Sprite(ALLEGRO_BITMAP* image, unsigned int columns, unsigned int rows);
-
+    Sprite(const Sprite& s);
+    Sprite& operator=(const Sprite &s);
     virtual ~Sprite();
 
     //-----------------------------------------------------------------------------
