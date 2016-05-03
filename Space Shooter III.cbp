@@ -15,10 +15,9 @@
 					<Add option="-std=c++11" />
 					<Add option="-g" />
 					<Add directory="inc" />
-					<Add directory="include" />
 				</Compiler>
 				<Linker>
-					<Add library="bin/allegro-5.0.10-monolith-md-debug.dll" />
+					<Add library="bin\allegro-5.0.10-monolith-md-debug.dll" />
 					<Add directory="bin" />
 				</Linker>
 			</Target>
@@ -34,7 +33,7 @@
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
-					<Add library="bin/allegro-5.0.10-monolith-md.dll" />
+					<Add library="bin\allegro-5.0.10-monolith-md.dll" />
 					<Add directory="bin" />
 				</Linker>
 			</Target>
