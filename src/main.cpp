@@ -41,7 +41,7 @@ void shutdown();
 struct Assets {
 public:
     Assets() :
-        background(load_bitmap("res/imgs/Backgrounds/purple.png"))
+        background(load_bitmap("res/imgs/Backgrounds/apurple.png"))
     { }
 
     Assets(const Assets& a) :
@@ -59,7 +59,7 @@ protected:
 
     ALLEGRO_BITMAP *load_bitmap(const char *file) {
         auto tmp = al_load_bitmap(file);
-        assert(("Bitmap is not valid.", tmp));
+        assert(tmp && printf("Bitmap is not valid."));
         return tmp;
     }
 };
