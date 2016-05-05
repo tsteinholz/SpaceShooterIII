@@ -30,8 +30,6 @@
 #include <allegro5/allegro_font.h>
 #include <allegro5/allegro_ttf.h>
 
-#include <scenes/scene.h>
-
 #include <cstdio>
 #include <memory>
 
@@ -40,8 +38,43 @@
 void initialize();
 void shutdown();
 
+struct Assets {
+public:
+    Assets() :
+        background(load_bitmap("res/imgs/Backgrounds/purple.png"))
+    { }
+
+    Assets(const Assets& a) :
+        background(a.background) { }
+
+    ~Assets() {
+        al_destroy_bitmap(background);
+    }
+
+    Assets& operator = (const Assets& a);
+
+    ALLEGRO_BITMAP *background;
+
+protected:
+
+    ALLEGRO_BITMAP *load_bitmap(const char *file) {
+        auto tmp = al_load_bitmap(file);
+        assert(("Bitmap is not valid.", tmp));
+        return tmp;
+    }
+};
+
+typedef enum {
+    Menu,
+    Game,
+    End,
+} Stage;
+
 int main(void) {
     initialize();
+
+    Assets* assets = new Assets();
+    Stage stage = Menu;
 
     ALLEGRO_DISPLAY *display = al_create_display(1920, 1080);
     ALLEGRO_EVENT_QUEUE *evqueue = al_create_event_queue();
@@ -62,8 +95,6 @@ int main(void) {
 
     al_start_timer(fps_timer);
 
-    //Scene scene();
-
     while (executing) {
         ALLEGRO_EVENT event;
         al_wait_for_event(evqueue, &event);
@@ -77,13 +108,30 @@ int main(void) {
             case ALLEGRO_EVENT_KEY_DOWN:
                 executing = event.keyboard.keycode != ALLEGRO_KEY_ESCAPE;
                 break;
+            default: break;
         }
 
         if (render && al_is_event_queue_empty(evqueue)) {
             render = false;
             al_clear_to_color(al_map_rgb(0, 0, 0));
             al_set_target_bitmap(al_get_backbuffer(display));
-            al_draw_filled_rectangle(0, 0, 1920, 1080, al_map_rgb(150, 150, 150));
+            for (float x = 0; x < 1080; x += al_get_bitmap_width(assets->background)) {
+                for (float y = 0; y < 1920; y += al_get_bitmap_height(assets->background)) {
+                    al_draw_bitmap(assets->background, x, y, 0);
+                }
+            }
+            switch (stage) {
+            default: break;
+            case Menu:
+
+                break;
+            case Game:
+
+                break;
+            case End:
+
+                break;
+            }
             al_flip_display();
         }
         render = false;
@@ -98,6 +146,7 @@ int main(void) {
     al_destroy_event_queue(evqueue);
     al_destroy_timer(fps_timer);
 
+    delete assets;
     shutdown();
     return EXIT_SUCCESS;
 }

@@ -36,8 +36,8 @@ class Scene {
 
 public:
 
-    Scene(const Scene &scene);
-    Scene& operator=(const Scene &s);
+    Scene(const Scene &scene) {}
+    Scene& operator=(const Scene &s) {}
     virtual ~Scene() { }
 
     //-----------------------------------------------------------------------------
@@ -50,7 +50,6 @@ public:
     //          over-watch
     //-----------------------------------------------------------------------------
     static inline void SetScene(Scene *scene) {
-//        ASSET_MANAGER.DiscardAll(); // TODO : Fix asset manager
         delete Current;
         Current = scene;
     }
