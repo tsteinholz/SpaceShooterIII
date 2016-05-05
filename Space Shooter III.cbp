@@ -60,7 +60,6 @@
 		<Unit filename="inc/gameobjects/gameobject.h" />
 		<Unit filename="inc/gameobjects/graphics/sprite.h" />
 		<Unit filename="inc/gameobjects/ui/button.h" />
-		<Unit filename="inc/scenes/scene.h" />
 		<Unit filename="src/gameobjects/graphics/sprite.cpp" />
 		<Unit filename="src/gameobjects/ui/button.cpp" />
 		<Unit filename="src/main.cpp" />
