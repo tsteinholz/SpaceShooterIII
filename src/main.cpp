@@ -38,30 +38,44 @@
 void initialize();
 void shutdown();
 
+int screen_w, screen_h;
+
 struct Assets {
 public:
     Assets() :
-        background(load_bitmap("res/imgs/Backgrounds/purple.png"))
+        background(load_bitmap("res/imgs/Backgrounds/purple.png")),
+        title(load_font("res/fonts/kenvector_future.ttf", 70))
     { }
 
     Assets(const Assets& a) :
-        background(a.background) { }
+        background(a.background),
+        title(a.title)
+        { }
 
     ~Assets() {
 #ifdef DEBUG
         printf("Destroyed Assets\n");
 #endif // DEBUG
         al_destroy_bitmap(background);
+        al_destroy_font(title);
     }
 
     Assets& operator = (const Assets& a);
 
     ALLEGRO_BITMAP *background;
 
+    ALLEGRO_FONT *title;
+
 protected:
 
     ALLEGRO_BITMAP *load_bitmap(const char *file) {
         auto tmp = al_load_bitmap(file);
+        assert(tmp && printf("Loaded %s\n", file));
+        return tmp;
+    }
+
+    ALLEGRO_FONT *load_font(const char *file, int font) {
+        auto tmp = al_load_font(file, font, ALLEGRO_TTF_MONOCHROME);
         assert(tmp && printf("Loaded %s\n", file));
         return tmp;
     }
@@ -79,7 +93,15 @@ int main(void) {
     Assets* assets = new Assets();
     Stage stage = Menu;
 
-    ALLEGRO_DISPLAY *display = al_create_display(1920, 1080);
+    int nva = al_get_num_video_adapters();
+    assert(nva);
+
+    ALLEGRO_MONITOR_INFO aminfo;
+    al_get_monitor_info(0, &aminfo);
+    screen_w = aminfo.x2 - aminfo.x1 + 1;
+    screen_h = aminfo.y2 - aminfo.y1 + 1;
+
+    ALLEGRO_DISPLAY *display = al_create_display(screen_w, screen_h);
     ALLEGRO_EVENT_QUEUE *evqueue = al_create_event_queue();
     ALLEGRO_TIMER *fps_timer = al_create_timer(1.0 / 60.0);
     bool render = true, executing = true;
@@ -118,15 +140,15 @@ int main(void) {
             render = false;
             al_clear_to_color(al_map_rgb(0, 0, 0));
             al_set_target_bitmap(al_get_backbuffer(display));
-            for (float x = 0; x < 1080; x += al_get_bitmap_width(assets->background)) {
-                for (float y = 0; y < 1920; y += al_get_bitmap_height(assets->background)) {
+            for (float x = 0; x < screen_w; x += al_get_bitmap_width(assets->background)) {
+                for (float y = 0; y < screen_h; y += al_get_bitmap_height(assets->background)) {
                     al_draw_bitmap(assets->background, x, y, 0);
                 }
             }
             switch (stage) {
             default: break;
             case Menu:
-
+                al_draw_text(assets->title, al_map_rgb(255, 255, 255), screen_w/2, 100, ALLEGRO_ALIGN_CENTRE, "SPACE SHOOTER III");
                 break;
             case Game:
 
