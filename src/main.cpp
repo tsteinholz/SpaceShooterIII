@@ -46,12 +46,100 @@ struct Assets {
 public:
     Assets() :
         png_background(load_bitmap("res/imgs/Backgrounds/purple.png")),
+        png_player(load_bitmap("res/imgs/Players/playerShip1_blue.png")),
+        png_player_damage1(load_bitmap("res/imgs/Damage/playerShip1_damage1.png")),
+        png_player_damage2(load_bitmap("res/imgs/Damage/playerShip1_damage2.png")),
+        png_player_damage3(load_bitmap("res/imgs/Damage/playerShip1_damage3.png")),
+        png_player_laser(load_bitmap("res/imgs/Lasers/laserBlue07.png")),
+        png_meteor_brown_big1(load_bitmap("res/imgs/Meteors/meteorBrown_big1.png")),
+        png_meteor_brown_big2(load_bitmap("res/imgs/Meteors/meteorBrown_big2.png")),
+        png_meteor_brown_big3(load_bitmap("res/imgs/Meteors/meteorBrown_big3.png")),
+        png_meteor_brown_big4(load_bitmap("res/imgs/Meteors/meteorBrown_big4.png")),
+        png_meteor_brown_med1(load_bitmap("res/imgs/Meteors/meteorBrown_med1.png")),
+        //png_meteor_brown_med2(load_bitmap("res/imgs/Meteors/meteorBrown_med2.png")),
+        png_meteor_brown_med3(load_bitmap("res/imgs/Meteors/meteorBrown_med3.png")),
+        png_meteor_brown_small1(load_bitmap("res/imgs/Meteors/meteorBrown_small1.png")),
+        png_meteor_brown_small2(load_bitmap("res/imgs/Meteors/meteorBrown_small2.png")),
+        png_meteor_brown_tiny1(load_bitmap("res/imgs/Meteors/meteorBrown_tiny1.png")),
+        png_meteor_brown_tiny2(load_bitmap("res/imgs/Meteors/meteorBrown_tiny2.png")),
+        png_meteor_grey_big1(load_bitmap("res/imgs/Meteors/meteorGrey_big1.png")),
+        png_meteor_grey_big2(load_bitmap("res/imgs/Meteors/meteorGrey_big2.png")),
+        png_meteor_grey_big3(load_bitmap("res/imgs/Meteors/meteorGrey_big3.png")),
+        png_meteor_grey_big4(load_bitmap("res/imgs/Meteors/meteorGrey_big4.png")),
+        png_meteor_grey_med1(load_bitmap("res/imgs/Meteors/meteorGrey_med1.png")),
+        png_meteor_grey_med2(load_bitmap("res/imgs/Meteors/meteorGrey_med2.png")),
+        //png_meteor_grey_med3(load_bitmap("res/imgs/Meteors/meteorGrey_med3.png")),
+        png_meteor_grey_small1(load_bitmap("res/imgs/Meteors/meteorGrey_small1.png")),
+        png_meteor_grey_small2(load_bitmap("res/imgs/Meteors/meteorGrey_small2.png")),
+        png_meteor_grey_tiny1(load_bitmap("res/imgs/Meteors/meteorGrey_tiny1.png")),
+        png_meteor_grey_tiny2(load_bitmap("res/imgs/Meteors/meteorGrey_tiny2.png")),
+        png_enemy_black1(load_bitmap("res/imgs/Enemies/enemyBlack1.png")),
+        png_enemy_black2(load_bitmap("res/imgs/Enemies/enemyBlack2.png")),
+        png_enemy_black3(load_bitmap("res/imgs/Enemies/enemyBlack3.png")),
+        png_enemy_black4(load_bitmap("res/imgs/Enemies/enemyBlack4.png")),
+        png_enemy_blue1(load_bitmap("res/imgs/Enemies/enemyBlue1.png")),
+        png_enemy_blue2(load_bitmap("res/imgs/Enemies/enemyBlue2.png")),
+        png_enemy_blue3(load_bitmap("res/imgs/Enemies/enemyBlue3.png")),
+        png_enemy_blue4(load_bitmap("res/imgs/Enemies/enemyBlue4.png")),
+        png_enemy_green1(load_bitmap("res/imgs/Enemies/enemyGreen1.png")),
+        png_enemy_green2(load_bitmap("res/imgs/Enemies/enemyGreen2.png")),
+        png_enemy_green3(load_bitmap("res/imgs/Enemies/enemyGreen3.png")),
+        png_enemy_green4(load_bitmap("res/imgs/Enemies/enemyGreen4.png")),
+        png_enemy_red1(load_bitmap("res/imgs/Enemies/enemyRed1.png")),
+        png_enemy_red2(load_bitmap("res/imgs/Enemies/enemyRed2.png")),
+        png_enemy_red3(load_bitmap("res/imgs/Enemies/enemyRed3.png")),
+        png_enemy_red4(load_bitmap("res/imgs/Enemies/enemyRed4.png")),
+        png_enemy_laser(load_bitmap("res/imgs/Lasers/laserRed03.png")),
         fnt_title(load_font("res/fonts/kenvector_future.ttf", 70)),
         fnt_menu(load_font("res/fonts/kenvector_future.ttf", 40))
     { }
 
     Assets(const Assets& a) :
         png_background(a.png_background),
+        png_player(a.png_player),
+        png_player_damage1(a.png_player_damage1),
+        png_player_damage2(a.png_player_damage2),
+        png_player_damage3(a.png_player_damage3),
+        png_player_laser(a.png_player_laser),
+        png_meteor_brown_big1(a.png_meteor_brown_big1),
+        png_meteor_brown_big2(a.png_meteor_brown_big2),
+        png_meteor_brown_big3(a.png_meteor_brown_big3),
+        png_meteor_brown_big4(a.png_meteor_brown_big4),
+        png_meteor_brown_med1(a.png_meteor_brown_med1),
+        png_meteor_brown_med2(a.png_meteor_brown_med2),
+        png_meteor_brown_med3(a.png_meteor_brown_med3),
+        png_meteor_brown_small1(a.png_meteor_brown_small1),
+        png_meteor_brown_small2(a.png_meteor_brown_small2),
+        png_meteor_brown_tiny1(a.png_meteor_brown_tiny1),
+        png_meteor_brown_tiny2(a.png_meteor_brown_tiny2),
+        png_meteor_grey_big1(a.png_meteor_grey_big1),
+        png_meteor_grey_big2(a.png_meteor_grey_big2),
+        png_meteor_grey_big3(a.png_meteor_grey_big3),
+        png_meteor_grey_big4(a.png_meteor_grey_big4),
+        png_meteor_grey_med1(a.png_meteor_grey_med1),
+        png_meteor_grey_med2(a.png_meteor_grey_med2),
+        png_meteor_grey_med3(a.png_meteor_grey_med3),
+        png_meteor_grey_small1(a.png_meteor_grey_small1),
+        png_meteor_grey_small2(a.png_meteor_grey_small2),
+        png_meteor_grey_tiny1(a.png_meteor_grey_tiny1),
+        png_meteor_grey_tiny2(a.png_meteor_grey_tiny2),
+        png_enemy_black1(a.png_enemy_black1),
+        png_enemy_black2(a.png_enemy_black2),
+        png_enemy_black3(a.png_enemy_black3),
+        png_enemy_black4(a.png_enemy_black4),
+        png_enemy_blue1(a.png_enemy_blue1),
+        png_enemy_blue2(a.png_enemy_blue2),
+        png_enemy_blue3(a.png_enemy_blue3),
+        png_enemy_blue4(a.png_enemy_blue4),
+        png_enemy_green1(a.png_enemy_green1),
+        png_enemy_green2(a.png_enemy_green2),
+        png_enemy_green3(a.png_enemy_green3),
+        png_enemy_green4(a.png_enemy_green4),
+        png_enemy_red1(a.png_enemy_red1),
+        png_enemy_red2(a.png_enemy_red2),
+        png_enemy_red3(a.png_enemy_red3),
+        png_enemy_red4(a.png_enemy_red4),
+        png_enemy_laser(a.png_enemy_laser),
         fnt_title(a.fnt_title),
         fnt_menu(a.fnt_menu)
         { }
@@ -61,14 +149,101 @@ public:
         printf("Destroyed Assets\n");
 #endif // DEBUG
         al_destroy_bitmap(png_background);
-
+        al_destroy_bitmap(png_player);
+        al_destroy_bitmap(png_player_damage1);
+        al_destroy_bitmap(png_player_damage2);
+        al_destroy_bitmap(png_player_damage3);
+        al_destroy_bitmap(png_player_laser);
+        al_destroy_bitmap(png_meteor_brown_big1);
+        al_destroy_bitmap(png_meteor_brown_big2);
+        al_destroy_bitmap(png_meteor_brown_big3);
+        al_destroy_bitmap(png_meteor_brown_big4);
+        al_destroy_bitmap(png_meteor_brown_med1);
+        al_destroy_bitmap(png_meteor_brown_med2);
+        al_destroy_bitmap(png_meteor_brown_med3);
+        al_destroy_bitmap(png_meteor_brown_small1);
+        al_destroy_bitmap(png_meteor_brown_small2);
+        al_destroy_bitmap(png_meteor_brown_tiny1);
+        al_destroy_bitmap(png_meteor_brown_tiny2);
+        al_destroy_bitmap(png_meteor_grey_big1);
+        al_destroy_bitmap(png_meteor_grey_big2);
+        al_destroy_bitmap(png_meteor_grey_big3);
+        al_destroy_bitmap(png_meteor_grey_big4);
+        al_destroy_bitmap(png_meteor_grey_med1);
+        al_destroy_bitmap(png_meteor_grey_med2);
+        al_destroy_bitmap(png_meteor_grey_med3);
+        al_destroy_bitmap(png_meteor_grey_small1);
+        al_destroy_bitmap(png_meteor_grey_small2);
+        al_destroy_bitmap(png_meteor_grey_tiny1);
+        al_destroy_bitmap(png_meteor_grey_tiny2);
+        al_destroy_bitmap(png_enemy_black1);
+        al_destroy_bitmap(png_enemy_black2);
+        al_destroy_bitmap(png_enemy_black3);
+        al_destroy_bitmap(png_enemy_black4);
+        al_destroy_bitmap(png_enemy_blue1);
+        al_destroy_bitmap(png_enemy_blue2);
+        al_destroy_bitmap(png_enemy_blue3);
+        al_destroy_bitmap(png_enemy_blue4);
+        al_destroy_bitmap(png_enemy_green1);
+        al_destroy_bitmap(png_enemy_green2);
+        al_destroy_bitmap(png_enemy_green3);
+        al_destroy_bitmap(png_enemy_green4);
+        al_destroy_bitmap(png_enemy_red1);
+        al_destroy_bitmap(png_enemy_red2);
+        al_destroy_bitmap(png_enemy_red3);
+        al_destroy_bitmap(png_enemy_red4);
+        al_destroy_bitmap(png_enemy_laser);
         al_destroy_font(fnt_title);
         al_destroy_font(fnt_menu);
     }
 
     Assets& operator = (const Assets& a);
 
-    ALLEGRO_BITMAP *png_background;
+    ALLEGRO_BITMAP *png_background,
+        *png_player,
+        *png_player_damage1,
+        *png_player_damage2,
+        *png_player_damage3,
+        *png_player_laser,
+        *png_meteor_brown_big1,
+        *png_meteor_brown_big2,
+        *png_meteor_brown_big3,
+        *png_meteor_brown_big4,
+        *png_meteor_brown_med1,
+        *png_meteor_brown_med2,
+        *png_meteor_brown_med3,
+        *png_meteor_brown_small1,
+        *png_meteor_brown_small2,
+        *png_meteor_brown_tiny1,
+        *png_meteor_brown_tiny2,
+        *png_meteor_grey_big1,
+        *png_meteor_grey_big2,
+        *png_meteor_grey_big3,
+        *png_meteor_grey_big4,
+        *png_meteor_grey_med1,
+        *png_meteor_grey_med2,
+        *png_meteor_grey_med3,
+        *png_meteor_grey_small1,
+        *png_meteor_grey_small2,
+        *png_meteor_grey_tiny1,
+        *png_meteor_grey_tiny2,
+        *png_enemy_black1,
+        *png_enemy_black2,
+        *png_enemy_black3,
+        *png_enemy_black4,
+        *png_enemy_blue1,
+        *png_enemy_blue2,
+        *png_enemy_blue3,
+        *png_enemy_blue4,
+        *png_enemy_green1,
+        *png_enemy_green2,
+        *png_enemy_green3,
+        *png_enemy_green4,
+        *png_enemy_red1,
+        *png_enemy_red2,
+        *png_enemy_red3,
+        *png_enemy_red4,
+        *png_enemy_laser;
 
     ALLEGRO_FONT *fnt_title, *fnt_menu;
 
