@@ -33,6 +33,8 @@
 #include <cstdio>
 #include <memory>
 
+#include <gameobjects/ui/button.h>
+
 #define DEBUG
 
 void initialize();
@@ -43,31 +45,34 @@ int screen_w, screen_h;
 struct Assets {
 public:
     Assets() :
-        background(load_bitmap("res/imgs/Backgrounds/purple.png")),
-        title(load_font("res/fonts/kenvector_future.ttf", 70))
+        png_background(load_bitmap("res/imgs/Backgrounds/purple.png")),
+        fnt_title(load_font("res/fonts/kenvector_future.ttf", 70)),
+        fnt_menu(load_font("res/fonts/kenvector_future.ttf", 40))
     { }
 
     Assets(const Assets& a) :
-        background(a.background),
-        title(a.title)
+        png_background(a.png_background),
+        fnt_title(a.fnt_title),
+        fnt_menu(a.fnt_menu)
         { }
 
     ~Assets() {
 #ifdef DEBUG
         printf("Destroyed Assets\n");
 #endif // DEBUG
-        al_destroy_bitmap(background);
-        al_destroy_font(title);
+        al_destroy_bitmap(png_background);
+
+        al_destroy_font(fnt_title);
+        al_destroy_font(fnt_menu);
     }
 
     Assets& operator = (const Assets& a);
 
-    ALLEGRO_BITMAP *background;
+    ALLEGRO_BITMAP *png_background;
 
-    ALLEGRO_FONT *title;
+    ALLEGRO_FONT *fnt_title, *fnt_menu;
 
 protected:
-
     ALLEGRO_BITMAP *load_bitmap(const char *file) {
         auto tmp = al_load_bitmap(file);
         assert(tmp && printf("Loaded %s\n", file));
@@ -84,6 +89,8 @@ protected:
 typedef enum {
     Menu,
     Game,
+    Leaderboard,
+    Options,
     End,
 } Stage;
 
@@ -120,12 +127,26 @@ int main(void) {
 
     al_start_timer(fps_timer);
 
+    Button *play = new Button("Play", assets->fnt_menu, screen_w / 2, 300, [&stage]() -> void {
+                stage = Game;
+                              }),
+        *leaderboard = new Button("Leaderboard", assets->fnt_menu, screen_w / 2, 400, [&stage]() -> void {
+                stage = Leaderboard;
+                              }),
+        *options = new Button("Options", assets->fnt_menu, screen_w / 2, 500, [&stage]() -> void {
+                stage = Options;
+                              }),
+        *quit = new Button("Quit", assets->fnt_menu, screen_w / 2, 600, [&executing]() -> void {
+                executing = false;
+                              });
+
     while (executing) {
         ALLEGRO_EVENT event;
         al_wait_for_event(evqueue, &event);
         switch (event.type) {
             case ALLEGRO_EVENT_TIMER:
                 render = true;
+
                 break;
             case ALLEGRO_EVENT_DISPLAY_CLOSE:
                 executing = false;
@@ -135,20 +156,43 @@ int main(void) {
                 break;
             default: break;
         }
+        switch (stage) {
+            default: break;
+            case Menu:
+                play->Update(&event);
+                leaderboard->Update(&event);
+                options->Update(&event);
+                quit->Update(&event);
+                break;
+            case Game:
 
+                break;
+            case Leaderboard:
+                break;
+            case Options:
+
+                break;
+            case End:
+
+                break;
+            }
         if (render && al_is_event_queue_empty(evqueue)) {
             render = false;
             al_clear_to_color(al_map_rgb(0, 0, 0));
             al_set_target_bitmap(al_get_backbuffer(display));
-            for (float x = 0; x < screen_w; x += al_get_bitmap_width(assets->background)) {
-                for (float y = 0; y < screen_h; y += al_get_bitmap_height(assets->background)) {
-                    al_draw_bitmap(assets->background, x, y, 0);
+            for (float x = 0; x < screen_w; x += al_get_bitmap_width(assets->png_background)) {
+                for (float y = 0; y < screen_h; y += al_get_bitmap_height(assets->png_background)) {
+                    al_draw_bitmap(assets->png_background, x, y, 0);
                 }
             }
             switch (stage) {
             default: break;
             case Menu:
-                al_draw_text(assets->title, al_map_rgb(255, 255, 255), screen_w/2, 100, ALLEGRO_ALIGN_CENTRE, "SPACE SHOOTER III");
+                al_draw_text(assets->fnt_title, al_map_rgb(255, 255, 255), screen_w/2, 100, ALLEGRO_ALIGN_CENTRE, "SPACE SHOOTER III");
+                play->Render();
+                leaderboard->Render();
+                options->Render();
+                quit->Render();
                 break;
             case Game:
 
