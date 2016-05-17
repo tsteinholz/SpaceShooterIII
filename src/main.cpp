@@ -56,8 +56,7 @@ public:
         png_meteor_brown_big3(load_bitmap("res/imgs/Meteors/meteorBrown_big3.png")),
         png_meteor_brown_big4(load_bitmap("res/imgs/Meteors/meteorBrown_big4.png")),
         png_meteor_brown_med1(load_bitmap("res/imgs/Meteors/meteorBrown_med1.png")),
-        //png_meteor_brown_med2(load_bitmap("res/imgs/Meteors/meteorBrown_med2.png")),
-        png_meteor_brown_med3(load_bitmap("res/imgs/Meteors/meteorBrown_med3.png")),
+        png_meteor_brown_med2(load_bitmap("res/imgs/Meteors/meteorBrown_med3.png")),
         png_meteor_brown_small1(load_bitmap("res/imgs/Meteors/meteorBrown_small1.png")),
         png_meteor_brown_small2(load_bitmap("res/imgs/Meteors/meteorBrown_small2.png")),
         png_meteor_brown_tiny1(load_bitmap("res/imgs/Meteors/meteorBrown_tiny1.png")),
@@ -68,7 +67,6 @@ public:
         png_meteor_grey_big4(load_bitmap("res/imgs/Meteors/meteorGrey_big4.png")),
         png_meteor_grey_med1(load_bitmap("res/imgs/Meteors/meteorGrey_med1.png")),
         png_meteor_grey_med2(load_bitmap("res/imgs/Meteors/meteorGrey_med2.png")),
-        //png_meteor_grey_med3(load_bitmap("res/imgs/Meteors/meteorGrey_med3.png")),
         png_meteor_grey_small1(load_bitmap("res/imgs/Meteors/meteorGrey_small1.png")),
         png_meteor_grey_small2(load_bitmap("res/imgs/Meteors/meteorGrey_small2.png")),
         png_meteor_grey_tiny1(load_bitmap("res/imgs/Meteors/meteorGrey_tiny1.png")),
@@ -107,7 +105,6 @@ public:
         png_meteor_brown_big4(a.png_meteor_brown_big4),
         png_meteor_brown_med1(a.png_meteor_brown_med1),
         png_meteor_brown_med2(a.png_meteor_brown_med2),
-        png_meteor_brown_med3(a.png_meteor_brown_med3),
         png_meteor_brown_small1(a.png_meteor_brown_small1),
         png_meteor_brown_small2(a.png_meteor_brown_small2),
         png_meteor_brown_tiny1(a.png_meteor_brown_tiny1),
@@ -118,7 +115,6 @@ public:
         png_meteor_grey_big4(a.png_meteor_grey_big4),
         png_meteor_grey_med1(a.png_meteor_grey_med1),
         png_meteor_grey_med2(a.png_meteor_grey_med2),
-        png_meteor_grey_med3(a.png_meteor_grey_med3),
         png_meteor_grey_small1(a.png_meteor_grey_small1),
         png_meteor_grey_small2(a.png_meteor_grey_small2),
         png_meteor_grey_tiny1(a.png_meteor_grey_tiny1),
@@ -160,7 +156,6 @@ public:
         al_destroy_bitmap(png_meteor_brown_big4);
         al_destroy_bitmap(png_meteor_brown_med1);
         al_destroy_bitmap(png_meteor_brown_med2);
-        al_destroy_bitmap(png_meteor_brown_med3);
         al_destroy_bitmap(png_meteor_brown_small1);
         al_destroy_bitmap(png_meteor_brown_small2);
         al_destroy_bitmap(png_meteor_brown_tiny1);
@@ -171,7 +166,6 @@ public:
         al_destroy_bitmap(png_meteor_grey_big4);
         al_destroy_bitmap(png_meteor_grey_med1);
         al_destroy_bitmap(png_meteor_grey_med2);
-        al_destroy_bitmap(png_meteor_grey_med3);
         al_destroy_bitmap(png_meteor_grey_small1);
         al_destroy_bitmap(png_meteor_grey_small2);
         al_destroy_bitmap(png_meteor_grey_tiny1);
@@ -211,7 +205,6 @@ public:
         *png_meteor_brown_big4,
         *png_meteor_brown_med1,
         *png_meteor_brown_med2,
-        *png_meteor_brown_med3,
         *png_meteor_brown_small1,
         *png_meteor_brown_small2,
         *png_meteor_brown_tiny1,
@@ -222,7 +215,6 @@ public:
         *png_meteor_grey_big4,
         *png_meteor_grey_med1,
         *png_meteor_grey_med2,
-        *png_meteor_grey_med3,
         *png_meteor_grey_small1,
         *png_meteor_grey_small2,
         *png_meteor_grey_tiny1,
