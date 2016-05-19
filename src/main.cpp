@@ -264,9 +264,6 @@ typedef enum {
 int main(void) {
     initialize();
 
-    Assets* assets = new Assets();
-    Stage stage = Menu;
-
     int nva = al_get_num_video_adapters();
     assert(nva);
 
@@ -277,8 +274,7 @@ int main(void) {
 
     ALLEGRO_DISPLAY *display = al_create_display(screen_w, screen_h);
     ALLEGRO_EVENT_QUEUE *evqueue = al_create_event_queue();
-    ALLEGRO_TIMER *fps_timer = al_create_timer(1.0 / 60.0);
-    bool render = true, executing = true;
+    ALLEGRO_TIMER *fps_timer = al_create_timer(1.0 / 120.0);
 
     al_set_display_flag(display, ALLEGRO_FULLSCREEN_WINDOW, true);
 
@@ -293,6 +289,12 @@ int main(void) {
     al_register_event_source(evqueue, al_get_timer_event_source(fps_timer));
 
     al_start_timer(fps_timer);
+
+    float fps = 0, delta_time = 0, current_time = 0, last_time = al_get_time();
+    bool render = true, executing = true;
+
+    Assets* assets = new Assets();
+    Stage stage = Menu;
 
     Button *play = new Button("Play", assets->fnt_menu, screen_w / 2, 300, [&stage]() -> void {
                 stage = Game;
@@ -310,10 +312,15 @@ int main(void) {
     while (executing) {
         ALLEGRO_EVENT event;
         al_wait_for_event(evqueue, &event);
+
+        current_time = al_get_time();
+        delta_time = current_time - last_time;
+        fps = 1/(delta_time);
+        last_time = current_time;
+
         switch (event.type) {
             case ALLEGRO_EVENT_TIMER:
                 render = true;
-
                 break;
             case ALLEGRO_EVENT_DISPLAY_CLOSE:
                 executing = false;
@@ -352,6 +359,10 @@ int main(void) {
                     al_draw_bitmap(assets->png_background, x, y, 0);
                 }
             }
+#ifdef DEBUG
+            al_draw_textf(assets->fnt_menu, al_map_rgb(255, 255, 255), 10, 5, ALLEGRO_ALIGN_LEFT, "FPS: %i", (int)fps);
+            //printf("fps: %f\n", fps);
+#endif // DEBUG
             switch (stage) {
             default: break;
             case Menu:
