@@ -361,7 +361,6 @@ int main(void) {
             }
 #ifdef DEBUG
             al_draw_textf(assets->fnt_menu, al_map_rgb(255, 255, 255), 10, 5, ALLEGRO_ALIGN_LEFT, "FPS: %i", (int)fps);
-            //printf("fps: %f\n", fps);
 #endif // DEBUG
             switch (stage) {
             default: break;
@@ -373,6 +372,12 @@ int main(void) {
                 quit->Render();
                 break;
             case Game:
+
+                break;
+            case Leaderboard:
+
+                break;
+            case Options:
 
                 break;
             case End:
