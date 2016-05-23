@@ -22,28 +22,17 @@
 // SOFTWARE.
 //-----------------------------------------------------------------------------
 
-#include <scenes/main_menu.h>
+#ifndef SPACESHOOTERIII_PROJECTILE_H
+#define SPACESHOOTERIII_PROJECTILE_H
 
-    MainMenu::MainMenu() {
+class Projectile : public GameObject {
+public:
 
-    }
+    float X, Y;
 
-    MainMenu::MainMenu(const MainMenu &mm) {
+protected:
+    
 
-    }
+};
 
-    virtual MainMenu::~MainMenu() {
-
-    }
-
-    MainMenu::MainMenu &operator = (const MainMenu &mm) {
-
-    }
-
-    MainMenu::Render() {
-
-    }
-
-    MainMenu::Update(ALLEGRO_EVENT *event) {
-
-    }
+#endif // SPACESHOOTERIII_PROJECTILE_H

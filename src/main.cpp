@@ -360,7 +360,7 @@ int main(void) {
                 }
             }
 #ifdef DEBUG
-            al_draw_textf(assets->fnt_menu, al_map_rgb(255, 255, 255), 10, 5, ALLEGRO_ALIGN_LEFT, "FPS: %i", (int)fps);
+            //al_draw_textf(assets->fnt_menu, al_map_rgb(255, 255, 255), 10, 5, ALLEGRO_ALIGN_LEFT, "FPS: %i", (int)fps);
 #endif // DEBUG
             switch (stage) {
             default: break;

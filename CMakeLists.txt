@@ -8,10 +8,16 @@ set(SOURCE_FILES src/main.cpp
 	src/gameobjects/graphics/sprite.cpp
 	inc/gameobjects/graphics/sprite.h
 	src/gameobjects/ui/button.cpp
-	inc/gameobjects/ui/button.h)
+	inc/gameobjects/ui/button.h
+	inc/gameobjects/phyics/projectile.h
+)
 add_executable(SpaceShooterIII ${SOURCE_FILES})
 
-include_directories (${PROJECT_SOURCE_DIR} inc/ /usr/include/allegro5)
+IF (WIN32)
+  include_directories (${PROJECT_SOURCE_DIR} inc/ bin/ /usr/include/allegro5)
+ELSE()
+  include_directories (${PROJECT_SOURCE_DIR} inc/ /usr/include/allegro5)
+ENDIF()
 link_directories (/usr/lib)
 target_link_libraries (SpaceShooterIII
 	allegro
