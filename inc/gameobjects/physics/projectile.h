@@ -31,7 +31,8 @@ public:
     float X, Y;
 
 protected:
-    
+
+    ALLEGRO_BITMAP *image;
 
 };
 
