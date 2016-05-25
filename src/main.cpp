@@ -35,12 +35,35 @@
 
 #include <gameobjects/ui/button.h>
 
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// When the DEBUG Macro is defined the game will run in DEBUG mode
+
 #define DEBUG
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// Global Variables & Function Definitions
+////////////////////////////////////////////////////////////////////////////////////////////////////
 
 void initialize();
 void shutdown();
 
-int screen_w, screen_h;
+int screen_w = 0, screen_h = 0;
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// Structs and Data
+////////////////////////////////////////////////////////////////////////////////////////////////////
+struct Stats {
+    int enemies_destroyed = 0,
+        meteors_destroyed = 0;
+
+    float start_time = 0,
+          end_time = 0;
+};
 
 struct Assets {
 public:
@@ -290,7 +313,13 @@ int main(void) {
 
     al_start_timer(fps_timer);
 
+    ////////////////////////////////////////////////////////////////////////////////////////////////
+    // Local Variables
+    ////////////////////////////////////////////////////////////////////////////////////////////////
+
+#ifdef DEBUG
     float fps = 0, delta_time = 0, current_time = 0, last_time = al_get_time();
+#endif //DEBUG
     bool render = true, executing = true;
 
     Assets* assets = new Assets();
@@ -309,14 +338,20 @@ int main(void) {
                 executing = false;
                               });
 
+    ////////////////////////////////////////////////////////////////////////////////////////////////
+    // Game Loop
+    ////////////////////////////////////////////////////////////////////////////////////////////////
+
     while (executing) {
         ALLEGRO_EVENT event;
         al_wait_for_event(evqueue, &event);
 
+#ifdef DEBUG
         current_time = al_get_time();
         delta_time = current_time - last_time;
         fps = 1/(delta_time);
         last_time = current_time;
+#endif //DEBUG
 
         switch (event.type) {
             case ALLEGRO_EVENT_TIMER:
@@ -330,8 +365,7 @@ int main(void) {
                 break;
             default: break;
         }
-        switch (stage) {
-            default: break;
+        switch (stage) { // UPDATE
             case Menu:
                 play->Update(&event);
                 leaderboard->Update(&event);
@@ -349,7 +383,8 @@ int main(void) {
             case End:
 
                 break;
-            }
+            default: break;
+        }
         if (render && al_is_event_queue_empty(evqueue)) {
             render = false;
             al_clear_to_color(al_map_rgb(0, 0, 0));
@@ -362,7 +397,7 @@ int main(void) {
 #ifdef DEBUG
             //al_draw_textf(assets->fnt_menu, al_map_rgb(255, 255, 255), 10, 5, ALLEGRO_ALIGN_LEFT, "FPS: %i", (int)fps);
 #endif // DEBUG
-            switch (stage) {
+            switch (stage) { // RENDER
             default: break;
             case Menu:
                 al_draw_text(assets->fnt_title, al_map_rgb(255, 255, 255), screen_w/2, 100, ALLEGRO_ALIGN_CENTRE, "SPACE SHOOTER III");
@@ -389,6 +424,10 @@ int main(void) {
         render = false;
     }
 
+    ////////////////////////////////////////////////////////////////////////////////////////////////
+    // Deinitialization
+    ////////////////////////////////////////////////////////////////////////////////////////////////
+
     al_unregister_event_source(evqueue, al_get_keyboard_event_source());
     al_unregister_event_source(evqueue, al_get_mouse_event_source());
     al_unregister_event_source(evqueue, al_get_display_event_source(display));
@@ -402,6 +441,10 @@ int main(void) {
     shutdown();
     return EXIT_SUCCESS;
 }
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// Functions
+////////////////////////////////////////////////////////////////////////////////////////////////////
 
 void initialize() {
     srand((unsigned int) time(NULL));

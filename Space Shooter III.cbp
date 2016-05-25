@@ -15,6 +15,7 @@
 					<Add option="-std=c++11" />
 					<Add option="-g" />
 					<Add directory="inc" />
+					<Add directory="bin" />
 				</Compiler>
 				<Linker>
 					<Add library="bin\allegro-5.0.10-monolith-md-debug.dll" />
@@ -59,8 +60,10 @@
 		</Compiler>
 		<Unit filename="inc/gameobjects/gameobject.h" />
 		<Unit filename="inc/gameobjects/graphics/sprite.h" />
+		<Unit filename="inc/gameobjects/physics/projectile.h" />
 		<Unit filename="inc/gameobjects/ui/button.h" />
 		<Unit filename="src/gameobjects/graphics/sprite.cpp" />
+		<Unit filename="src/gameobjects/physics/projectile.cpp" />
 		<Unit filename="src/gameobjects/ui/button.cpp" />
 		<Unit filename="src/main.cpp" />
 		<Extensions>

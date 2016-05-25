@@ -25,14 +25,22 @@
 #ifndef SPACESHOOTERIII_PROJECTILE_H
 #define SPACESHOOTERIII_PROJECTILE_H
 
+#include <gameobjects/gameobject.h>
+
 class Projectile : public GameObject {
 public:
 
-    float X, Y;
+    Projectile();
+
+    void Render() override;
+
+    void Update(ALLEGRO_EVENT *event) override;
 
 protected:
 
     ALLEGRO_BITMAP *image;
+
+    float X, Y, hitbox[4], velocity;
 
 };
 

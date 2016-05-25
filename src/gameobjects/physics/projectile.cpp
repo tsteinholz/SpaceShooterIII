@@ -22,36 +22,16 @@
 // SOFTWARE.
 //-----------------------------------------------------------------------------
 
-#ifndef SPACESHOOTERIII_GAMEOBJECT_H
-#define SPACESHOOTERIII_GAMEOBJECT_H
+#include <gameobjects/physics/projectile.h>
 
-#include <allegro5/allegro.h>
-#include <allegro5/allegro_audio.h>
-#include <allegro5/allegro_acodec.h>
-#include <allegro5/allegro_image.h>
-#include <allegro5/allegro_primitives.h>
-#include <allegro5/allegro_font.h>
-#include <allegro5/allegro_ttf.h>
+Projectile::Projectile() {
 
-//-----------------------------------------------------------------------------
-// Purpose: Represents a basic object in the game that can be rendered and
-//          requires systematic event based updating
-//-----------------------------------------------------------------------------
-class GameObject {
-public:
+}
 
-    virtual ~GameObject() { }
+void Projectile::Render() {
 
-    //-----------------------------------------------------------------------------
-    // Purpose: Render the scene
-    //-----------------------------------------------------------------------------
-    virtual void Render() = 0;
+}
 
-    //-----------------------------------------------------------------------------
-    // Purpose: Update the scene
-    //-----------------------------------------------------------------------------
-    virtual void Update(ALLEGRO_EVENT *event) = 0;
+void Projectile::Update(ALLEGRO_EVENT *event) {
 
-};
-
-#endif //SPACESHOOTERIII_GAMEOBJECT_H
+}
