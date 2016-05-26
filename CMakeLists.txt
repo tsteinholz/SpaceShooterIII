@@ -6,10 +6,8 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/Modules/")
 
 set(SOURCE_FILES src/main.cpp
 	src/gameobjects/graphics/sprite.cpp
-	inc/gameobjects/graphics/sprite.h
 	src/gameobjects/ui/button.cpp
-	inc/gameobjects/ui/button.h
-	inc/gameobjects/phyics/projectile.h
+	src/gameobjects/physics/projectile.cpp
 )
 add_executable(SpaceShooterIII ${SOURCE_FILES})
 

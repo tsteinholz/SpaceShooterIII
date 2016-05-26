@@ -24,14 +24,26 @@
 
 #include <gameobjects/physics/projectile.h>
 
-Projectile::Projectile() {
+Projectile::Projectile(ALLEGRO_BITMAP *image, float x, float y)
+    : Image(image), X(x), Y(y) {
+    hitbox[0][0] = X;
+    hitbox[0][1] = Y;
+    hitbox[1][0] = X + al_get_bitmap_width(Image);
+    hitbox[1][1] = Y;
+    hitbox[2][0] = X;
+    hitbox[2][1] = Y + al_get_bitmap_height(Image);
+    hitbox[3][0] = X + al_get_bitmap_width(Image);
+    hitbox[3][1] = Y + al_get_bitmap_height(Image);
 
+    velocity[0] = 0;
+    velocity[1] = 0;
 }
 
 void Projectile::Render() {
-
+    al_draw_bitmap(Image, X, Y, 0);
 }
 
 void Projectile::Update(ALLEGRO_EVENT *event) {
-
+    X += velocity[0];
+    Y += velocity[1];
 }

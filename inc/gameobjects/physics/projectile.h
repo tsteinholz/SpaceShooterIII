@@ -30,17 +30,15 @@
 class Projectile : public GameObject {
 public:
 
-    Projectile();
+    Projectile(ALLEGRO_BITMAP *image, float x = 0, float y = 0);
 
     void Render() override;
 
     void Update(ALLEGRO_EVENT *event) override;
 
-protected:
+    ALLEGRO_BITMAP *Image;
 
-    ALLEGRO_BITMAP *image;
-
-    float X, Y, hitbox[4], velocity;
+    float X, Y, hitbox[4][2], velocity[2];
 
 };
 
