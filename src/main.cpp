@@ -30,6 +30,8 @@
 #include <allegro5/allegro_font.h>
 #include <allegro5/allegro_ttf.h>
 
+#include <Box2D/Box2D.h>
+
 #include <cstdio>
 #include <memory>
 
@@ -337,6 +339,9 @@ int main(void) {
         *quit = new Button("Quit", assets->fnt_menu, screen_w / 2, 600, [&executing]() -> void {
                 executing = false;
                               });
+
+    b2Vec2 gravity(0.0f, 0.0f);
+    b2World world(gravity);
 
     ////////////////////////////////////////////////////////////////////////////////////////////////
     // Game Loop

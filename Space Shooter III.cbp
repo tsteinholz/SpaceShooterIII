@@ -18,7 +18,7 @@
 					<Add directory="bin" />
 				</Compiler>
 				<Linker>
-					<Add library="bin\allegro-5.0.10-monolith-md-debug.dll" />
+					<Add library="bin/allegro-5.0.10-monolith-md-debug.dll" />
 					<Add directory="bin" />
 				</Linker>
 			</Target>
@@ -34,7 +34,8 @@
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
-					<Add library="bin\allegro-5.0.10-monolith-md.dll" />
+					<Add library="bin/allegro-5.0.10-monolith-md.dll" />
+					<Add library="bin/Box2D.lib" />
 					<Add directory="bin" />
 				</Linker>
 			</Target>
@@ -58,6 +59,99 @@
 			<Add option="-std=c++11" />
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="inc/Box2D/Box2D.h" />
+		<Unit filename="inc/Box2D/Collision/Shapes/b2ChainShape.cpp" />
+		<Unit filename="inc/Box2D/Collision/Shapes/b2ChainShape.h" />
+		<Unit filename="inc/Box2D/Collision/Shapes/b2CircleShape.cpp" />
+		<Unit filename="inc/Box2D/Collision/Shapes/b2CircleShape.h" />
+		<Unit filename="inc/Box2D/Collision/Shapes/b2EdgeShape.cpp" />
+		<Unit filename="inc/Box2D/Collision/Shapes/b2EdgeShape.h" />
+		<Unit filename="inc/Box2D/Collision/Shapes/b2PolygonShape.cpp" />
+		<Unit filename="inc/Box2D/Collision/Shapes/b2PolygonShape.h" />
+		<Unit filename="inc/Box2D/Collision/Shapes/b2Shape.h" />
+		<Unit filename="inc/Box2D/Collision/b2BroadPhase.cpp" />
+		<Unit filename="inc/Box2D/Collision/b2BroadPhase.h" />
+		<Unit filename="inc/Box2D/Collision/b2CollideCircle.cpp" />
+		<Unit filename="inc/Box2D/Collision/b2CollideEdge.cpp" />
+		<Unit filename="inc/Box2D/Collision/b2CollidePolygon.cpp" />
+		<Unit filename="inc/Box2D/Collision/b2Collision.cpp" />
+		<Unit filename="inc/Box2D/Collision/b2Collision.h" />
+		<Unit filename="inc/Box2D/Collision/b2Distance.cpp" />
+		<Unit filename="inc/Box2D/Collision/b2Distance.h" />
+		<Unit filename="inc/Box2D/Collision/b2DynamicTree.cpp" />
+		<Unit filename="inc/Box2D/Collision/b2DynamicTree.h" />
+		<Unit filename="inc/Box2D/Collision/b2TimeOfImpact.cpp" />
+		<Unit filename="inc/Box2D/Collision/b2TimeOfImpact.h" />
+		<Unit filename="inc/Box2D/Common/b2BlockAllocator.cpp" />
+		<Unit filename="inc/Box2D/Common/b2BlockAllocator.h" />
+		<Unit filename="inc/Box2D/Common/b2Draw.cpp" />
+		<Unit filename="inc/Box2D/Common/b2Draw.h" />
+		<Unit filename="inc/Box2D/Common/b2GrowableStack.h" />
+		<Unit filename="inc/Box2D/Common/b2Math.cpp" />
+		<Unit filename="inc/Box2D/Common/b2Math.h" />
+		<Unit filename="inc/Box2D/Common/b2Settings.cpp" />
+		<Unit filename="inc/Box2D/Common/b2Settings.h" />
+		<Unit filename="inc/Box2D/Common/b2StackAllocator.cpp" />
+		<Unit filename="inc/Box2D/Common/b2StackAllocator.h" />
+		<Unit filename="inc/Box2D/Common/b2Timer.cpp" />
+		<Unit filename="inc/Box2D/Common/b2Timer.h" />
+		<Unit filename="inc/Box2D/Dynamics/Contacts/b2ChainAndCircleContact.cpp" />
+		<Unit filename="inc/Box2D/Dynamics/Contacts/b2ChainAndCircleContact.h" />
+		<Unit filename="inc/Box2D/Dynamics/Contacts/b2ChainAndPolygonContact.cpp" />
+		<Unit filename="inc/Box2D/Dynamics/Contacts/b2ChainAndPolygonContact.h" />
+		<Unit filename="inc/Box2D/Dynamics/Contacts/b2CircleContact.cpp" />
+		<Unit filename="inc/Box2D/Dynamics/Contacts/b2CircleContact.h" />
+		<Unit filename="inc/Box2D/Dynamics/Contacts/b2Contact.cpp" />
+		<Unit filename="inc/Box2D/Dynamics/Contacts/b2Contact.h" />
+		<Unit filename="inc/Box2D/Dynamics/Contacts/b2ContactSolver.cpp" />
+		<Unit filename="inc/Box2D/Dynamics/Contacts/b2ContactSolver.h" />
+		<Unit filename="inc/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.cpp" />
+		<Unit filename="inc/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.h" />
+		<Unit filename="inc/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp" />
+		<Unit filename="inc/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.h" />
+		<Unit filename="inc/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cpp" />
+		<Unit filename="inc/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.h" />
+		<Unit filename="inc/Box2D/Dynamics/Contacts/b2PolygonContact.cpp" />
+		<Unit filename="inc/Box2D/Dynamics/Contacts/b2PolygonContact.h" />
+		<Unit filename="inc/Box2D/Dynamics/Joints/b2DistanceJoint.cpp" />
+		<Unit filename="inc/Box2D/Dynamics/Joints/b2DistanceJoint.h" />
+		<Unit filename="inc/Box2D/Dynamics/Joints/b2FrictionJoint.cpp" />
+		<Unit filename="inc/Box2D/Dynamics/Joints/b2FrictionJoint.h" />
+		<Unit filename="inc/Box2D/Dynamics/Joints/b2GearJoint.cpp" />
+		<Unit filename="inc/Box2D/Dynamics/Joints/b2GearJoint.h" />
+		<Unit filename="inc/Box2D/Dynamics/Joints/b2Joint.cpp" />
+		<Unit filename="inc/Box2D/Dynamics/Joints/b2Joint.h" />
+		<Unit filename="inc/Box2D/Dynamics/Joints/b2MotorJoint.cpp" />
+		<Unit filename="inc/Box2D/Dynamics/Joints/b2MotorJoint.h" />
+		<Unit filename="inc/Box2D/Dynamics/Joints/b2MouseJoint.cpp" />
+		<Unit filename="inc/Box2D/Dynamics/Joints/b2MouseJoint.h" />
+		<Unit filename="inc/Box2D/Dynamics/Joints/b2PrismaticJoint.cpp" />
+		<Unit filename="inc/Box2D/Dynamics/Joints/b2PrismaticJoint.h" />
+		<Unit filename="inc/Box2D/Dynamics/Joints/b2PulleyJoint.cpp" />
+		<Unit filename="inc/Box2D/Dynamics/Joints/b2PulleyJoint.h" />
+		<Unit filename="inc/Box2D/Dynamics/Joints/b2RevoluteJoint.cpp" />
+		<Unit filename="inc/Box2D/Dynamics/Joints/b2RevoluteJoint.h" />
+		<Unit filename="inc/Box2D/Dynamics/Joints/b2RopeJoint.cpp" />
+		<Unit filename="inc/Box2D/Dynamics/Joints/b2RopeJoint.h" />
+		<Unit filename="inc/Box2D/Dynamics/Joints/b2WeldJoint.cpp" />
+		<Unit filename="inc/Box2D/Dynamics/Joints/b2WeldJoint.h" />
+		<Unit filename="inc/Box2D/Dynamics/Joints/b2WheelJoint.cpp" />
+		<Unit filename="inc/Box2D/Dynamics/Joints/b2WheelJoint.h" />
+		<Unit filename="inc/Box2D/Dynamics/b2Body.cpp" />
+		<Unit filename="inc/Box2D/Dynamics/b2Body.h" />
+		<Unit filename="inc/Box2D/Dynamics/b2ContactManager.cpp" />
+		<Unit filename="inc/Box2D/Dynamics/b2ContactManager.h" />
+		<Unit filename="inc/Box2D/Dynamics/b2Fixture.cpp" />
+		<Unit filename="inc/Box2D/Dynamics/b2Fixture.h" />
+		<Unit filename="inc/Box2D/Dynamics/b2Island.cpp" />
+		<Unit filename="inc/Box2D/Dynamics/b2Island.h" />
+		<Unit filename="inc/Box2D/Dynamics/b2TimeStep.h" />
+		<Unit filename="inc/Box2D/Dynamics/b2World.cpp" />
+		<Unit filename="inc/Box2D/Dynamics/b2World.h" />
+		<Unit filename="inc/Box2D/Dynamics/b2WorldCallbacks.cpp" />
+		<Unit filename="inc/Box2D/Dynamics/b2WorldCallbacks.h" />
+		<Unit filename="inc/Box2D/Rope/b2Rope.cpp" />
+		<Unit filename="inc/Box2D/Rope/b2Rope.h" />
 		<Unit filename="inc/gameobjects/gameobject.h" />
 		<Unit filename="inc/gameobjects/graphics/sprite.h" />
 		<Unit filename="inc/gameobjects/physics/projectile.h" />
