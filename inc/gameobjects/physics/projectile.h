@@ -25,12 +25,16 @@
 #ifndef SPACESHOOTERIII_PROJECTILE_H
 #define SPACESHOOTERIII_PROJECTILE_H
 
+#include <Box2D/Box2D.h>
+
 #include <gameobjects/gameobject.h>
 
 class Projectile : public GameObject {
 public:
 
-    Projectile(ALLEGRO_BITMAP *image, float x = 0, float y = 0);
+    Projectile(ALLEGRO_BITMAP *image, b2World *world, float x = 0, float y = 0);
+    Projectile(const Projectile& p);
+    ~Projectile();
 
     void Render() override;
 
@@ -38,8 +42,10 @@ public:
 
     ALLEGRO_BITMAP *Image;
 
-    float X, Y, hitbox[4][2], velocity[2];
+protected:
 
+    b2Body *m_body;
+    b2World *m_world;
 };
 
 #endif // SPACESHOOTERIII_PROJECTILE_H

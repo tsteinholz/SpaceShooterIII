@@ -24,26 +24,33 @@
 
 #include <gameobjects/physics/projectile.h>
 
-Projectile::Projectile(ALLEGRO_BITMAP *image, float x, float y)
-    : Image(image), X(x), Y(y) {
-    hitbox[0][0] = X;
-    hitbox[0][1] = Y;
-    hitbox[1][0] = X + al_get_bitmap_width(Image);
-    hitbox[1][1] = Y;
-    hitbox[2][0] = X;
-    hitbox[2][1] = Y + al_get_bitmap_height(Image);
-    hitbox[3][0] = X + al_get_bitmap_width(Image);
-    hitbox[3][1] = Y + al_get_bitmap_height(Image);
+Projectile::Projectile(ALLEGRO_BITMAP *image, b2World *world, float x, float y)
+    : Image(image), m_body(), m_world(world) {
+    b2BodyDef proj;
+    proj.position.Set(x, y);
+	proj.type = b2_kinematicBody;
+	proj.gravityScale = 0;
+    m_body = m_world->CreateBody(&proj);
 
-    velocity[0] = 0;
-    velocity[1] = 0;
+    b2PolygonShape boxShape;
+    boxShape.SetAsBox(al_get_bitmap_width(Image) ,al_get_bitmap_height(Image));
+    b2FixtureDef boxFixtureDef;
+    boxFixtureDef.shape = &boxShape;
+    boxFixtureDef.density = 1;
+    m_body->CreateFixture(&boxFixtureDef);
+}
+
+Projectile::Projectile(const Projectile& p)
+    : Image(p.Image), m_body(), m_world(p.m_world) { }
+
+Projectile::~Projectile() {
+    m_world->DestroyBody(m_body);
 }
 
 void Projectile::Render() {
-    al_draw_bitmap(Image, X, Y, 0);
+    al_draw_bitmap(Image, m_body->GetPosition().x, m_body->GetPosition().y, 0);
 }
 
 void Projectile::Update(ALLEGRO_EVENT *event) {
-    X += velocity[0];
-    Y += velocity[1];
+
 }
