@@ -25,7 +25,7 @@
 #include <gameobjects/physics/projectile.h>
 
 Projectile::Projectile(ALLEGRO_BITMAP *image, b2World *world, float x, float y)
-    : Image(image), m_body(), m_world(world) {
+    : Image(image), Velocity(0, 0),m_body(), m_world(world) {
     b2BodyDef proj;
     proj.position.Set(x, y);
 	proj.type = b2_kinematicBody;
@@ -38,6 +38,7 @@ Projectile::Projectile(ALLEGRO_BITMAP *image, b2World *world, float x, float y)
     boxFixtureDef.shape = &boxShape;
     boxFixtureDef.density = 1;
     m_body->CreateFixture(&boxFixtureDef);
+    m_body->SetActive(true);
 }
 
 Projectile::Projectile(const Projectile& p)
@@ -52,5 +53,6 @@ void Projectile::Render() {
 }
 
 void Projectile::Update(ALLEGRO_EVENT *event) {
-
+    m_body->SetLinearVelocity(Velocity);
+    m_body->SetTransform(b2Vec2(m_body->GetPosition().x + Velocity.x, m_body->GetPosition().y + Velocity.y), 0);
 }

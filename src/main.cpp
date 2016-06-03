@@ -36,7 +36,7 @@
 #include <memory>
 
 #include <gameobjects/ui/button.h>
-
+#include <gameobjects/physics/projectile.h>
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -343,6 +343,8 @@ int main(void) {
     b2Vec2 gravity(0.0f, 0.0f);
     b2World world(gravity);
 
+    Projectile *player = new Projectile(assets->png_player, &world, screen_w / 2, screen_h - 200);
+
     ////////////////////////////////////////////////////////////////////////////////////////////////
     // Game Loop
     ////////////////////////////////////////////////////////////////////////////////////////////////
@@ -358,7 +360,7 @@ int main(void) {
         last_time = current_time;
 #endif //DEBUG
 
-        switch (event.type) {
+        switch (event.type) { // HANDLE ALLEGRO EVENTS
             case ALLEGRO_EVENT_TIMER:
                 render = true;
                 break;
@@ -367,9 +369,27 @@ int main(void) {
                 break;
             case ALLEGRO_EVENT_KEY_DOWN:
                 executing = event.keyboard.keycode != ALLEGRO_KEY_ESCAPE;
+                switch(event.keyboard.keycode) {
+                    case ALLEGRO_KEY_A:
+                    case ALLEGRO_KEY_LEFT:
+                        player->Velocity.x = -5;
+                        break;
+                    case ALLEGRO_KEY_D:
+                    case ALLEGRO_KEY_RIGHT:
+                        player->Velocity.x = 5;
+                        break;
+                }
+                break;
+            case ALLEGRO_EVENT_KEY_UP:
+                player->Velocity.x = 0;
+                player->Velocity.y = 0;
                 break;
             default: break;
         }
+
+        if (player->m_body->GetPosition().x < 1) player->m_body->SetTransform(b2Vec2(screen_w - 2, player->m_body->GetPosition().y), 0);
+        if (player->m_body->GetPosition().x > screen_w - 1) player->m_body->SetTransform(b2Vec2(2, player->m_body->GetPosition().y), 0);
+
         switch (stage) { // UPDATE
             case Menu:
                 play->Update(&event);
@@ -378,7 +398,7 @@ int main(void) {
                 quit->Update(&event);
                 break;
             case Game:
-
+                player->Update(&event);
                 break;
             case Leaderboard:
                 break;
@@ -412,7 +432,7 @@ int main(void) {
                 quit->Render();
                 break;
             case Game:
-
+                player->Render();
                 break;
             case Leaderboard:
 

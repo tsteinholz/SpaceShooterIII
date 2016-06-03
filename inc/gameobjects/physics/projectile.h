@@ -42,9 +42,12 @@ public:
 
     ALLEGRO_BITMAP *Image;
 
-protected:
+    b2Vec2 Velocity;
 
     b2Body *m_body;
+
+protected:
+
     b2World *m_world;
 };
 
