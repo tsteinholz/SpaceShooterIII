@@ -34,6 +34,7 @@
 
 #include <cstdio>
 #include <memory>
+#include <vector>
 
 #include <gameobjects/ui/button.h>
 #include <gameobjects/physics/projectile.h>
@@ -113,6 +114,7 @@ public:
         png_enemy_red3(load_bitmap("res/imgs/Enemies/enemyRed3.png")),
         png_enemy_red4(load_bitmap("res/imgs/Enemies/enemyRed4.png")),
         png_enemy_laser(load_bitmap("res/imgs/Lasers/laserRed03.png")),
+        png_player_life(load_bitmap("res/imgs/UI/playerLife1_blue.png")),
         fnt_title(load_font("res/fonts/kenvector_future.ttf", 70)),
         fnt_menu(load_font("res/fonts/kenvector_future.ttf", 40))
     { }
@@ -161,6 +163,7 @@ public:
         png_enemy_red3(a.png_enemy_red3),
         png_enemy_red4(a.png_enemy_red4),
         png_enemy_laser(a.png_enemy_laser),
+        png_player_life(a.png_player_life),
         fnt_title(a.fnt_title),
         fnt_menu(a.fnt_menu)
         { }
@@ -212,6 +215,7 @@ public:
         al_destroy_bitmap(png_enemy_red3);
         al_destroy_bitmap(png_enemy_red4);
         al_destroy_bitmap(png_enemy_laser);
+        al_destroy_bitmap(png_player_life);
         al_destroy_font(fnt_title);
         al_destroy_font(fnt_menu);
     }
@@ -260,7 +264,8 @@ public:
         *png_enemy_red2,
         *png_enemy_red3,
         *png_enemy_red4,
-        *png_enemy_laser;
+        *png_enemy_laser,
+        *png_player_life;
 
     ALLEGRO_FONT *fnt_title, *fnt_menu;
 
@@ -364,6 +369,8 @@ int main(void) {
         fps = 1/(delta_time);
         last_time = current_time;
 #endif //DEBUG
+
+        world->Step(delta_time, 8, 3);
 
         switch (event.type) { // HANDLE ALLEGRO EVENTS
             case ALLEGRO_EVENT_TIMER:
