@@ -11,11 +11,10 @@ set(SOURCE_FILES src/main.cpp
 )
 add_executable(SpaceShooterIII ${SOURCE_FILES})
 
-IF (WIN32)
-  include_directories (${PROJECT_SOURCE_DIR} inc/ bin/ /usr/include/allegro5)
-ELSE()
-  include_directories (${PROJECT_SOURCE_DIR} inc/ /usr/include/allegro5)
-ENDIF()
+find_package(Box2D)
+
+include_directories (${PROJECT_SOURCE_DIR} inc/ /usr/include/allegro5)
+
 link_directories (/usr/lib)
 target_link_libraries (SpaceShooterIII
 	allegro
@@ -26,4 +25,6 @@ target_link_libraries (SpaceShooterIII
 	allegro_image
 	allegro_physfs
 	allegro_primitives
-	allegro_ttf)
+	allegro_ttf
+	${BOX2D_LIBRARY}
+)
