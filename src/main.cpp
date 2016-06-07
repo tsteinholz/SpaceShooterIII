@@ -328,9 +328,11 @@ int main(void) {
 
     Assets* assets = new Assets();
     Stage stage = Menu;
+    Stats stats;
 
-    Button *play = new Button("Play", assets->fnt_menu, screen_w / 2, 300, [&stage]() -> void {
+    Button *play = new Button("Play", assets->fnt_menu, screen_w / 2, 300, [&stage, &stats]() -> void {
                 stage = Game;
+                stats.start_time = al_get_time();
                               }),
         *leaderboard = new Button("Leaderboard", assets->fnt_menu, screen_w / 2, 400, [&stage]() -> void {
                 stage = Leaderboard;
@@ -460,13 +462,14 @@ int main(void) {
                         default: break;
                     }
                     auto it = Meteors.end();
-                    Projectile *meteor = new Projectile(meteor_png, &world, rand() % screen_w, 0);
+                    Projectile *meteor = new Projectile(meteor_png, &world, rand() % screen_w, -75);
                     meteor->Velocity = b2Vec2(-5 + (rand() % 10), rand() % 15);
                     Meteors.insert(it, meteor);
                 }
                 for (std::vector<Projectile*>::iterator it = Meteors.begin(); it != Meteors.end(); ++it) {
                     if (((*it)->m_body->GetPosition().x >= screen_w + 500 || (*it)->m_body->GetPosition().x <= -500) ||
-                        ((*it)->m_body->GetPosition().y >= screen_h + 500 || (*it)->m_body->GetPosition().y <= -500)) {
+                        ((*it)->m_body->GetPosition().y >= screen_h + 500 || (*it)->m_body->GetPosition().y <= -500) ||
+                        (((*it)->m_body->GetTransform().p.x == 0.0) && (*it)->m_body->GetTransform().p.y == 0.0)) {
                             delete *it;
                             Meteors.erase(it);
                         }
