@@ -43,7 +43,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 // When the DEBUG Macro is defined the game will run in DEBUG mode
 
-#define DEBUG
+//#define DEBUG
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -324,9 +324,9 @@ int main(void) {
     // Local Variables
     ////////////////////////////////////////////////////////////////////////////////////////////////
 
-#ifdef DEBUG
+//#ifdef DEBUG
     float fps = 0, delta_time = 0, current_time = 0, last_time = al_get_time();
-#endif //DEBUG
+//#endif //DEBUG
     bool render = true, executing = true;
 
     unsigned int spawn_counter = 0;
@@ -363,12 +363,12 @@ int main(void) {
         ALLEGRO_EVENT event;
         al_wait_for_event(evqueue, &event);
 
-#ifdef DEBUG
+//#ifdef DEBUG
         current_time = al_get_time();
         delta_time = current_time - last_time;
         fps = 1/(delta_time);
         last_time = current_time;
-#endif //DEBUG
+//#endif //DEBUG
 
         world.Step(delta_time, 8, 3);
 
@@ -506,9 +506,9 @@ int main(void) {
                 }
             }
 #ifdef DEBUG
-            al_draw_textf(assets->fnt_menu, al_map_rgb(255, 0, 255), 10, 5, ALLEGRO_ALIGN_LEFT, "Debug");
-            al_draw_textf(assets->fnt_menu, al_map_rgb(255, 0, 255), 10, 35, ALLEGRO_ALIGN_LEFT, "FPS: %i", (int)fps);
-            al_draw_textf(assets->fnt_menu, al_map_rgb(255, 0, 255), 10, 65, ALLEGRO_ALIGN_LEFT, "Meteor Count: %i", Meteors.size());
+            //al_draw_textf(assets->fnt_menu, al_map_rgb(255, 0, 255), 10, 5, ALLEGRO_ALIGN_LEFT, "Debug");
+            //al_draw_textf(assets->fnt_menu, al_map_rgb(255, 0, 255), 10, 35, ALLEGRO_ALIGN_LEFT, "FPS: %i", (int)fps);
+            //al_draw_textf(assets->fnt_menu, al_map_rgb(255, 0, 255), 10, 65, ALLEGRO_ALIGN_LEFT, "Meteor Count: %i", Meteors.size());
 #endif // DEBUG
             switch (stage) { // RENDER
             default: break;

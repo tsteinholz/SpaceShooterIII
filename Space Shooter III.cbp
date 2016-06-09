@@ -18,7 +18,7 @@
 					<Add directory="bin" />
 				</Compiler>
 				<Linker>
-					<Add library="bin/allegro-5.0.10-monolith-md-debug.dll" />
+					<Add library="bin\allegro-5.0.10-monolith-md-debug.dll" />
 					<Add directory="bin" />
 				</Linker>
 			</Target>
@@ -34,8 +34,8 @@
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
-					<Add library="bin/allegro-5.0.10-monolith-md.dll" />
-					<Add library="bin/Box2D.lib" />
+					<Add library="bin\allegro-5.0.10-monolith-md.dll" />
+					<Add library="bin\Box2D.lib" />
 					<Add directory="bin" />
 				</Linker>
 			</Target>
@@ -154,9 +154,15 @@
 		<Unit filename="inc/Box2D/Rope/b2Rope.h" />
 		<Unit filename="inc/gameobjects/gameobject.h" />
 		<Unit filename="inc/gameobjects/graphics/sprite.h" />
+		<Unit filename="inc/gameobjects/physics/enemy.h" />
+		<Unit filename="inc/gameobjects/physics/meteor.h" />
+		<Unit filename="inc/gameobjects/physics/player.h" />
 		<Unit filename="inc/gameobjects/physics/projectile.h" />
 		<Unit filename="inc/gameobjects/ui/button.h" />
 		<Unit filename="src/gameobjects/graphics/sprite.cpp" />
+		<Unit filename="src/gameobjects/physics/enemy.cpp" />
+		<Unit filename="src/gameobjects/physics/meteor.cpp" />
+		<Unit filename="src/gameobjects/physics/player.cpp" />
 		<Unit filename="src/gameobjects/physics/projectile.cpp" />
 		<Unit filename="src/gameobjects/ui/button.cpp" />
 		<Unit filename="src/main.cpp" />
