@@ -22,18 +22,19 @@
 // SOFTWARE.
 //-----------------------------------------------------------------------------
 
-#include <scenes/scene.h>
+#ifndef SPACESHOOTERIII_METEOR_H
+#define SPACESHOOTERIII_METEOR_H
 
-class MainMenu : public Scene {
+#include <gameobjects/physics/projectile.h>
+
+class Meteor : public Projectile {
 public:
-    MainMenu();
-    MainMenu(const MainMenu &mm);
-    virtual ~MainMenu();
-    MainMenu &operator = (const MainMenu &mm);
+    Meteor(ALLEGRO_BITMAP *image, b2World *world, float x = 0, float y = 0);
+    Meteor(const Meteor& p);
+    ~Meteor();
 
-    void Render() override;
-    void Update(ALLEGRO_EVENT *event) override;
-
-private:
+protected:
 
 };
+
+#endif // SPACESHOOTERIII_METEOR_H

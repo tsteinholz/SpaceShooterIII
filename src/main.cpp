@@ -370,7 +370,7 @@ int main(void) {
         last_time = current_time;
 #endif //DEBUG
 
-        world->Step(delta_time, 8, 3);
+        world.Step(delta_time, 8, 3);
 
         switch (event.type) { // HANDLE ALLEGRO EVENTS
             case ALLEGRO_EVENT_TIMER:
